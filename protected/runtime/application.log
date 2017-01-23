@@ -8,3 +8,1160 @@ REQUEST_URI=/yii/index.php/gii/index
 ---
 2017/01/23 13:52:32 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'web-ni54.tbl_' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_`.
 in C:\xampp\htdocs\yii\index.php (13)
+2017/01/23 19:44:20 [error] [php] include(PaisChecker.php): failed to open stream: No such file or directory (C:\wamp\www\ni54-yii\framework\YiiBase.php:432)
+Stack trace:
+#0 C:\wamp\www\ni54-yii\protected\controllers\WebController.php(206): spl_autoload_call()
+#1 C:\wamp\www\ni54-yii\framework\web\CController.php(306): WebController->beforeAction()
+#2 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(133): WebController->runAction()
+#3 C:\wamp\www\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\wamp\www\ni54-yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#5 C:\wamp\www\ni54-yii\framework\web\filters\CInlineFilter.php(58): WebController->filterAccessControl()
+#6 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 C:\wamp\www\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#8 C:\wamp\www\ni54-yii\framework\web\CController.php(265): WebController->runActionWithFilters()
+#9 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(282): WebController->run()
+#10 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 C:\wamp\www\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#12 C:\wamp\www\ni54-yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/ni54-yii/
+in C:\wamp\www\ni54-yii\protected\controllers\WebController.php (206)
+in C:\wamp\www\ni54-yii\index.php (13)
+2017/01/23 19:44:36 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/home".' in C:\wamp\www\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/home', '')
+#1 [internal function]: WebController->actionGet('home', '')
+#2 C:\wamp\www\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\wamp\www\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\wamp\www\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\wamp\www\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\wamp\www\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/ho...')
+#14 C:\wamp\www\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\wamp\www\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/
+---
+2017/01/23 19:45:08 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/css".' in C:\wamp\www\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/css', 'md.css')
+#1 [internal function]: WebController->actionGet('css', 'md.css')
+#2 C:\wamp\www\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\wamp\www\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\wamp\www\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\wamp\www\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\wamp\www\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/cs...')
+#14 C:\wamp\www\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\wamp\www\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/css/md.css
+HTTP_REFERER=http://localhost/ni54-yii/
+---
+2017/01/23 19:45:08 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/css".' in C:\wamp\www\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/css', 'style.css')
+#1 [internal function]: WebController->actionGet('css', 'style.css')
+#2 C:\wamp\www\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\wamp\www\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\wamp\www\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\wamp\www\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\wamp\www\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/cs...')
+#14 C:\wamp\www\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\wamp\www\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/css/style.css
+HTTP_REFERER=http://localhost/ni54-yii/
+---
+2017/01/23 19:45:08 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/css".' in C:\wamp\www\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/css', 'bootstrap.min.c...')
+#1 [internal function]: WebController->actionGet('css', 'bootstrap.min.c...')
+#2 C:\wamp\www\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\wamp\www\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\wamp\www\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\wamp\www\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\wamp\www\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/cs...')
+#14 C:\wamp\www\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\wamp\www\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/css/bootstrap.min.css
+HTTP_REFERER=http://localhost/ni54-yii/
+---
+2017/01/23 19:45:08 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/css".' in C:\wamp\www\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/css', 'lg.css')
+#1 [internal function]: WebController->actionGet('css', 'lg.css')
+#2 C:\wamp\www\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\wamp\www\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\wamp\www\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\wamp\www\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\wamp\www\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/cs...')
+#14 C:\wamp\www\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\wamp\www\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/css/lg.css
+HTTP_REFERER=http://localhost/ni54-yii/
+---
+2017/01/23 19:45:08 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/css".' in C:\wamp\www\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/css', 'sm.css')
+#1 [internal function]: WebController->actionGet('css', 'sm.css')
+#2 C:\wamp\www\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\wamp\www\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\wamp\www\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\wamp\www\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\wamp\www\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/cs...')
+#14 C:\wamp\www\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\wamp\www\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/css/sm.css
+HTTP_REFERER=http://localhost/ni54-yii/
+---
+2017/01/23 19:45:08 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/css".' in C:\wamp\www\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/css', 'xl.css')
+#1 [internal function]: WebController->actionGet('css', 'xl.css')
+#2 C:\wamp\www\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\wamp\www\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\wamp\www\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\wamp\www\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\wamp\www\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/cs...')
+#14 C:\wamp\www\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\wamp\www\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/css/xl.css
+HTTP_REFERER=http://localhost/ni54-yii/
+---
+2017/01/23 19:45:08 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/css".' in C:\wamp\www\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/css', 'xs.css')
+#1 [internal function]: WebController->actionGet('css', 'xs.css')
+#2 C:\wamp\www\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\wamp\www\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\wamp\www\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\wamp\www\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\wamp\www\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/cs...')
+#14 C:\wamp\www\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\wamp\www\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/css/xs.css
+HTTP_REFERER=http://localhost/ni54-yii/
+---
+2017/01/23 19:45:08 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/css".' in C:\wamp\www\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/css', 'sp.css')
+#1 [internal function]: WebController->actionGet('css', 'sp.css')
+#2 C:\wamp\www\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\wamp\www\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\wamp\www\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\wamp\www\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\wamp\www\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/cs...')
+#14 C:\wamp\www\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\wamp\www\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/css/sp.css
+HTTP_REFERER=http://localhost/ni54-yii/
+---
+2017/01/23 19:45:08 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/js".' in C:\wamp\www\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/js', 'bootstrap.min.j...')
+#1 [internal function]: WebController->actionGet('js', 'bootstrap.min.j...')
+#2 C:\wamp\www\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\wamp\www\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\wamp\www\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\wamp\www\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\wamp\www\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/js...')
+#14 C:\wamp\www\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\wamp\www\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/js/bootstrap.min.js
+HTTP_REFERER=http://localhost/ni54-yii/
+---
+2017/01/23 19:45:09 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/js".' in C:\wamp\www\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/js', 'phaser.js')
+#1 [internal function]: WebController->actionGet('js', 'phaser.js')
+#2 C:\wamp\www\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\wamp\www\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\wamp\www\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\wamp\www\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\wamp\www\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/js...')
+#14 C:\wamp\www\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\wamp\www\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/js/phaser.js
+HTTP_REFERER=http://localhost/ni54-yii/
+---
+2017/01/23 19:45:09 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/js".' in C:\wamp\www\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/js', 'script.js')
+#1 [internal function]: WebController->actionGet('js', 'script.js')
+#2 C:\wamp\www\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\wamp\www\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\wamp\www\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\wamp\www\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\wamp\www\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/js...')
+#14 C:\wamp\www\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\wamp\www\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/js/script.js
+HTTP_REFERER=http://localhost/ni54-yii/
+---
+2017/01/23 19:45:09 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/js".' in C:\wamp\www\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/js', 'estrellas.js')
+#1 [internal function]: WebController->actionGet('js', 'estrellas.js')
+#2 C:\wamp\www\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\wamp\www\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\wamp\www\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\wamp\www\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\wamp\www\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/js...')
+#14 C:\wamp\www\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\wamp\www\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/js/estrellas.js
+HTTP_REFERER=http://localhost/ni54-yii/
+---
+2017/01/23 19:45:09 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/js".' in C:\wamp\www\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/js', 'tipeo.js')
+#1 [internal function]: WebController->actionGet('js', 'tipeo.js')
+#2 C:\wamp\www\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\wamp\www\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\wamp\www\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\wamp\www\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\wamp\www\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/js...')
+#14 C:\wamp\www\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\wamp\www\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/js/tipeo.js
+HTTP_REFERER=http://localhost/ni54-yii/
+---
+2017/01/23 19:45:09 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/js".' in C:\wamp\www\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/js', 'fugaz.js')
+#1 [internal function]: WebController->actionGet('js', 'fugaz.js')
+#2 C:\wamp\www\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\wamp\www\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\wamp\www\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\wamp\www\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\wamp\www\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/js...')
+#14 C:\wamp\www\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\wamp\www\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/js/fugaz.js
+HTTP_REFERER=http://localhost/ni54-yii/
+---
+2017/01/23 19:45:09 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/js".' in C:\wamp\www\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/js', 'cohete.js')
+#1 [internal function]: WebController->actionGet('js', 'cohete.js')
+#2 C:\wamp\www\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\wamp\www\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\wamp\www\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\wamp\www\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\wamp\www\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/js...')
+#14 C:\wamp\www\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\wamp\www\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/js/cohete.js
+HTTP_REFERER=http://localhost/ni54-yii/
+---
+2017/01/23 19:45:09 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/img".' in C:\wamp\www\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/img', 'mail.svg')
+#1 [internal function]: WebController->actionGet('img', 'mail.svg')
+#2 C:\wamp\www\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\wamp\www\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\wamp\www\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\wamp\www\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\wamp\www\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/im...')
+#14 C:\wamp\www\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\wamp\www\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/img/mail.svg
+HTTP_REFERER=http://localhost/ni54-yii/
+---
+2017/01/23 19:45:09 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/img".' in C:\wamp\www\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/img', 'cohete_blanco.s...')
+#1 [internal function]: WebController->actionGet('img', 'cohete_blanco.s...')
+#2 C:\wamp\www\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\wamp\www\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\wamp\www\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\wamp\www\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\wamp\www\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/im...')
+#14 C:\wamp\www\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\wamp\www\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/img/cohete_blanco.svg
+HTTP_REFERER=http://localhost/ni54-yii/
+---
+2017/01/23 19:45:09 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/img".' in C:\wamp\www\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/img', 'tel.svg')
+#1 [internal function]: WebController->actionGet('img', 'tel.svg')
+#2 C:\wamp\www\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\wamp\www\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\wamp\www\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\wamp\www\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\wamp\www\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/im...')
+#14 C:\wamp\www\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\wamp\www\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/img/tel.svg
+HTTP_REFERER=http://localhost/ni54-yii/
+---
+2017/01/23 19:45:09 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/img".' in C:\wamp\www\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/img', 'para_probar_por...')
+#1 [internal function]: WebController->actionGet('img', 'para_probar_por...')
+#2 C:\wamp\www\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\wamp\www\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\wamp\www\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\wamp\www\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\wamp\www\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/im...')
+#14 C:\wamp\www\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\wamp\www\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/img/para_probar_portfolio-01.png
+HTTP_REFERER=http://localhost/ni54-yii/
+---
+2017/01/23 19:45:09 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/img".' in C:\wamp\www\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/img', 'para_probar_por...')
+#1 [internal function]: WebController->actionGet('img', 'para_probar_por...')
+#2 C:\wamp\www\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\wamp\www\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\wamp\www\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\wamp\www\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\wamp\www\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/im...')
+#14 C:\wamp\www\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\wamp\www\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/img/para_probar_portfolio-02.png
+HTTP_REFERER=http://localhost/ni54-yii/
+---
+2017/01/23 19:45:09 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/img".' in C:\wamp\www\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/img', 'cac.png')
+#1 [internal function]: WebController->actionGet('img', 'cac.png')
+#2 C:\wamp\www\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\wamp\www\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\wamp\www\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\wamp\www\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\wamp\www\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/im...')
+#14 C:\wamp\www\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\wamp\www\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/img/cac.png
+HTTP_REFERER=http://localhost/ni54-yii/
+---
+2017/01/23 19:45:09 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/img".' in C:\wamp\www\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/img', 'uba.png')
+#1 [internal function]: WebController->actionGet('img', 'uba.png')
+#2 C:\wamp\www\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\wamp\www\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\wamp\www\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\wamp\www\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\wamp\www\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/im...')
+#14 C:\wamp\www\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\wamp\www\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/img/uba.png
+HTTP_REFERER=http://localhost/ni54-yii/
+---
+2017/01/23 19:45:09 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/img".' in C:\wamp\www\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/img', 'abuelas.png')
+#1 [internal function]: WebController->actionGet('img', 'abuelas.png')
+#2 C:\wamp\www\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\wamp\www\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\wamp\www\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\wamp\www\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\wamp\www\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/im...')
+#14 C:\wamp\www\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\wamp\www\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/img/abuelas.png
+HTTP_REFERER=http://localhost/ni54-yii/
+---
+2017/01/23 19:45:09 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/img".' in C:\wamp\www\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/img', 'barrick.png')
+#1 [internal function]: WebController->actionGet('img', 'barrick.png')
+#2 C:\wamp\www\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\wamp\www\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\wamp\www\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\wamp\www\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\wamp\www\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/im...')
+#14 C:\wamp\www\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\wamp\www\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/img/barrick.png
+HTTP_REFERER=http://localhost/ni54-yii/
+---
+2017/01/23 19:45:09 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/img".' in C:\wamp\www\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/img', 'bb.png')
+#1 [internal function]: WebController->actionGet('img', 'bb.png')
+#2 C:\wamp\www\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\wamp\www\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\wamp\www\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\wamp\www\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\wamp\www\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/im...')
+#14 C:\wamp\www\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\wamp\www\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/img/bb.png
+HTTP_REFERER=http://localhost/ni54-yii/
+---
+2017/01/23 19:45:09 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/img".' in C:\wamp\www\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/img', 'biomarin.png')
+#1 [internal function]: WebController->actionGet('img', 'biomarin.png')
+#2 C:\wamp\www\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\wamp\www\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\wamp\www\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\wamp\www\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\wamp\www\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/im...')
+#14 C:\wamp\www\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\wamp\www\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/img/biomarin.png
+HTTP_REFERER=http://localhost/ni54-yii/
+---
+2017/01/23 19:45:09 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/img".' in C:\wamp\www\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/img', 'bocafan.png')
+#1 [internal function]: WebController->actionGet('img', 'bocafan.png')
+#2 C:\wamp\www\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\wamp\www\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\wamp\www\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\wamp\www\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\wamp\www\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/im...')
+#14 C:\wamp\www\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\wamp\www\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/img/bocafan.png
+HTTP_REFERER=http://localhost/ni54-yii/
+---
+2017/01/23 19:45:09 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/img".' in C:\wamp\www\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/img', 'easy.png')
+#1 [internal function]: WebController->actionGet('img', 'easy.png')
+#2 C:\wamp\www\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\wamp\www\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\wamp\www\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\wamp\www\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\wamp\www\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/im...')
+#14 C:\wamp\www\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\wamp\www\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/img/easy.png
+HTTP_REFERER=http://localhost/ni54-yii/
+---
+2017/01/23 19:45:09 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/img".' in C:\wamp\www\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/img', 'tang.png')
+#1 [internal function]: WebController->actionGet('img', 'tang.png')
+#2 C:\wamp\www\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\wamp\www\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\wamp\www\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\wamp\www\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\wamp\www\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/im...')
+#14 C:\wamp\www\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\wamp\www\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/img/tang.png
+HTTP_REFERER=http://localhost/ni54-yii/
+---
+2017/01/23 19:45:09 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/img".' in C:\wamp\www\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/img', 'visa.png')
+#1 [internal function]: WebController->actionGet('img', 'visa.png')
+#2 C:\wamp\www\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\wamp\www\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\wamp\www\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\wamp\www\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\wamp\www\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/im...')
+#14 C:\wamp\www\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\wamp\www\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/img/visa.png
+HTTP_REFERER=http://localhost/ni54-yii/
+---
+2017/01/23 19:45:09 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/img".' in C:\wamp\www\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/img', 'ymad.png')
+#1 [internal function]: WebController->actionGet('img', 'ymad.png')
+#2 C:\wamp\www\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\wamp\www\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\wamp\www\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\wamp\www\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\wamp\www\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/im...')
+#14 C:\wamp\www\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\wamp\www\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/img/ymad.png
+HTTP_REFERER=http://localhost/ni54-yii/
+---
+2017/01/23 19:45:09 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/img".' in C:\wamp\www\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/img', 'zuko.png')
+#1 [internal function]: WebController->actionGet('img', 'zuko.png')
+#2 C:\wamp\www\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\wamp\www\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\wamp\www\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\wamp\www\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\wamp\www\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/im...')
+#14 C:\wamp\www\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\wamp\www\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/img/zuko.png
+HTTP_REFERER=http://localhost/ni54-yii/
+---
+2017/01/23 19:45:10 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/img".' in C:\wamp\www\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/img', 'mattel.png')
+#1 [internal function]: WebController->actionGet('img', 'mattel.png')
+#2 C:\wamp\www\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\wamp\www\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\wamp\www\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\wamp\www\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\wamp\www\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/im...')
+#14 C:\wamp\www\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\wamp\www\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/img/mattel.png
+HTTP_REFERER=http://localhost/ni54-yii/
+---
+2017/01/23 19:45:10 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/img".' in C:\wamp\www\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/img', 'planetitas-01.s...')
+#1 [internal function]: WebController->actionGet('img', 'planetitas-01.s...')
+#2 C:\wamp\www\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\wamp\www\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\wamp\www\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\wamp\www\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\wamp\www\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/im...')
+#14 C:\wamp\www\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\wamp\www\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/img/planetitas-01.svg
+HTTP_REFERER=http://localhost/ni54-yii/
+---
+2017/01/23 19:45:10 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/img".' in C:\wamp\www\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/img', 'planetitas-05.s...')
+#1 [internal function]: WebController->actionGet('img', 'planetitas-05.s...')
+#2 C:\wamp\www\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\wamp\www\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\wamp\www\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\wamp\www\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\wamp\www\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/im...')
+#14 C:\wamp\www\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\wamp\www\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/img/planetitas-05.svg
+HTTP_REFERER=http://localhost/ni54-yii/
+---
+2017/01/23 19:45:10 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/img".' in C:\wamp\www\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/img', 'planetitas-02.s...')
+#1 [internal function]: WebController->actionGet('img', 'planetitas-02.s...')
+#2 C:\wamp\www\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\wamp\www\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\wamp\www\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\wamp\www\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\wamp\www\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/im...')
+#14 C:\wamp\www\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\wamp\www\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/img/planetitas-02.svg
+HTTP_REFERER=http://localhost/ni54-yii/
+---
+2017/01/23 19:45:10 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/img".' in C:\wamp\www\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/img', 'planetitas-04.s...')
+#1 [internal function]: WebController->actionGet('img', 'planetitas-04.s...')
+#2 C:\wamp\www\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\wamp\www\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\wamp\www\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\wamp\www\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\wamp\www\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/im...')
+#14 C:\wamp\www\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\wamp\www\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/img/planetitas-04.svg
+HTTP_REFERER=http://localhost/ni54-yii/
+---
+2017/01/23 19:45:10 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/img".' in C:\wamp\www\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/img', 'planetitas-03.s...')
+#1 [internal function]: WebController->actionGet('img', 'planetitas-03.s...')
+#2 C:\wamp\www\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\wamp\www\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\wamp\www\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\wamp\www\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\wamp\www\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/im...')
+#14 C:\wamp\www\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\wamp\www\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/img/planetitas-03.svg
+HTTP_REFERER=http://localhost/ni54-yii/
+---
+2017/01/23 19:45:10 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/img".' in C:\wamp\www\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/img', 'fav-icon-nitro-...')
+#1 [internal function]: WebController->actionGet('img', 'fav-icon-nitro-...')
+#2 C:\wamp\www\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\wamp\www\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\wamp\www\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\wamp\www\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\wamp\www\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/im...')
+#14 C:\wamp\www\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\wamp\www\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/img/fav-icon-nitro-01.png
+HTTP_REFERER=http://localhost/ni54-yii/
+---
+2017/01/23 19:45:21 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/css".' in C:\wamp\www\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/css', 'bootstrap.min.c...')
+#1 [internal function]: WebController->actionGet('css', 'bootstrap.min.c...')
+#2 C:\wamp\www\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\wamp\www\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\wamp\www\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\wamp\www\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\wamp\www\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/cs...')
+#14 C:\wamp\www\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\wamp\www\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/css/bootstrap.min.css
+HTTP_REFERER=http://localhost/ni54-yii/
+---
+2017/01/23 19:45:21 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/css".' in C:\wamp\www\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/css', 'md.css')
+#1 [internal function]: WebController->actionGet('css', 'md.css')
+#2 C:\wamp\www\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\wamp\www\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\wamp\www\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\wamp\www\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\wamp\www\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/cs...')
+#14 C:\wamp\www\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\wamp\www\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/css/md.css
+HTTP_REFERER=http://localhost/ni54-yii/
+---
+2017/01/23 19:45:21 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/css".' in C:\wamp\www\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/css', 'style.css')
+#1 [internal function]: WebController->actionGet('css', 'style.css')
+#2 C:\wamp\www\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\wamp\www\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\wamp\www\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\wamp\www\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\wamp\www\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/cs...')
+#14 C:\wamp\www\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\wamp\www\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/css/style.css
+HTTP_REFERER=http://localhost/ni54-yii/
+---
+2017/01/23 19:45:21 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/css".' in C:\wamp\www\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/css', 'sm.css')
+#1 [internal function]: WebController->actionGet('css', 'sm.css')
+#2 C:\wamp\www\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\wamp\www\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\wamp\www\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\wamp\www\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\wamp\www\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/cs...')
+#14 C:\wamp\www\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\wamp\www\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/css/sm.css
+HTTP_REFERER=http://localhost/ni54-yii/
+---
+2017/01/23 19:45:21 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/css".' in C:\wamp\www\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/css', 'xl.css')
+#1 [internal function]: WebController->actionGet('css', 'xl.css')
+#2 C:\wamp\www\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\wamp\www\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\wamp\www\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\wamp\www\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\wamp\www\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/cs...')
+#14 C:\wamp\www\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\wamp\www\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/css/xl.css
+HTTP_REFERER=http://localhost/ni54-yii/
+---
+2017/01/23 19:45:21 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/css".' in C:\wamp\www\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/css', 'lg.css')
+#1 [internal function]: WebController->actionGet('css', 'lg.css')
+#2 C:\wamp\www\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\wamp\www\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\wamp\www\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\wamp\www\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\wamp\www\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/cs...')
+#14 C:\wamp\www\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\wamp\www\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/css/lg.css
+HTTP_REFERER=http://localhost/ni54-yii/
+---
+2017/01/23 19:45:21 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/css".' in C:\wamp\www\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/css', 'xs.css')
+#1 [internal function]: WebController->actionGet('css', 'xs.css')
+#2 C:\wamp\www\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\wamp\www\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\wamp\www\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\wamp\www\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\wamp\www\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/cs...')
+#14 C:\wamp\www\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\wamp\www\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/css/xs.css
+HTTP_REFERER=http://localhost/ni54-yii/
+---
+2017/01/23 19:45:21 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/css".' in C:\wamp\www\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/css', 'sp.css')
+#1 [internal function]: WebController->actionGet('css', 'sp.css')
+#2 C:\wamp\www\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\wamp\www\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\wamp\www\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\wamp\www\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\wamp\www\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/cs...')
+#14 C:\wamp\www\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\wamp\www\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/css/sp.css
+HTTP_REFERER=http://localhost/ni54-yii/
+---
+2017/01/23 19:49:55 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/site".' in C:\wamp\www\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/site', 'login')
+#1 [internal function]: WebController->actionGet('site', 'login')
+#2 C:\wamp\www\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\wamp\www\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\wamp\www\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\wamp\www\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\wamp\www\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/si...')
+#14 C:\wamp\www\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\wamp\www\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/index.php/site/login
+---
+2017/01/23 19:50:01 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/site".' in C:\wamp\www\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/site', 'login')
+#1 [internal function]: WebController->actionGet('site', 'login')
+#2 C:\wamp\www\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\wamp\www\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\wamp\www\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\wamp\www\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\wamp\www\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/si...')
+#14 C:\wamp\www\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\wamp\www\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/site/login
+---
+2017/01/23 19:50:21 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/site".' in C:\wamp\www\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/site', 'login')
+#1 [internal function]: WebController->actionGet('site', 'login')
+#2 C:\wamp\www\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\wamp\www\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\wamp\www\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\wamp\www\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\wamp\www\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/si...')
+#14 C:\wamp\www\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\wamp\www\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/site/login
+---
+2017/01/23 19:50:28 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/site".' in C:\wamp\www\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/site', 'login')
+#1 [internal function]: WebController->actionGet('site', 'login')
+#2 C:\wamp\www\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\wamp\www\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\wamp\www\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\wamp\www\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\wamp\www\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\wamp\www\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\wamp\www\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/si...')
+#14 C:\wamp\www\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\wamp\www\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/index.php/site/login
+---
