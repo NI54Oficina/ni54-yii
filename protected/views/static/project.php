@@ -42,7 +42,7 @@
 
     <section id="descripcion" class="seccion">
 
-      <a id="prev-link" href="">   <div id="prev-port" class="col-lg-3 col-md-3 col-sm-3 col-xs-1 prev-post">   <div  class="prev-label" style="position:fixed; "> <p><span> < </span>ANTERIOR PROYECTO</p> </div> </div></a>
+    <a id="prev-link" href="">   <div id="prev-port" class="col-lg-3 col-md-3 col-sm-3 col-xs-1 prev-post">   <div  class="prev-label" style="position:fixed; "> <p><span>Anterior </span><br>Nombre del proyecto</p> </div> </div></a>
 
       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-10 center-to-parent">
 
@@ -54,7 +54,7 @@
 
       </div>
 
-    <a id="next-link"  href="">  <div id="next-port" class="col-lg-3 col-md-3 col-sm-3 col-xs-1 next-post">  <div class="next-label" style="position:fixed;"><p>PROXIMO PROYECTO <span>></span> </p></div>  </div></a>
+    <a id="next-link"  href="">  <div id="next-port" class="col-lg-3 col-md-3 col-sm-3 col-xs-1 next-post">  <div class="next-label" style="position:fixed;"><p><span>Siguiente</span><br>Nombre del proyecto </p></div>  </div></a>
 
 
         <!-- <div class="border-white">  </div> -->
@@ -62,6 +62,17 @@
 
     <section id="port-1" class="seccion">
         <div class="border-white">  </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+          <img src="img/icono-app.svg" alt="">
+          <p>Diseño + Programacion</p>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+          <img src="img/vdm-bago-01.png" alt="">
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3"></div>
+
     </section>
 
     <section id="port-2" class="seccion">

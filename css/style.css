@@ -662,7 +662,14 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMA
   cursor: none;
 }
 
-.next-label  p, .prev-label  p{
+.next-label  p span, .prev-label  p span{
   font-size:1.5em !important;
+}
 
+.next-label  p{
+  text-align: right;
+}
+
+.prev-label  p {
+  text-align: left;
 }
