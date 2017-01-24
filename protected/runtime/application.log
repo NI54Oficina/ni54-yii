@@ -1165,3 +1165,1059 @@ Stack trace:
 #16 {main}
 REQUEST_URI=/ni54-yii/index.php/site/login
 ---
+2017/01/23 21:18:08 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/fonts".' in C:\xampp\htdocs\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/fonts', 'glyphicons-half...')
+#1 [internal function]: WebController->actionGet('fonts', 'glyphicons-half...')
+#2 C:\xampp\htdocs\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\xampp\htdocs\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/fo...')
+#14 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/fonts/glyphicons-halflings-regular.woff2
+HTTP_REFERER=http://localhost/ni54-yii/css/bootstrap.min.css
+---
+2017/01/23 21:18:08 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/fonts".' in C:\xampp\htdocs\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/fonts', 'aleo-bold-webfo...')
+#1 [internal function]: WebController->actionGet('fonts', 'aleo-bold-webfo...')
+#2 C:\xampp\htdocs\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\xampp\htdocs\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/fo...')
+#14 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/fonts/aleo-bold-webfont.woff2
+HTTP_REFERER=http://localhost/ni54-yii/css/style.css
+---
+2017/01/23 21:18:08 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/fonts".' in C:\xampp\htdocs\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/fonts', 'opensans-regula...')
+#1 [internal function]: WebController->actionGet('fonts', 'opensans-regula...')
+#2 C:\xampp\htdocs\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\xampp\htdocs\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/fo...')
+#14 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/fonts/opensans-regular-webfont.woff2
+HTTP_REFERER=http://localhost/ni54-yii/css/style.css
+---
+2017/01/23 21:18:08 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/fonts".' in C:\xampp\htdocs\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/fonts', 'Dosis-Regular.t...')
+#1 [internal function]: WebController->actionGet('fonts', 'Dosis-Regular.t...')
+#2 C:\xampp\htdocs\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\xampp\htdocs\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/fo...')
+#14 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/fonts/Dosis-Regular.ttf
+HTTP_REFERER=http://localhost/ni54-yii/css/style.css
+---
+2017/01/23 21:18:08 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/fonts".' in C:\xampp\htdocs\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/fonts', 'aleo-bold-webfo...')
+#1 [internal function]: WebController->actionGet('fonts', 'aleo-bold-webfo...')
+#2 C:\xampp\htdocs\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\xampp\htdocs\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/fo...')
+#14 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/fonts/aleo-bold-webfont.woff
+HTTP_REFERER=http://localhost/ni54-yii/css/style.css
+---
+2017/01/23 21:18:08 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/fonts".' in C:\xampp\htdocs\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/fonts', 'opensans-regula...')
+#1 [internal function]: WebController->actionGet('fonts', 'opensans-regula...')
+#2 C:\xampp\htdocs\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\xampp\htdocs\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/fo...')
+#14 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/fonts/opensans-regular-webfont.woff
+HTTP_REFERER=http://localhost/ni54-yii/css/style.css
+---
+2017/01/23 21:18:08 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/fonts".' in C:\xampp\htdocs\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/fonts', 'glyphicons-half...')
+#1 [internal function]: WebController->actionGet('fonts', 'glyphicons-half...')
+#2 C:\xampp\htdocs\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\xampp\htdocs\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/fo...')
+#14 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/fonts/glyphicons-halflings-regular.woff
+HTTP_REFERER=http://localhost/ni54-yii/css/bootstrap.min.css
+---
+2017/01/23 21:18:08 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/fonts".' in C:\xampp\htdocs\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/fonts', 'glyphicons-half...')
+#1 [internal function]: WebController->actionGet('fonts', 'glyphicons-half...')
+#2 C:\xampp\htdocs\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\xampp\htdocs\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/fo...')
+#14 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/fonts/glyphicons-halflings-regular.ttf
+HTTP_REFERER=http://localhost/ni54-yii/css/bootstrap.min.css
+---
+2017/01/24 13:32:47 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/fonts".' in C:\xampp\htdocs\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/fonts', 'glyphicons-half...')
+#1 [internal function]: WebController->actionGet('fonts', 'glyphicons-half...')
+#2 C:\xampp\htdocs\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\xampp\htdocs\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/fo...')
+#14 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/fonts/glyphicons-halflings-regular.woff2
+HTTP_REFERER=http://localhost/ni54-yii/css/bootstrap.min.css
+---
+2017/01/24 13:32:48 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/fonts".' in C:\xampp\htdocs\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/fonts', 'aleo-bold-webfo...')
+#1 [internal function]: WebController->actionGet('fonts', 'aleo-bold-webfo...')
+#2 C:\xampp\htdocs\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\xampp\htdocs\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/fo...')
+#14 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/fonts/aleo-bold-webfont.woff2
+HTTP_REFERER=http://localhost/ni54-yii/css/style.css
+---
+2017/01/24 13:32:48 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/fonts".' in C:\xampp\htdocs\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/fonts', 'Dosis-Regular.t...')
+#1 [internal function]: WebController->actionGet('fonts', 'Dosis-Regular.t...')
+#2 C:\xampp\htdocs\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\xampp\htdocs\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/fo...')
+#14 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/fonts/Dosis-Regular.ttf
+HTTP_REFERER=http://localhost/ni54-yii/css/style.css
+---
+2017/01/24 13:32:48 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/fonts".' in C:\xampp\htdocs\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/fonts', 'opensans-regula...')
+#1 [internal function]: WebController->actionGet('fonts', 'opensans-regula...')
+#2 C:\xampp\htdocs\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\xampp\htdocs\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/fo...')
+#14 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/fonts/opensans-regular-webfont.woff2
+HTTP_REFERER=http://localhost/ni54-yii/css/style.css
+---
+2017/01/24 13:32:48 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/fonts".' in C:\xampp\htdocs\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/fonts', 'glyphicons-half...')
+#1 [internal function]: WebController->actionGet('fonts', 'glyphicons-half...')
+#2 C:\xampp\htdocs\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\xampp\htdocs\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/fo...')
+#14 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/fonts/glyphicons-halflings-regular.woff
+HTTP_REFERER=http://localhost/ni54-yii/css/bootstrap.min.css
+---
+2017/01/24 13:32:48 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/fonts".' in C:\xampp\htdocs\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/fonts', 'aleo-bold-webfo...')
+#1 [internal function]: WebController->actionGet('fonts', 'aleo-bold-webfo...')
+#2 C:\xampp\htdocs\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\xampp\htdocs\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/fo...')
+#14 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/fonts/aleo-bold-webfont.woff
+HTTP_REFERER=http://localhost/ni54-yii/css/style.css
+---
+2017/01/24 13:32:48 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/fonts".' in C:\xampp\htdocs\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/fonts', 'glyphicons-half...')
+#1 [internal function]: WebController->actionGet('fonts', 'glyphicons-half...')
+#2 C:\xampp\htdocs\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\xampp\htdocs\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/fo...')
+#14 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/fonts/glyphicons-halflings-regular.ttf
+HTTP_REFERER=http://localhost/ni54-yii/css/bootstrap.min.css
+---
+2017/01/24 13:32:48 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/fonts".' in C:\xampp\htdocs\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/fonts', 'opensans-regula...')
+#1 [internal function]: WebController->actionGet('fonts', 'opensans-regula...')
+#2 C:\xampp\htdocs\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\xampp\htdocs\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/fo...')
+#14 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/fonts/opensans-regular-webfont.woff
+HTTP_REFERER=http://localhost/ni54-yii/css/style.css
+---
+2017/01/24 13:32:52 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/fonts".' in C:\xampp\htdocs\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/fonts', 'Dosis-Regular.t...')
+#1 [internal function]: WebController->actionGet('fonts', 'Dosis-Regular.t...')
+#2 C:\xampp\htdocs\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\xampp\htdocs\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/fo...')
+#14 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/fonts/Dosis-Regular.ttf
+HTTP_REFERER=http://localhost/ni54-yii/css/style.css
+---
+2017/01/24 13:32:52 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/fonts".' in C:\xampp\htdocs\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/fonts', 'opensans-regula...')
+#1 [internal function]: WebController->actionGet('fonts', 'opensans-regula...')
+#2 C:\xampp\htdocs\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\xampp\htdocs\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/fo...')
+#14 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/fonts/opensans-regular-webfont.woff2
+HTTP_REFERER=http://localhost/ni54-yii/css/style.css
+---
+2017/01/24 13:32:52 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/fonts".' in C:\xampp\htdocs\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/fonts', 'glyphicons-half...')
+#1 [internal function]: WebController->actionGet('fonts', 'glyphicons-half...')
+#2 C:\xampp\htdocs\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\xampp\htdocs\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/fo...')
+#14 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/fonts/glyphicons-halflings-regular.woff2
+HTTP_REFERER=http://localhost/ni54-yii/css/bootstrap.min.css
+---
+2017/01/24 13:32:52 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/fonts".' in C:\xampp\htdocs\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/fonts', 'aleo-bold-webfo...')
+#1 [internal function]: WebController->actionGet('fonts', 'aleo-bold-webfo...')
+#2 C:\xampp\htdocs\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\xampp\htdocs\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/fo...')
+#14 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/fonts/aleo-bold-webfont.woff2
+HTTP_REFERER=http://localhost/ni54-yii/css/style.css
+---
+2017/01/24 13:32:53 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/fonts".' in C:\xampp\htdocs\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/fonts', 'opensans-regula...')
+#1 [internal function]: WebController->actionGet('fonts', 'opensans-regula...')
+#2 C:\xampp\htdocs\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\xampp\htdocs\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/fo...')
+#14 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/fonts/opensans-regular-webfont.woff
+HTTP_REFERER=http://localhost/ni54-yii/css/style.css
+---
+2017/01/24 13:32:53 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/fonts".' in C:\xampp\htdocs\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/fonts', 'glyphicons-half...')
+#1 [internal function]: WebController->actionGet('fonts', 'glyphicons-half...')
+#2 C:\xampp\htdocs\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\xampp\htdocs\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/fo...')
+#14 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/fonts/glyphicons-halflings-regular.woff
+HTTP_REFERER=http://localhost/ni54-yii/css/bootstrap.min.css
+---
+2017/01/24 13:32:53 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/fonts".' in C:\xampp\htdocs\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/fonts', 'aleo-bold-webfo...')
+#1 [internal function]: WebController->actionGet('fonts', 'aleo-bold-webfo...')
+#2 C:\xampp\htdocs\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\xampp\htdocs\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/fo...')
+#14 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/fonts/aleo-bold-webfont.woff
+HTTP_REFERER=http://localhost/ni54-yii/css/style.css
+---
+2017/01/24 13:32:56 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/fonts".' in C:\xampp\htdocs\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/fonts', 'glyphicons-half...')
+#1 [internal function]: WebController->actionGet('fonts', 'glyphicons-half...')
+#2 C:\xampp\htdocs\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\xampp\htdocs\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/fo...')
+#14 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/fonts/glyphicons-halflings-regular.ttf
+HTTP_REFERER=http://localhost/ni54-yii/css/bootstrap.min.css
+---
+2017/01/24 13:33:19 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/fonts".' in C:\xampp\htdocs\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/fonts', 'glyphicons-half...')
+#1 [internal function]: WebController->actionGet('fonts', 'glyphicons-half...')
+#2 C:\xampp\htdocs\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\xampp\htdocs\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/fo...')
+#14 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/fonts/glyphicons-halflings-regular.woff2
+HTTP_REFERER=http://localhost/ni54-yii/css/bootstrap.min.css
+---
+2017/01/24 13:33:20 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/fonts".' in C:\xampp\htdocs\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/fonts', 'Dosis-Regular.t...')
+#1 [internal function]: WebController->actionGet('fonts', 'Dosis-Regular.t...')
+#2 C:\xampp\htdocs\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\xampp\htdocs\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/fo...')
+#14 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/fonts/Dosis-Regular.ttf
+HTTP_REFERER=http://localhost/ni54-yii/css/style.css
+---
+2017/01/24 13:33:20 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/fonts".' in C:\xampp\htdocs\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/fonts', 'opensans-regula...')
+#1 [internal function]: WebController->actionGet('fonts', 'opensans-regula...')
+#2 C:\xampp\htdocs\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\xampp\htdocs\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/fo...')
+#14 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/fonts/opensans-regular-webfont.woff2
+HTTP_REFERER=http://localhost/ni54-yii/css/style.css
+---
+2017/01/24 13:33:20 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/fonts".' in C:\xampp\htdocs\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/fonts', 'aleo-bold-webfo...')
+#1 [internal function]: WebController->actionGet('fonts', 'aleo-bold-webfo...')
+#2 C:\xampp\htdocs\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\xampp\htdocs\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/fo...')
+#14 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/fonts/aleo-bold-webfont.woff2
+HTTP_REFERER=http://localhost/ni54-yii/css/style.css
+---
+2017/01/24 13:33:20 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/fonts".' in C:\xampp\htdocs\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/fonts', 'glyphicons-half...')
+#1 [internal function]: WebController->actionGet('fonts', 'glyphicons-half...')
+#2 C:\xampp\htdocs\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\xampp\htdocs\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/fo...')
+#14 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/fonts/glyphicons-halflings-regular.woff
+HTTP_REFERER=http://localhost/ni54-yii/css/bootstrap.min.css
+---
+2017/01/24 13:33:20 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/fonts".' in C:\xampp\htdocs\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/fonts', 'opensans-regula...')
+#1 [internal function]: WebController->actionGet('fonts', 'opensans-regula...')
+#2 C:\xampp\htdocs\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\xampp\htdocs\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/fo...')
+#14 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/fonts/opensans-regular-webfont.woff
+HTTP_REFERER=http://localhost/ni54-yii/css/style.css
+---
+2017/01/24 13:33:20 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/fonts".' in C:\xampp\htdocs\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/fonts', 'aleo-bold-webfo...')
+#1 [internal function]: WebController->actionGet('fonts', 'aleo-bold-webfo...')
+#2 C:\xampp\htdocs\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\xampp\htdocs\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/fo...')
+#14 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/fonts/aleo-bold-webfont.woff
+HTTP_REFERER=http://localhost/ni54-yii/css/style.css
+---
+2017/01/24 13:33:20 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/fonts".' in C:\xampp\htdocs\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/fonts', 'glyphicons-half...')
+#1 [internal function]: WebController->actionGet('fonts', 'glyphicons-half...')
+#2 C:\xampp\htdocs\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\xampp\htdocs\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/fo...')
+#14 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/fonts/glyphicons-halflings-regular.ttf
+HTTP_REFERER=http://localhost/ni54-yii/css/bootstrap.min.css
+---
+2017/01/24 13:33:29 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/fonts".' in C:\xampp\htdocs\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/fonts', 'opensans-regula...')
+#1 [internal function]: WebController->actionGet('fonts', 'opensans-regula...')
+#2 C:\xampp\htdocs\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\xampp\htdocs\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/fo...')
+#14 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/fonts/opensans-regular-webfont.woff2
+HTTP_REFERER=http://localhost/ni54-yii/css/style.css
+---
+2017/01/24 13:33:29 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/fonts".' in C:\xampp\htdocs\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/fonts', 'glyphicons-half...')
+#1 [internal function]: WebController->actionGet('fonts', 'glyphicons-half...')
+#2 C:\xampp\htdocs\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\xampp\htdocs\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/fo...')
+#14 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/fonts/glyphicons-halflings-regular.woff2
+HTTP_REFERER=http://localhost/ni54-yii/css/bootstrap.min.css
+---
+2017/01/24 13:33:29 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/fonts".' in C:\xampp\htdocs\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/fonts', 'Dosis-Regular.t...')
+#1 [internal function]: WebController->actionGet('fonts', 'Dosis-Regular.t...')
+#2 C:\xampp\htdocs\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\xampp\htdocs\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/fo...')
+#14 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/fonts/Dosis-Regular.ttf
+HTTP_REFERER=http://localhost/ni54-yii/css/style.css
+---
+2017/01/24 13:33:29 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/fonts".' in C:\xampp\htdocs\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/fonts', 'aleo-bold-webfo...')
+#1 [internal function]: WebController->actionGet('fonts', 'aleo-bold-webfo...')
+#2 C:\xampp\htdocs\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\xampp\htdocs\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/fo...')
+#14 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/fonts/aleo-bold-webfont.woff2
+HTTP_REFERER=http://localhost/ni54-yii/css/style.css
+---
+2017/01/24 13:33:30 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/fonts".' in C:\xampp\htdocs\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/fonts', 'opensans-regula...')
+#1 [internal function]: WebController->actionGet('fonts', 'opensans-regula...')
+#2 C:\xampp\htdocs\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\xampp\htdocs\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/fo...')
+#14 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/fonts/opensans-regular-webfont.woff
+HTTP_REFERER=http://localhost/ni54-yii/css/style.css
+---
+2017/01/24 13:33:30 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/fonts".' in C:\xampp\htdocs\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/fonts', 'aleo-bold-webfo...')
+#1 [internal function]: WebController->actionGet('fonts', 'aleo-bold-webfo...')
+#2 C:\xampp\htdocs\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\xampp\htdocs\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/fo...')
+#14 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/fonts/aleo-bold-webfont.woff
+HTTP_REFERER=http://localhost/ni54-yii/css/style.css
+---
+2017/01/24 13:33:30 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/fonts".' in C:\xampp\htdocs\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/fonts', 'glyphicons-half...')
+#1 [internal function]: WebController->actionGet('fonts', 'glyphicons-half...')
+#2 C:\xampp\htdocs\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\xampp\htdocs\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/fo...')
+#14 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/fonts/glyphicons-halflings-regular.woff
+HTTP_REFERER=http://localhost/ni54-yii/css/bootstrap.min.css
+---
+2017/01/24 13:33:30 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/fonts".' in C:\xampp\htdocs\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/fonts', 'glyphicons-half...')
+#1 [internal function]: WebController->actionGet('fonts', 'glyphicons-half...')
+#2 C:\xampp\htdocs\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\xampp\htdocs\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/fo...')
+#14 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/fonts/glyphicons-halflings-regular.ttf
+HTTP_REFERER=http://localhost/ni54-yii/css/bootstrap.min.css
+---
+2017/01/24 13:36:51 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/fonts".' in C:\xampp\htdocs\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/fonts', 'Dosis-Regular.t...')
+#1 [internal function]: WebController->actionGet('fonts', 'Dosis-Regular.t...')
+#2 C:\xampp\htdocs\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\xampp\htdocs\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/fo...')
+#14 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/fonts/Dosis-Regular.ttf
+HTTP_REFERER=http://localhost/ni54-yii/css/style.css
+---
+2017/01/24 13:36:51 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/fonts".' in C:\xampp\htdocs\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/fonts', 'glyphicons-half...')
+#1 [internal function]: WebController->actionGet('fonts', 'glyphicons-half...')
+#2 C:\xampp\htdocs\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\xampp\htdocs\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/fo...')
+#14 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/fonts/glyphicons-halflings-regular.woff2
+HTTP_REFERER=http://localhost/ni54-yii/css/bootstrap.min.css
+---
+2017/01/24 13:36:51 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/fonts".' in C:\xampp\htdocs\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/fonts', 'opensans-regula...')
+#1 [internal function]: WebController->actionGet('fonts', 'opensans-regula...')
+#2 C:\xampp\htdocs\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\xampp\htdocs\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/fo...')
+#14 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/fonts/opensans-regular-webfont.woff2
+HTTP_REFERER=http://localhost/ni54-yii/css/style.css
+---
+2017/01/24 13:36:51 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/fonts".' in C:\xampp\htdocs\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/fonts', 'aleo-bold-webfo...')
+#1 [internal function]: WebController->actionGet('fonts', 'aleo-bold-webfo...')
+#2 C:\xampp\htdocs\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\xampp\htdocs\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/fo...')
+#14 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/fonts/aleo-bold-webfont.woff2
+HTTP_REFERER=http://localhost/ni54-yii/css/style.css
+---
+2017/01/24 13:36:52 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/fonts".' in C:\xampp\htdocs\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/fonts', 'aleo-bold-webfo...')
+#1 [internal function]: WebController->actionGet('fonts', 'aleo-bold-webfo...')
+#2 C:\xampp\htdocs\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\xampp\htdocs\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/fo...')
+#14 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/fonts/aleo-bold-webfont.woff
+HTTP_REFERER=http://localhost/ni54-yii/css/style.css
+---
+2017/01/24 13:36:52 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/fonts".' in C:\xampp\htdocs\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/fonts', 'glyphicons-half...')
+#1 [internal function]: WebController->actionGet('fonts', 'glyphicons-half...')
+#2 C:\xampp\htdocs\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\xampp\htdocs\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/fo...')
+#14 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/fonts/glyphicons-halflings-regular.woff
+HTTP_REFERER=http://localhost/ni54-yii/css/bootstrap.min.css
+---
+2017/01/24 13:36:52 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/fonts".' in C:\xampp\htdocs\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/fonts', 'opensans-regula...')
+#1 [internal function]: WebController->actionGet('fonts', 'opensans-regula...')
+#2 C:\xampp\htdocs\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\xampp\htdocs\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/fo...')
+#14 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/fonts/opensans-regular-webfont.woff
+HTTP_REFERER=http://localhost/ni54-yii/css/style.css
+---
+2017/01/24 13:36:52 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/fonts".' in C:\xampp\htdocs\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/fonts', 'glyphicons-half...')
+#1 [internal function]: WebController->actionGet('fonts', 'glyphicons-half...')
+#2 C:\xampp\htdocs\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\xampp\htdocs\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/fo...')
+#14 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/fonts/glyphicons-halflings-regular.ttf
+HTTP_REFERER=http://localhost/ni54-yii/css/bootstrap.min.css
+---
