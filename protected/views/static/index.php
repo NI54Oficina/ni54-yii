@@ -103,8 +103,44 @@
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 slider-porfolio">
 
 
+			<div class="arrow-bolita" direction=-1><</div>
+
+			<div id="bolitaMessure" class="bolita-display hidden-xs">
+
+				<div class="b-carousel c-covered">
+					<img src="img/port01.png" /><img src="img/port02.png" /><img src="img/port03.png" /><img src="img/port04.png" />
+					<img src="img/port05.png" /><img src="img/port06.png" /><img src="img/port07.png" /><img src="img/port08.png" />
+					<img src="img/port09.png" /><img src="img/port10.png" /><img src="img/port11.png" /><img src="img/port12.png" />
+				</div>
+
+			</div>
+			<div class="bolita-display">
+
+				<div class="b-carousel">
+					<img src="img/port02.png" /><img src="img/port03.png" /><img src="img/port04.png" />
+					<img src="img/port05.png" /><img src="img/port06.png" /><img src="img/port07.png" /><img src="img/port08.png" />
+					<img src="img/port09.png" /><img src="img/port10.png" /><img src="img/port11.png" /><img src="img/port12.png" /><img src="img/port01.png" />
+				</div>
 
 
+
+			</div>
+
+			<p style="width:300px; position:absolute; left: 0;  right: 0; margin:auto"><span style="font-size:1.2em; color:#f3b32f">Nombre del proyecto</span> <br>smth</p>
+
+			<div class="bolita-display hidden-xs">
+
+				<div class="b-carousel c-covered">
+					<img src="img/port03.png" /><img src="img/port04.png" />
+					<img src="img/port05.png" /><img src="img/port06.png" /><img src="img/port07.png" /><img src="img/port08.png" />
+					<img src="img/port09.png" /><img src="img/port10.png" /><img src="img/port11.png" /><img src="img/port12.png" /><img src="img/port01.png" /><img src="img/port02.png" />
+				</div>
+
+
+
+			</div>
+			<div class="arrow-bolita" direction=1>></div>
+<!--
 					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
 						<img class="col-lg-12 col-md-12 col-sm-12 col-xs-12 img-to-slide" src="img/para_probar_portfolio-01.png" class="clip-ellipse" alt="">
 					</div>
@@ -115,7 +151,7 @@
 
 					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
 						<img class="col-lg-12 col-md-12 col-sm-12 col-xs-12 img-to-slide" src="img/para_probar_portfolio-01.png" class="clip-ellipse" alt="">
-					</div>
+					</div> -->
 
 						<!-- <div  id="prueba-cover"style=""></div> -->
 
@@ -271,6 +307,42 @@ $(window).scroll(function(){
 
 
 
+</script>
+
+
+<script>
+var bTransition=false;
+$("document").ready(function(){
+var frameWidth= $("#bolitaMessure .b-carousel img").width();
+var length=$("#bolitaMessure .b-carousel img").length;
+console.log(frameWidth*length);
+var displayWidth=frameWidth*length;
+$(".b-carousel").css("width",displayWidth+"px");
+});
+$("body").on("click",".arrow-bolita",function(){
+if(bTransition) return;
+	var left= parseInt($(".b-carousel").css("left"));
+	var frameWidth= $("#bolitaMessure .b-carousel img").width();
+	var length=$("#bolitaMessure .b-carousel img").length;
+
+	if($(this).attr("direction")>0){
+		if(length*-frameWidth+frameWidth<left){
+			$(".b-carousel").css("left","-="+frameWidth);
+			bTransition=true;
+		}
+
+	}else{
+		if(left<0){
+			$(".b-carousel").css("left","+="+frameWidth);
+			bTransition=true;
+		}
+	}
+});
+
+$(".b-carousel").on('transitionend webkitTransitionEnd oTransitionEnd otransitionend MSTransitionEnd',
+    function() {
+         bTransition=false;
+    });
 </script>
 
 

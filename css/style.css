@@ -138,7 +138,7 @@ ul{
   z-index: 1;
 }
 
-#clientes,#contacto, .circle-container{
+#clientes,#contacto, .circle-container,#portfolio{
     z-index: 3;
 }
 
@@ -672,4 +672,54 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMA
 
 .prev-label  p {
   text-align: left;
+}
+
+
+.bolita-display{
+width:300px;
+overflow:hidden;
+height:300px;
+border-radius:300px;
+display:inline-block;
+margin: 3em;
+border: 2px solid #7268b7;
+-webkit-filter: drop-shadow(8px 8px 10px black);
+filter: drop-shadow(1px 2px 2px rgba(0,0,0,.5));
+
+}
+.bolita-display img{
+display:inline-block;
+width:300px;
+}
+.b-carousel{
+width:500px;
+height:300px;
+position:relative;
+transition:0.5s;
+left:0;
+
+}
+.c-covered > img{
+  -webkit-filter: brightness(0.30);filter: brightness(0.30);
+}
+
+.arrow-bolita{
+width:50px;
+height:50px;
+border-radius:50px;
+background-color:cadetblue;
+display:inline-block;
+color:white;
+overflow:hidden;
+text-align:center;
+line-height:50px;
+cursor:pointer;
+-webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari*/
+     -khtml-user-select: none; /* Konqueror */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+
 }

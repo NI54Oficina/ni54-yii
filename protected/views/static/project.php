@@ -64,7 +64,7 @@
         <div class="border-white">  </div>
 
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-          <img src="img/icono-app.svg" alt="">
+          <img src="img/icono-app.svg" alt=""> APP
           <p>Diseño + Programacion</p>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
