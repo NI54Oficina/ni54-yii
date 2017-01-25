@@ -40,7 +40,7 @@
   </head>
   <body>
 
-    <section id="descripcion" class="seccion">
+    <section id="descripcion" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 seccion">
 
     <a id="prev-link" href="">   <div id="prev-port" class="col-lg-3 col-md-3 col-sm-3 col-xs-1 prev-post">   <div  class="prev-label" style="position:fixed; "> <p><span>Anterior </span><br>Nombre del proyecto</p> </div> </div></a>
 
@@ -59,32 +59,37 @@
 
         <!-- <div class="border-white">  </div> -->
     </section>
+    <div class="border-white col-lg-12 col-md-12 col-sm-12 col-xs-12">  </div>
+    <section id="port-1" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 seccion">
 
-    <section id="port-1" class="seccion">
-        <div class="border-white">  </div>
 
-        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-          <img src="img/icono-app.svg" alt=""> APP
-          <p>Diseño + Programacion</p>
+        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 center-to-parent left-side">
+          <img src="img/icono-app.svg" alt="">  APP
+          <p class="tipo-trabajo">Diseño + Programacion</p>
         </div>
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 center-side port">
           <img src="img/vdm-bago-01.png" alt="">
         </div>
 
-        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3"></div>
+        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 right-side port"></div>
+
+    </section>
+    <div class="border-white col-lg-12 col-md-12 col-sm-12 col-xs-12">  </div>
+
+    <section id="port-2" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 seccion">
 
     </section>
 
-    <section id="port-2" class="seccion">
-        <div class="border-white">  </div>
+    <div class="border-white col-lg-12 col-md-12 col-sm-12 col-xs-12">  </div>
+
+    <section id="port-3" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 seccion">
+
     </section>
 
-    <section id="port-3" class="seccion">
-        <div class="border-white">  </div>
-    </section>
+    <div class="border-white col-lg-12 col-md-12 col-sm-12 col-xs-12">  </div>
 
-    <section id="port-4" class="seccion">
-        <div class="border-white">  </div>
+    <section id="port-4" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 seccion">
+
     </section>
 
 

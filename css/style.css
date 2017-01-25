@@ -513,7 +513,7 @@ margin-top: 3em;
 
 
 
-    .seccion{
+    .seccion, .port{
       min-height: 100vh;
     }
 
@@ -722,4 +722,26 @@ cursor:pointer;
             user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome and Opera */
 
+}
+
+
+#port-1 .left-side{
+  font-size: 1.2em;
+  font-family: 'open_sansregular';
+  padding-left:3em;
+}
+
+.tipo-trabajo{
+  color:#322958;
+  margin: 2em auto;
+}
+
+#port-1 .left-side img{
+  margin-right: 1em;
+}
+
+#port-1 .center-side img{
+  width: 80%;
+  position: absolute;
+  bottom: 0;
 }
