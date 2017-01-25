@@ -103,8 +103,8 @@
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 slider-porfolio">
 
 
-			<div class="arrow-bolita" direction=-1><</div>
-			<div  class="prev-label" style="position:fixed; "> <p><span>Anterior </span><br>Nombre del proyecto</p> </div> </div></a>
+			<!-- <div class="arrow-bolita" direction=-1><</div> -->
+			<div  class="prev-label arrow-bolita" direction=-1 style="position:fixed; display:block; z-index:5"> <p><span>Anterior </span><br>Nombre del proyecto</p> </div> </div></a>
 
 			<div id="bolitaMessure" class="bolita-display hidden-xs left-covered">
 
@@ -134,21 +134,10 @@
 
 
 			</div>
-			<div class="arrow-bolita" direction=1>></div>
-<!--
-					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-						<img class="col-lg-12 col-md-12 col-sm-12 col-xs-12 img-to-slide" src="img/para_probar_portfolio-01.png" class="clip-ellipse" alt="">
-					</div>
+			<div  class="next-label arrow-bolita" direction=1 style="position:fixed; display:block; z-index:5"> <p><span>Proximo</span><br>Nombre del proyecto</p> </div> </div></a>
 
-					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-						<img class="col-lg-12 col-md-12 col-sm-12 col-xs-12 img-to-slide" src="img/para_probar_portfolio-02.png" class="clip-ellipse" alt="">
-					</div>
 
-					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-						<img class="col-lg-12 col-md-12 col-sm-12 col-xs-12 img-to-slide" src="img/para_probar_portfolio-01.png" class="clip-ellipse" alt="">
-					</div> -->
-
-						<!-- <div  id="prueba-cover"style=""></div> -->
+			<!-- <div class="arrow-bolita" direction=1>></div> -->
 
 
 
