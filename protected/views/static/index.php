@@ -108,18 +108,14 @@
 			<div id="bolitaMessure" class="bolita-display hidden-xs">
 
 				<div class="b-carousel c-covered">
-					<img src="img/port01.png" /><img src="img/port02.png" /><img src="img/port03.png" /><img src="img/port04.png" />
-					<img src="img/port05.png" /><img src="img/port06.png" /><img src="img/port07.png" /><img src="img/port08.png" />
-					<img src="img/port09.png" /><img src="img/port10.png" /><img src="img/port11.png" /><img src="img/port12.png" />
+					<img src="img/port01.png" /><img src="img/port02.png" /><img src="img/port03.png" /><img src="img/port04.png" /><img src="img/port05.png" /><img src="img/port06.png" /><img src="img/port07.png" /><img src="img/port08.png" /><img src="img/port09.png" /><img src="img/port10.png" /><img src="img/port11.png" /><img src="img/port12.png" />
 				</div>
 
 			</div>
 			<div class="bolita-display">
 
 				<div class="b-carousel">
-					<img src="img/port02.png" /><img src="img/port03.png" /><img src="img/port04.png" />
-					<img src="img/port05.png" /><img src="img/port06.png" /><img src="img/port07.png" /><img src="img/port08.png" />
-					<img src="img/port09.png" /><img src="img/port10.png" /><img src="img/port11.png" /><img src="img/port12.png" /><img src="img/port01.png" />
+					<img src="img/port02.png" /><img src="img/port03.png" /><img src="img/port04.png" /><img src="img/port05.png" /><img src="img/port06.png" /><img src="img/port07.png" /><img src="img/port08.png" /><img src="img/port09.png" /><img src="img/port10.png" /><img src="img/port11.png" /><img src="img/port12.png" /><img src="img/port01.png" />
 				</div>
 
 
@@ -131,9 +127,7 @@
 			<div class="bolita-display hidden-xs">
 
 				<div class="b-carousel c-covered">
-					<img src="img/port03.png" /><img src="img/port04.png" />
-					<img src="img/port05.png" /><img src="img/port06.png" /><img src="img/port07.png" /><img src="img/port08.png" />
-					<img src="img/port09.png" /><img src="img/port10.png" /><img src="img/port11.png" /><img src="img/port12.png" /><img src="img/port01.png" /><img src="img/port02.png" />
+					<img src="img/port03.png" /><img src="img/port04.png" /><img src="img/port05.png" /><img src="img/port06.png" /><img src="img/port07.png" /><img src="img/port08.png" /><img src="img/port09.png" /><img src="img/port10.png" /><img src="img/port11.png" /><img src="img/port12.png" /><img src="img/port01.png" /><img src="img/port02.png" />
 				</div>
 
 
