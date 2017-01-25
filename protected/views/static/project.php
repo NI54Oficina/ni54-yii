@@ -99,39 +99,5 @@
 
 
 
-
-  $( window ).on( "mousemove", function( event ) {
-
-    var mousePosX = event.clientX;
-    var mousePosY = event.clientY;
-    var right = $(window).width() - mousePosX;
-    var bottom = $(window).height() - mousePosY;
-
-
-  //	$(".prev-label").css( "pageX: " + event.pageX + ", pageY: " + event.pageY );
-    $( ".prev-label" ).css( "bottom", + bottom + "px" );
-    $( ".prev-label" ).css( "left", + event.clientX );
-  });
-
-
-
-
-
-
-
-  $( window ).on( "mousemove", function( event ) {
-
-    var mousePosX = event.clientX;
-    var mousePosY = event.clientY;
-    var right = $(window).width() - mousePosX;
-    var bottom = $(window).height() - mousePosY;
-
-  //	$(".prev-label").css( "pageX: " + event.pageX + ", pageY: " + event.pageY );
-    $( ".next-label" ).css( "bottom", + bottom + "px" );
-    $( ".next-label" ).css( "right", + right + "px" );
-  });
-
-
-
   </script>
 </html>

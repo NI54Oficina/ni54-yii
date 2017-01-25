@@ -104,15 +104,16 @@
 
 
 			<div class="arrow-bolita" direction=-1><</div>
+			<div  class="prev-label" style="position:fixed; "> <p><span>Anterior </span><br>Nombre del proyecto</p> </div> </div></a>
 
-			<div id="bolitaMessure" class="bolita-display hidden-xs">
+			<div id="bolitaMessure" class="bolita-display hidden-xs left-covered">
 
 				<div class="b-carousel c-covered">
 					<img src="img/port01.png" /><img src="img/port02.png" /><img src="img/port03.png" /><img src="img/port04.png" /><img src="img/port05.png" /><img src="img/port06.png" /><img src="img/port07.png" /><img src="img/port08.png" /><img src="img/port09.png" /><img src="img/port10.png" /><img src="img/port11.png" /><img src="img/port12.png" />
 				</div>
 
 			</div>
-			<div class="bolita-display">
+			<div class="bolita-display center-covered">
 
 				<div class="b-carousel">
 					<img src="img/port02.png" /><img src="img/port03.png" /><img src="img/port04.png" /><img src="img/port05.png" /><img src="img/port06.png" /><img src="img/port07.png" /><img src="img/port08.png" /><img src="img/port09.png" /><img src="img/port10.png" /><img src="img/port11.png" /><img src="img/port12.png" /><img src="img/port01.png" />
@@ -124,9 +125,9 @@
 
 			<p style="width:300px; position:absolute; left: 0;  right: 0; margin:auto"><span style="font-size:1.2em; color:#f3b32f">Nombre del proyecto</span> <br>smth</p>
 
-			<div class="bolita-display hidden-xs">
+			<div class="bolita-display hidden-xs right-covered">
 
-				<div class="b-carousel c-covered">
+				<div class="b-carousel c-covered ">
 					<img src="img/port03.png" /><img src="img/port04.png" /><img src="img/port05.png" /><img src="img/port06.png" /><img src="img/port07.png" /><img src="img/port08.png" /><img src="img/port09.png" /><img src="img/port10.png" /><img src="img/port11.png" /><img src="img/port12.png" /><img src="img/port01.png" /><img src="img/port02.png" />
 				</div>
 
@@ -293,11 +294,7 @@ window.scrollTo(30,document.body.scrollHeight);
 
 })
 
-$(window).scroll(function(){
-    checkAnimationOne();
 
-
-});
 
 
 

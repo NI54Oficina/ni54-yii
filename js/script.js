@@ -18,6 +18,7 @@ $(document).on("ready",function(){
 	centerCircleLema();
 	scrollToSector();
 	FitBg();
+  checkAnimationOne();
 
 });
 
@@ -177,7 +178,6 @@ function FitBg(){
 function isElementInViewport(elem) {
     var $elem = $(elem);
 
-		console.log($elem);
 
     var scrollElem = ((navigator.userAgent.toLowerCase().indexOf('webkit') != -1) ? 'body' : 'html');
     var viewportTop = $(scrollElem).scrollTop();
@@ -194,6 +194,8 @@ function checkAnimationOne() {
 
 
     var $elem = $('#fraseFlotante');
+
+		if($elem.height()==null)return;
 
     if ($elem.hasClass('animate-frase-flotante')) return;
 
@@ -259,3 +261,32 @@ function CenterToParent(){
 		$(this).css("top",paddingTop+"px");
 	});
 }
+
+
+
+
+  $( window ).on( "mousemove", function( event ) {
+
+    var mousePosX = event.clientX;
+    var mousePosY = event.clientY;
+    var right = $(window).width() - mousePosX;
+    var bottom = $(window).height() - mousePosY;
+
+
+  //	$(".prev-label").css( "pageX: " + event.pageX + ", pageY: " + event.pageY );
+    $( ".prev-label" ).css( "bottom", + bottom + "px" );
+    $( ".prev-label" ).css( "left", + event.clientX );
+  });
+
+
+  $( window ).on( "mousemove", function( event ) {
+
+    var mousePosX = event.clientX;
+    var mousePosY = event.clientY;
+    var right = $(window).width() - mousePosX;
+    var bottom = $(window).height() - mousePosY;
+
+  //	$(".prev-label").css( "pageX: " + event.pageX + ", pageY: " + event.pageY );
+    $( ".next-label" ).css( "bottom", + bottom + "px" );
+    $( ".next-label" ).css( "right", + right + "px" );
+  });
