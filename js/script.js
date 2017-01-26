@@ -274,7 +274,6 @@ function CenterToParent(){
     var right = $(window).width() - mousePosX;
     var bottom = $(window).height() - mousePosY;
 
-
   //	$(".prev-label").css( "pageX: " + event.pageX + ", pageY: " + event.pageY );
     $( ".prev-label" ).css( "bottom", + bottom + "px" );
     $( ".prev-label" ).css( "left", + event.clientX );

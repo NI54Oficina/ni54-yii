@@ -108,7 +108,7 @@
 			<div id="bolitaMessure" class="bolita-display hidden-xs left-covered arrow-bolita"  direction=-1 >
 
 				<div class="b-carousel c-covered">
-					<img src="img/port01.png" /><img src="img/port02.png" /><img src="img/port03.png" /><img src="img/port04.png" /><img src="img/port05.png" /><img src="img/port06.png" /><img src="img/port07.png" /><img src="img/port08.png" /><img src="img/port09.png" /><img src="img/port10.png" /><img src="img/port11.png" /><img src="img/port12.png" />
+					<img src="img/projects/01.png" /><img src="img/projects/02.png" /><img src="img/projects/03.png" /><img src="img/projects/04.png" /><img src="img/projects/05.png" /><img src="img/projects/06.png" /><img src="img/projects/07.png" /><img src="img/projects/08.png" /><img src="img/projects/09.png" /><img src="img/projects/10.png" /><img src="img/projects/11.png" /><img src="img/projects/12.png" /><img src="img/projects/13.png" />
 				</div>
 
 				<div  class="prev-label"style="position:fixed; display:block; z-index:5"> <p><span>Anterior </span><br>Nombre del proyecto</p> </div>
@@ -118,7 +118,7 @@
 			<div class="bolita-display center-covered">
 
 				<div class="b-carousel">
-					<img src="img/port02.png" /><img src="img/port03.png" /><img src="img/port04.png" /><img src="img/port05.png" /><img src="img/port06.png" /><img src="img/port07.png" /><img src="img/port08.png" /><img src="img/port09.png" /><img src="img/port10.png" /><img src="img/port11.png" /><img src="img/port12.png" /><img src="img/port01.png" />
+					<img src="img/projects/02.png" /><img src="img/projects/03.png" /><img src="img/projects/04.png" /><img src="img/projects/05.png" /><img src="img/projects/06.png" /><img src="img/projects/07.png" /><img src="img/projects/08.png" /><img src="img/projects/09.png" /><img src="img/projects/10.png" /><img src="img/projects/11.png" /><img src="img/projects/12.png" /><img src="img/projects/13.png" /><img src="img/projects/01.png" />
 				</div>
 
 
@@ -130,7 +130,7 @@
 			<div class="bolita-display hidden-xs right-covered arrow-bolita" direction=1>
 
 				<div class="b-carousel c-covered ">
-					<img src="img/port03.png" /><img src="img/port04.png" /><img src="img/port05.png" /><img src="img/port06.png" /><img src="img/port07.png" /><img src="img/port08.png" /><img src="img/port09.png" /><img src="img/port10.png" /><img src="img/port11.png" /><img src="img/port12.png" /><img src="img/port01.png" /><img src="img/port02.png" />
+					<img src="img/projects/03.png" /><img src="img/projects/04.png" /><img src="img/projects/05.png" /><img src="img/projects/06.png" /><img src="img/projects/07.png" /><img src="img/projects/08.png" /><img src="img/projects/09.png" /><img src="img/projects/10.png" /><img src="img/projects/11.png" /><img src="img/projects/12.png" /><img src="img/projects/13.png" /><img src="img/projects/01.png" /><img src="img/projects/02.png" />
 				</div>
 
 
