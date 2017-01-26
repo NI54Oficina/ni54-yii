@@ -10,7 +10,6 @@ $(window).resize(function(){
 
 $(document).on("ready",function(){
 
-
 	tipear();
 	slider();
 	SameHeight();
@@ -197,9 +196,12 @@ function checkAnimationOne() {
 
 		if($elem.height()==null)return;
 
+
     if ($elem.hasClass('animate-frase-flotante')) return;
 
     if (isElementInViewport($elem)) {
+
+			console.log("en viewport");
 
         $elem.addClass('animate-frase-flotante');
     }

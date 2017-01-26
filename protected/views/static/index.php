@@ -104,13 +104,15 @@
 
 
 			<!-- <div class="arrow-bolita" direction=-1><</div> -->
-			<div  class="prev-label arrow-bolita" direction=-1 style="position:fixed; display:block; z-index:5"> <p><span>Anterior </span><br>Nombre del proyecto</p> </div> </div></a>
 
-			<div id="bolitaMessure" class="bolita-display hidden-xs left-covered">
+			<div id="bolitaMessure" class="bolita-display hidden-xs left-covered arrow-bolita"  direction=-1 >
 
 				<div class="b-carousel c-covered">
 					<img src="img/port01.png" /><img src="img/port02.png" /><img src="img/port03.png" /><img src="img/port04.png" /><img src="img/port05.png" /><img src="img/port06.png" /><img src="img/port07.png" /><img src="img/port08.png" /><img src="img/port09.png" /><img src="img/port10.png" /><img src="img/port11.png" /><img src="img/port12.png" />
 				</div>
+
+				<div  class="prev-label"style="position:fixed; display:block; z-index:5"> <p><span>Anterior </span><br>Nombre del proyecto</p> </div>
+
 
 			</div>
 			<div class="bolita-display center-covered">
@@ -125,16 +127,16 @@
 
 			<p style="width:300px; position:absolute; left: 0;  right: 0; margin:auto"><span style="font-size:1.2em; color:#f3b32f">Nombre del proyecto</span> <br>smth</p>
 
-			<div class="bolita-display hidden-xs right-covered">
+			<div class="bolita-display hidden-xs right-covered arrow-bolita" direction=1>
 
 				<div class="b-carousel c-covered ">
 					<img src="img/port03.png" /><img src="img/port04.png" /><img src="img/port05.png" /><img src="img/port06.png" /><img src="img/port07.png" /><img src="img/port08.png" /><img src="img/port09.png" /><img src="img/port10.png" /><img src="img/port11.png" /><img src="img/port12.png" /><img src="img/port01.png" /><img src="img/port02.png" />
 				</div>
 
 
+				<div  class="next-label"  style="position:fixed; display:block; z-index:5"> <p><span>Proximo</span><br>Nombre del proyecto</p> </div>
 
 			</div>
-			<div  class="next-label arrow-bolita" direction=1 style="position:fixed; display:block; z-index:5"> <p><span>Proximo</span><br>Nombre del proyecto</p> </div> </div></a>
 
 
 			<!-- <div class="arrow-bolita" direction=1>></div> -->

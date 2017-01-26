@@ -154,9 +154,10 @@ ul{
   font-family:'Dosis';
   position: absolute;
   top: 0;
-  margin-top:-200px;
+  margin-top:0px;
   right: 0;
   left: 0;
+
 }
 
 #portfolio{
@@ -568,7 +569,8 @@ margin-top: 3em;
 
 .animate-frase-flotante{
   animation-name: animate-frase-flotante;
-  animation-duration: 3s;
+  animation-duration: 3s
+  /*animation-fill-mode:forwards;*/
 }
 
 
@@ -744,4 +746,17 @@ cursor:pointer;
   width: 80%;
   position: absolute;
   bottom: 0;
+}
+
+.slider-porfolio .left-covered:hover .prev-label p{
+  display: block;
+}
+
+.slider-porfolio .right-covered:hover .next-label p{
+  display: block;
+}
+
+
+.slider-porfolio .left-covered.prev-label p, .slider-porfolio .right-covered .next-label p{
+  display: none;
 }
