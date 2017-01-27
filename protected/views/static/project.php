@@ -1,9 +1,10 @@
 <?php
-// $data="1";
+$data="7";
 $Criteria = new CDbCriteria();
-				// $Criteria->condition = "id_project = '".$data."'";
+				$Criteria->condition = "id_project = '".$data."'";
 $project= Project::model()->findAll($Criteria);
-
+$pantalla= Pantalla::model()->findAll($Criteria);
+$imagen=ImgPantalla::model()->findAll();
 ?>
 
 <!DOCTYPE html>
@@ -58,7 +59,11 @@ $project= Project::model()->findAll($Criteria);
 
         <h3>CLIENTE: BIOGÉNESIS BAGÓ</h3>
 
-        <p>At Geckoboard, we're great believers in the Lean methodology. This has lead us to attempt to create a new movement in companies that are truly driven by data. I was keen to coin a 'one word' approach to our manifesto, which is what lead me to pitch 'Informed', a word that can easily be attached to various Business operations to help market our ideas, the Informed Business, informed Sales, etc. </p>
+        <?php foreach($project as $p){ ?>
+
+          <p><?php echo $p["descripcion"]; ?></p>
+
+        <?php	} ?>
 
       </div>
 
@@ -68,22 +73,44 @@ $project= Project::model()->findAll($Criteria);
         <!-- <div class="border-white">  </div> -->
     </section>
     <div class="border-white col-lg-12 col-md-12 col-sm-12 col-xs-12">  </div>
-    <section id="port-1" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 seccion">
+<?php foreach($pantalla as $pt){ ?>
+        <section id="port-1" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 seccion" style="background-color:<?php echo $pt["color"]; ?>">
+    <?php      if($pt["modalidad"]!=null){?>
+
+              <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 center-to-parent left-side">
+                <img src="img/icono-app.svg" alt="">  <?php echo $pt["modalidad"]; ?>
+                <p class="tipo-trabajo"><?php echo $pt["trabajo"]; ?></p>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 center-side port">
+                <img src="img/projects/<?php echo $data."-".$pt["img"]; ?>.png" alt="">
+              </div>
+
+              <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 right-side port"></div>
 
 
-        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 center-to-parent left-side">
-          <img src="img/icono-app.svg" alt="">  APP
-          <p class="tipo-trabajo">Diseño + Programacion</p>
-        </div>
-        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 center-side port">
-          <img src="img/vdm-bago-01.png" alt="">
-        </div>
+    <?php }else{
+      $count=count();
+       foreach ($variable as $key => $value) { ?>
 
-        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 right-side port"></div>
+       <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 port">
+         <img src="img/projects/<?php echo $data."-".$pt["img"]; ?>.png" alt="">
+       </div>
 
-    </section>
-    <div class="border-white col-lg-12 col-md-12 col-sm-12 col-xs-12">  </div>
+      <?php
+      $count++;
+      $colums=12/$count;
+      }
+    }?>
 
+
+
+
+        </section>
+        <div class="border-white col-lg-12 col-md-12 col-sm-12 col-xs-12">  </div>
+
+<?php	} ?>
+
+<!--
     <section id="port-2" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 seccion">
 
     </section>
@@ -98,7 +125,7 @@ $project= Project::model()->findAll($Criteria);
 
     <section id="port-4" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 seccion">
 
-    </section>
+    </section> -->
 
 
   </body>
