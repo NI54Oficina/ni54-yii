@@ -1,3 +1,11 @@
+<?php
+// $data="1";
+$Criteria = new CDbCriteria();
+				// $Criteria->condition = "id_project = '".$data."'";
+$project= Project::model()->findAll($Criteria);
+
+?>
+
 <!DOCTYPE html>
 <html>
   <head>

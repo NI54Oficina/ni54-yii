@@ -1,3 +1,10 @@
+<?php
+// $data="1";
+$Criteria = new CDbCriteria();
+				// $Criteria->condition = "id_project = '".$data."'";
+$project= Project::model()->findAll($Criteria);
+
+?>
 <!DOCTYPE HTML>
 <html lang="en-US">
 
@@ -108,7 +115,11 @@
 			<div id="bolitaMessure" class="bolita-display hidden-xs left-covered arrow-bolita"  direction=-1 >
 
 				<div class="b-carousel c-covered">
-					<img src="img/projects/01.png" /><img src="img/projects/02.png" /><img src="img/projects/03.png" /><img src="img/projects/04.png" /><img src="img/projects/05.png" /><img src="img/projects/06.png" /><img src="img/projects/07.png" /><img src="img/projects/08.png" /><img src="img/projects/09.png" /><img src="img/projects/10.png" /><img src="img/projects/11.png" /><img src="img/projects/12.png" /><img src="img/projects/13.png" />
+					<?php foreach($project as $p){ ?>
+
+					<img src="img/projects/<?php echo $p["id_project"]; ?>.png" />
+
+					<?php	} ?>
 				</div>
 
 				<div  class="prev-label"style="position:fixed; display:block; z-index:5"> <p><span>Anterior </span><br>Nombre del proyecto</p> </div>
@@ -118,7 +129,11 @@
 			<div class="bolita-display center-covered">
 
 				<div class="b-carousel">
-					<img src="img/projects/02.png" /><img src="img/projects/03.png" /><img src="img/projects/04.png" /><img src="img/projects/05.png" /><img src="img/projects/06.png" /><img src="img/projects/07.png" /><img src="img/projects/08.png" /><img src="img/projects/09.png" /><img src="img/projects/10.png" /><img src="img/projects/11.png" /><img src="img/projects/12.png" /><img src="img/projects/13.png" /><img src="img/projects/01.png" />
+					<?php foreach($project as $p){ ?>
+
+					<img src="img/projects/<?php echo $p["id_project"]; ?>.png" />
+
+					<?php	} ?>
 				</div>
 
 
@@ -130,7 +145,11 @@
 			<div class="bolita-display hidden-xs right-covered arrow-bolita" direction=1>
 
 				<div class="b-carousel c-covered ">
-					<img src="img/projects/03.png" /><img src="img/projects/04.png" /><img src="img/projects/05.png" /><img src="img/projects/06.png" /><img src="img/projects/07.png" /><img src="img/projects/08.png" /><img src="img/projects/09.png" /><img src="img/projects/10.png" /><img src="img/projects/11.png" /><img src="img/projects/12.png" /><img src="img/projects/13.png" /><img src="img/projects/01.png" /><img src="img/projects/02.png" />
+					<?php foreach($project as $p){ ?>
+
+					<img src="img/projects/<?php echo $p["id_project"]; ?>.png" />
+
+					<?php	} ?>
 				</div>
 
 

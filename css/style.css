@@ -701,6 +701,10 @@ transition:0.5s;
 left:0;
 
 }
+
+.b-carousel > img{
+  float: left;
+}
 .c-covered > img{
   -webkit-filter: brightness(0.30);filter: brightness(0.30);
 }
