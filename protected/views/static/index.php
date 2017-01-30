@@ -129,18 +129,24 @@ $project= Project::model()->findAll($Criteria);
 			<div class="bolita-display center-covered">
 
 				<div class="b-carousel">
+
 					<?php foreach($project as $p){ ?>
 
-							<a href="project/<?php echo $p["id_project"]; ?>"><img src="img/projects/<?php echo $p["id_project"]; ?>.png" /></a>	
+							<a href="project/<?php echo $p["id_project"]; ?>"><img src="img/projects/<?php echo $p["id_project"]; ?>.png" /></a>
 
 					<?php	} ?>
+
 				</div>
 
 
 
 			</div>
 
-			<p style="width:300px; position:absolute; left: 0;  right: 0; margin:auto"><span style="font-size:1.2em; color:#f3b32f">Nombre del proyecto</span> <br>smth</p>
+			<?php foreach($project as $p){ ?>
+
+				<p id="<?php echo $p["id_project"]; ?>" class="nombre-proj" style="width:300px; position:absolute; left: 0;  right: 0; margin:auto"><?php echo $p["nombre"]; ?><br><span><?php echo $p["tipo"]; ?></span></p>
+
+			<?php	} ?>
 
 			<div class="bolita-display hidden-xs right-covered arrow-bolita" direction=1>
 
@@ -153,7 +159,7 @@ $project= Project::model()->findAll($Criteria);
 				</div>
 
 
-				<div  class="next-label"  style="position:fixed; display:block; z-index:5"> <p><span>Proximo</span><br>Nombre del proyecto</p> </div>
+				<div  class="next-label"  style="position:fixed; display:block; z-index:5"> <p>Proximo  <br><span id="nombre-span-next">Nombre del proyecto</span></p> </div>
 
 			</div>
 
@@ -312,14 +318,24 @@ window.scrollTo(30,document.body.scrollHeight);
 
 
 <script>
+
+var index=0;
 var bTransition=false;
 $("document").ready(function(){
+
+items = $('.nombre-proj');
+items.css("display","none");
+items.eq(index).css("display", "block");
+
 var frameWidth= $("#bolitaMessure .b-carousel img").width();
 var length=$("#bolitaMessure .b-carousel img").length;
 console.log(frameWidth*length);
 var displayWidth=frameWidth*length;
 $(".b-carousel").css("width",displayWidth+"px");
+
 });
+
+
 $("body").on("click",".arrow-bolita",function(){
 if(bTransition) return;
 	var left= parseInt($(".b-carousel").css("left"));
@@ -332,12 +348,31 @@ if(bTransition) return;
 			bTransition=true;
 		}
 
+
+		if(index<items.length-1){
+			index++;
+			var item = $('.nombre-proj').eq(index);
+			items.hide();
+			item.fadeIn("slow");
+			$('#nombre-span-next').text("hola");
+		}
+
 	}else{
 		if(left<0){
 			$(".b-carousel").css("left","+="+frameWidth);
 			bTransition=true;
 		}
+
+		if(index>0){
+			index--;
+			var item = $('.nombre-proj').eq(index);
+			items.hide();
+			item.fadeIn("slow");
+
+		}
+
 	}
+
 });
 
 $(".b-carousel").on('transitionend webkitTransitionEnd oTransitionEnd otransitionend MSTransitionEnd',
