@@ -7,7 +7,7 @@ class WebController extends Controller
 	 * using two-column layout. See 'protected/views/layouts/column2.php'.
 	 */
 	public $layout='//layouts/admin';
-	
+
 
 	/**
 	 * @return array action filters
@@ -49,22 +49,22 @@ class WebController extends Controller
 	}
 
 	public function actionGet($data,$id=""){
-		
+
 		$model="";
-		
+
 		$model=$id;
-		
+
 		//echo Pais::model()->findByPk($_SESSION['pais'])->nombre;
-		
-		
-		
-		
+
+
+
+
 			//$this->renderPartial("//static/layout");
 			$this->renderPartial("//static/".$data,$model);
 			//$this->renderPartial("//static/footer");
-		
+
 	}
-	
+
 	public function actionContacto(){
 		/*foreach($_POST as $key => $value){
 			echo $key;
@@ -72,7 +72,7 @@ class WebController extends Controller
 			echo $value;
 			echo "<br><br>";
 		}*/
-		
+
 		Yii::import('application.extensions.phpmailer.JPhpMailer');
 		$mail = new JPhpMailer;
 		$mail->SetFrom('test@testni54.com', "Contacto de ". $_POST["nombre"]." ".$_POST["apellido"]);
@@ -88,17 +88,17 @@ class WebController extends Controller
 		$mail->Send();
 		echo "enviado";
 
-		
+
 	}
-	
-	
+
+
 	public function actionTestajax(){
 		//header("Access-Control-Allow-Origin: *");
-		
+
 		$metas= MetatagPage::model()->findAllByAttributes(array('idPage'=>"1",));
 		$model=null;
 		$data=1;
-		
+
 		if($_POST["url"]=="header"){
 			$this->renderPartial("//static/stylesheet-code2",$model);
 			$this->renderPartial("//static/header",$model);
@@ -114,15 +114,15 @@ class WebController extends Controller
 				//$this->renderPartial("//static/".$segments[1],$segments[2]);
 			//}else{
 				$this->renderPartial("//static/".$_POST["url"],$model);
-			//}		
-			}			
+			//}
+			}
 		}
 	}
-	
+
 	public function actionCheckFeeds(){
 		echo FeedNoticias::model()->CheckFeed();
 	}
-	
+
 	public function actionCheckClima(){
 		if($mapaClima= ClimaMapas::model()->CheckFeed()||$mapaHidrica= HidricaMapa::model()->CheckFeed()){
 			return true;
@@ -130,11 +130,11 @@ class WebController extends Controller
 		return false;
 		//$clima= FeedNoticias::model()->CheckFeed();
 		;
-		
+
 	}
-	
+
 	public function actionGetLocalidades($id){
-		
+
 		if($id==-1){
 			$localidades = Ciudad::model()->findAll();
 		}else{
@@ -151,22 +151,22 @@ class WebController extends Controller
 		 <option value="localidad" selected disabled>Seleccione localidad</option>
 		<?php
 		foreach($localidades as $localidad){
-		?>        
+		?>
 			<option value="<?php echo $localidad->id; ?>"><?php echo $localidad->nombre; ?></option>
-		<?php 
+		<?php
 		}
 	}
-	
+
 	public function actionSetClima($id){
 		$_SESSION["localidad"]= $id;
 		echo 1;
 	}
-	
+
 	public function actionGetVeterinaria($id){
 		$ciudad= Ciudad::model()->findByPk($id);
 		$Criteria = new CDbCriteria();
 		$Criteria->condition = "ciudad = '".$ciudad->nombre."'";
-				
+
 		$veterinarias= Veterinarias::model()->findAll($Criteria);
 		if($veterinarias){
 			foreach($veterinarias as $veterinaria){
@@ -179,14 +179,14 @@ class WebController extends Controller
 			}
 		}
 	}
-	
+
 	public function actionGetVeterinariaByProvincia($id){
 		//buscar id de provincia, recorrer todas las localidades e imprimir data de veterinarias
 		$localidades = Ciudad::model()->findAll(array("condition"=>"provincia = ".$id));
 		foreach($localidades as $localidad){
 			$Criteria = new CDbCriteria();
 			$Criteria->condition = "ciudad = '".$localidad->nombre."'";
-					
+
 			$veterinarias= Veterinarias::model()->findAll($Criteria);
 			if($veterinarias){
 			foreach($veterinarias as $veterinaria){
@@ -200,5 +200,5 @@ class WebController extends Controller
 		}
 		}
 	}
-	
+
 }
