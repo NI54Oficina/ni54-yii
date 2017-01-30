@@ -122,7 +122,7 @@ $project= Project::model()->findAll($Criteria);
 					<?php	} ?>
 				</div>
 
-				<div  class="prev-label"style="position:fixed; display:block; z-index:5"> <p><span>Anterior </span><br>Nombre del proyecto</p> </div>
+				<div  class="prev-label"style="position:fixed; display:block; z-index:5"> <p>Anterior  <br><?php foreach($project as $p){ ?><span class="left-remain"><?php echo $p["nombre"]; ?></span><?php	} ?></p> </div>
 
 
 			</div>
@@ -159,7 +159,7 @@ $project= Project::model()->findAll($Criteria);
 				</div>
 
 
-				<div  class="next-label"  style="position:fixed; display:block; z-index:5"> <p>Proximo  <br><span id="nombre-span-next">Nombre del proyecto</span></p> </div>
+				<div  class="next-label"  style="position:fixed; display:block; z-index:5"> <p>Proximo  <br><?php foreach($project as $p){ ?><span class="right-remain"><?php echo $p["nombre"]; ?></span><?php	} ?></p> </div>
 
 			</div>
 
@@ -324,8 +324,17 @@ var bTransition=false;
 $("document").ready(function(){
 
 items = $('.nombre-proj');
+itemsLeft = $('.left-remain');
+itemsRight = $('.right-remain');
+
 items.css("display","none");
 items.eq(index).css("display", "block");
+
+itemsLeft.css("display","none");
+itemsLeft.eq(index).css("display", "block");
+
+itemsRight.css("display","none");
+itemsRight.eq(index).css("display", "block");
 
 var frameWidth= $("#bolitaMessure .b-carousel img").width();
 var length=$("#bolitaMessure .b-carousel img").length;
@@ -352,9 +361,15 @@ if(bTransition) return;
 		if(index<items.length-1){
 			index++;
 			var item = $('.nombre-proj').eq(index);
+			var itemL= $('.left-remain').eq(index);
+			var itemR= $('.right-remain').eq(index);
 			items.hide();
+			itemsLeft.hide();
+			itemsRight.hide();
 			item.fadeIn("slow");
-			$('#nombre-span-next').text("hola");
+			itemL.fadeIn("slow");
+			itemR.fadeIn("slow");
+
 		}
 
 	}else{
@@ -366,8 +381,14 @@ if(bTransition) return;
 		if(index>0){
 			index--;
 			var item = $('.nombre-proj').eq(index);
+			var itemL= $('.left-remain').eq(index);
+			var itemR= $('.right-remain').eq(index);
 			items.hide();
+			itemsLeft.hide();
+			itemsRight.hide();
 			item.fadeIn("slow");
+			itemL.fadeIn("slow");
+			itemR.fadeIn("slow");
 
 		}
 

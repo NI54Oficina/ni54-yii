@@ -23,6 +23,7 @@ $this->menu=array(
 	'attributes'=>array(
 		'id_project',
 		'nombre',
+		'tipo',
 		'descripcion',
 	),
 )); ?>
