@@ -131,7 +131,7 @@ $project= Project::model()->findAll($Criteria);
 				<div class="b-carousel">
 					<?php foreach($project as $p){ ?>
 
-					<img src="img/projects/<?php echo $p["id_project"]; ?>.png" />
+							<a href="project/<?php echo $p["id_project"]; ?>"><img src="img/projects/<?php echo $p["id_project"]; ?>.png" /></a>	
 
 					<?php	} ?>
 				</div>

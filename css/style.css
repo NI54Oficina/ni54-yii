@@ -705,6 +705,10 @@ left:0;
 .b-carousel > img{
   float: left;
 }
+
+.b-carousel > a{
+  float: left;
+}
 .c-covered > img{
   -webkit-filter: brightness(0.30);filter: brightness(0.30);
 }
