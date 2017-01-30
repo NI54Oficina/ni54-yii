@@ -764,3 +764,12 @@ cursor:pointer;
 .slider-porfolio .left-covered.prev-label p, .slider-porfolio .right-covered .next-label p{
   display: none;
 }
+
+.port > img{
+  text-align: center;
+  position: absolute;
+  margin: 0 auto;
+  bottom: 10em;
+  left: 0;
+  right: 0;
+}

@@ -1,12 +1,11 @@
 <?php
-$data="7";
+$data="8";
 $Criteria = new CDbCriteria();
 				$Criteria->condition = "id_project = '".$data."'";
-$project= Project::model()->findAll($Criteria);
+$project= Project::model()->findByPk(8);
 $pantalla= Pantalla::model()->findAll($Criteria);
-$imagen=ImgPantalla::model()->findAll();
-?>
 
+?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -59,11 +58,10 @@ $imagen=ImgPantalla::model()->findAll();
 
         <h3>CLIENTE: BIOGÉNESIS BAGÓ</h3>
 
-        <?php foreach($project as $p){ ?>
 
-          <p><?php echo $p["descripcion"]; ?></p>
+          <p><?php echo $project["descripcion"]; ?></p>
 
-        <?php	} ?>
+
 
       </div>
 
@@ -74,8 +72,10 @@ $imagen=ImgPantalla::model()->findAll();
     </section>
     <div class="border-white col-lg-12 col-md-12 col-sm-12 col-xs-12">  </div>
 <?php foreach($pantalla as $pt){ ?>
+
         <section id="port-1" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 seccion" style="background-color:<?php echo $pt["color"]; ?>">
-    <?php      if($pt["modalidad"]!=null){?>
+
+	  <?php      if($pt["modalidad"]!=null){?>
 
               <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 center-to-parent left-side">
                 <img src="img/icono-app.svg" alt="">  <?php echo $pt["modalidad"]; ?>
@@ -89,50 +89,33 @@ $imagen=ImgPantalla::model()->findAll();
 
 
     <?php }else{
-      $count=count();
-       foreach ($variable as $key => $value) { ?>
+      // $count=count();
 
-       <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 port">
-         <img src="img/projects/<?php echo $data."-".$pt["img"]; ?>.png" alt="">
-       </div>
 
-      <?php
-      $count++;
-      $colums=12/$count;
-      }
+			 $imagen=ImgPantalla::model()->findAllByAttributes(array("id_pantalla"=>$pt->id_pantalla));
+
+			 $colums=count($imagen);
+
+			 $colums=12/$colums;
+
+				foreach($imagen as $img){
+					//if($img["id_pantalla"]==$pt["id_pantalla"]){ ?>
+
+		       <div class="col-lg-<?php echo $colums; ?> col-md-<?php echo $colums; ?> col-sm-<?php echo $colums; ?> col-xs-12 port">
+		         <img src="img/projects/<?php echo $data."-".$img["img"]; ?>.png" alt="">
+		       </div>
+
+      	<?php
+      // $count++;
+      // $colums=12/$count;
+						}
+				}
+?>
+</section>
+<div class="border-white col-lg-12 col-md-12 col-sm-12 col-xs-12">  </div>
+<?php
     }?>
-
-
-
-
-        </section>
-        <div class="border-white col-lg-12 col-md-12 col-sm-12 col-xs-12">  </div>
-
-<?php	} ?>
-
-<!--
-    <section id="port-2" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 seccion">
-
-    </section>
-
-    <div class="border-white col-lg-12 col-md-12 col-sm-12 col-xs-12">  </div>
-
-    <section id="port-3" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 seccion">
-
-    </section>
-
-    <div class="border-white col-lg-12 col-md-12 col-sm-12 col-xs-12">  </div>
-
-    <section id="port-4" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 seccion">
-
-    </section> -->
-
 
   </body>
 
-  <script>
-
-
-
-  </script>
 </html>
