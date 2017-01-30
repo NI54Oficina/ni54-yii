@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 23-01-2017 a las 20:31:32
+-- Tiempo de generación: 30-01-2017 a las 17:57:54
 -- Versión del servidor: 5.6.24
 -- Versión de PHP: 5.6.8
 
@@ -19,6 +19,89 @@ SET time_zone = "+00:00";
 --
 -- Base de datos: `web-ni54`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `tbl_img_pantalla`
+--
+
+CREATE TABLE IF NOT EXISTS `tbl_img_pantalla` (
+  `id` int(255) NOT NULL,
+  `id_pantalla` int(255) NOT NULL,
+  `img` int(255) NOT NULL
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=latin1;
+
+--
+-- Volcado de datos para la tabla `tbl_img_pantalla`
+--
+
+INSERT INTO `tbl_img_pantalla` (`id`, `id_pantalla`, `img`) VALUES
+(1, 2, 2),
+(2, 2, 3),
+(3, 2, 4),
+(4, 4, 2),
+(5, 4, 3),
+(6, 5, 4),
+(7, 5, 5);
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `tbl_pantalla`
+--
+
+CREATE TABLE IF NOT EXISTS `tbl_pantalla` (
+  `id_pantalla` int(255) NOT NULL,
+  `id_project` int(255) NOT NULL,
+  `modalidad` varchar(255) NOT NULL,
+  `img` varchar(255) NOT NULL,
+  `trabajo` varchar(255) NOT NULL,
+  `color` varchar(255) NOT NULL
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=latin1;
+
+--
+-- Volcado de datos para la tabla `tbl_pantalla`
+--
+
+INSERT INTO `tbl_pantalla` (`id_pantalla`, `id_project`, `modalidad`, `img`, `trabajo`, `color`) VALUES
+(1, 7, 'APP', '1', 'Diseño + Programación', '#f4bd3e'),
+(2, 7, '', '', '', '#f5f5f5'),
+(3, 8, 'WEB', '1', 'Diseño + programación', '#05dbc3'),
+(4, 8, '', '', '', '#f5f5f5'),
+(5, 8, '', '', '', '#6d62af');
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `tbl_project`
+--
+
+CREATE TABLE IF NOT EXISTS `tbl_project` (
+  `id_project` int(255) NOT NULL,
+  `nombre` varchar(255) NOT NULL,
+  `tipo` varchar(255) NOT NULL,
+  `descripcion` text NOT NULL
+) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=latin1;
+
+--
+-- Volcado de datos para la tabla `tbl_project`
+--
+
+INSERT INTO `tbl_project` (`id_project`, `nombre`, `tipo`, `descripcion`) VALUES
+(1, 'Desafio Cósmico', 'Juego ', ''),
+(2, 'Trivia CAC', 'Juego', ''),
+(3, 'Publicaciones redes', 'Social Media', ''),
+(4, 'Web Makro', 'Web', ''),
+(5, 'Web KimenaStd', 'Web', ''),
+(6, 'Imágenes en redes sociales', 'Social Media', ''),
+(7, 'Vademécum', 'Aplicación', '\r\nMELANIA MIRANDAMELANIA MIRANDAMELANIA MIRANDAMELANIA MIRANDAMELANIA MIRANDAMELANIA MIRANDAMELANIA \r\nMELANIA MIRANDAMELANIA MIRANDAMELANIA MIRANDA'),
+(8, 'Web Jugo Zuco', 'Web ', ''),
+(9, 'Sam', 'Animación ', ''),
+(10, 'Web Biogénesis Bagó', ' Web', ''),
+(11, '12 Pasos', 'Juego', ''),
+(12, 'Portal Fronteras 2.0', 'Web y App ', ''),
+(13, 'Newsletter Easy', 'Newsletter', '');
 
 -- --------------------------------------------------------
 
@@ -66,6 +149,24 @@ INSERT INTO `tbl_user` (`id`, `username`, `password`, `email`) VALUES
 --
 
 --
+-- Indices de la tabla `tbl_img_pantalla`
+--
+ALTER TABLE `tbl_img_pantalla`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indices de la tabla `tbl_pantalla`
+--
+ALTER TABLE `tbl_pantalla`
+  ADD PRIMARY KEY (`id_pantalla`);
+
+--
+-- Indices de la tabla `tbl_project`
+--
+ALTER TABLE `tbl_project`
+  ADD PRIMARY KEY (`id_project`);
+
+--
 -- Indices de la tabla `tbl_user`
 --
 ALTER TABLE `tbl_user`
@@ -75,6 +176,21 @@ ALTER TABLE `tbl_user`
 -- AUTO_INCREMENT de las tablas volcadas
 --
 
+--
+-- AUTO_INCREMENT de la tabla `tbl_img_pantalla`
+--
+ALTER TABLE `tbl_img_pantalla`
+  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=8;
+--
+-- AUTO_INCREMENT de la tabla `tbl_pantalla`
+--
+ALTER TABLE `tbl_pantalla`
+  MODIFY `id_pantalla` int(255) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=6;
+--
+-- AUTO_INCREMENT de la tabla `tbl_project`
+--
+ALTER TABLE `tbl_project`
+  MODIFY `id_project` int(255) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=14;
 --
 -- AUTO_INCREMENT de la tabla `tbl_user`
 --
