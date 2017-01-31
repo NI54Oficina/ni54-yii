@@ -24,6 +24,7 @@ $this->menu=array(
 		'id_project',
 		'nombre',
 		'tipo',
+		'cliente',
 		'descripcion',
 	),
 )); ?>

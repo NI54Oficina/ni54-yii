@@ -46,7 +46,7 @@ $project= Project::model()->findAll($Criteria);
 </head>
 
 
-<body>
+<body  id="index">
 	<canvas id="canvasFugaz" style=" position:absolute;height: 335vh; width:100%; z-index:-2"></canvas>
 
 	<canvas id="canvas"style=""></canvas>

@@ -7,6 +7,7 @@
  * @property integer $id_project
  * @property string $nombre
  * @property string $tipo
+ * @property string $cliente
  * @property string $descripcion
  */
 class Project extends CActiveRecord
@@ -27,11 +28,11 @@ class Project extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('nombre, tipo, descripcion', 'required'),
-			array('nombre, tipo', 'length', 'max'=>255),
+			array('nombre, tipo, cliente, descripcion', 'required'),
+			array('nombre, tipo, cliente', 'length', 'max'=>255),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id_project, nombre, tipo, descripcion', 'safe', 'on'=>'search'),
+			array('id_project, nombre, tipo, cliente, descripcion', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -55,6 +56,7 @@ class Project extends CActiveRecord
 			'id_project' => 'Id Project',
 			'nombre' => 'Nombre',
 			'tipo' => 'Tipo',
+			'cliente' => 'Cliente',
 			'descripcion' => 'Descripcion',
 		);
 	}
@@ -80,6 +82,7 @@ class Project extends CActiveRecord
 		$criteria->compare('id_project',$this->id_project);
 		$criteria->compare('nombre',$this->nombre,true);
 		$criteria->compare('tipo',$this->tipo,true);
+		$criteria->compare('cliente',$this->cliente,true);
 		$criteria->compare('descripcion',$this->descripcion,true);
 
 		return new CActiveDataProvider($this, array(

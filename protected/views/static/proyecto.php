@@ -1,5 +1,5 @@
 <?php
-$data=7;
+$data=13;
 $next=$data+1;
 $prev=$data-1;
 
@@ -64,7 +64,7 @@ $pantalla= Pantalla::model()->findAll($Criteria);
 
         <h1>¿De que se trata?</h1>
 
-        <h3>CLIENTE: BIOGÉNESIS BAGÓ</h3>
+        <h3 style="text-transform: uppercase">CLIENTE: <?php echo $project["cliente"]; ?></h3>
 
 
           <p><?php echo $project["descripcion"]; ?></p>

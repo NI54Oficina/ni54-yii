@@ -17,6 +17,10 @@
 	<?php echo CHtml::encode($data->tipo); ?>
 	<br />
 
+	<b><?php echo CHtml::encode($data->getAttributeLabel('cliente')); ?>:</b>
+	<?php echo CHtml::encode($data->cliente); ?>
+	<br />
+
 	<b><?php echo CHtml::encode($data->getAttributeLabel('descripcion')); ?>:</b>
 	<?php echo CHtml::encode($data->descripcion); ?>
 	<br />
