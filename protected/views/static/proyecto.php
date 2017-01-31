@@ -1,5 +1,5 @@
 <?php
-$data=8;
+$data=7;
 $next=$data+1;
 $prev=$data-1;
 
@@ -58,7 +58,7 @@ $pantalla= Pantalla::model()->findAll($Criteria);
 
     <a id="prev-link" href="proyecto/<?php echo $prev; ?>">   <div id="prev-port" class="col-lg-3 col-md-3 col-sm-3 col-xs-1 prev-post">   <div  class="prev-label" style="position:fixed; "> <p><span>Anterior </span><br><?php echo $prevproject["nombre"]; ?></p> </div> </div></a>
 
-			<img src="" alt="">
+			<a href="index.php"><img src="img/cohete.svg" id="go-back" alt=""></a>
 
       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-10 center-to-parent">
 
