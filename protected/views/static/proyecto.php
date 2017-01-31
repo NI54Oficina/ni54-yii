@@ -1,5 +1,5 @@
 <?php
-$data=13;
+$data=12;
 $next=$data+1;
 $prev=$data-1;
 
