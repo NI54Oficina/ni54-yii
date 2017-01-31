@@ -784,3 +784,8 @@ cursor:pointer;
   left: 0;
   right: 0;
 }
+
+
+.arrow-bolita .next-label p{
+  z-index: 3;
+}

@@ -5092,3 +5092,275 @@ Stack trace:
 #16 {main}
 REQUEST_URI=/ni54-yii/project
 ---
+2017/01/31 13:47:32 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/project".' in C:\xampp\htdocs\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php(63): CController->renderPartial('//static/projec...', '')
+#1 [internal function]: WebController->actionGet('project', '')
+#2 C:\xampp\htdocs\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\xampp\htdocs\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get')
+#14 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/project
+---
+2017/01/31 13:47:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "proyecto/view".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('proyecto/view')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/proyecto/1
+---
+2017/01/31 13:55:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "proyecto/view".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('proyecto/view')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/proyecto/7
+HTTP_REFERER=http://localhost/ni54-yii/proyecto
+---
+2017/01/31 13:55:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "proyecto/view".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('proyecto/view')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/proyecto/7
+HTTP_REFERER=http://localhost/ni54-yii/proyecto
+---
+2017/01/31 13:55:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "proyecto/view".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('proyecto/view')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/proyecto/9
+HTTP_REFERER=http://localhost/ni54-yii/proyecto
+---
+2017/01/31 13:55:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "proyecto/css/bootstrap.min.css".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('proyecto/css/bo...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/proyecto/css/bootstrap.min.css
+HTTP_REFERER=http://localhost/ni54-yii/proyecto/
+---
+2017/01/31 13:55:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "proyecto/css/style.css".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('proyecto/css/st...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/proyecto/css/style.css
+HTTP_REFERER=http://localhost/ni54-yii/proyecto/
+---
+2017/01/31 13:55:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "proyecto/css/md.css".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('proyecto/css/md...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/proyecto/css/md.css
+HTTP_REFERER=http://localhost/ni54-yii/proyecto/
+---
+2017/01/31 13:55:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "proyecto/css/sm.css".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('proyecto/css/sm...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/proyecto/css/sm.css
+HTTP_REFERER=http://localhost/ni54-yii/proyecto/
+---
+2017/01/31 13:55:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "proyecto/css/lg.css".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('proyecto/css/lg...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/proyecto/css/lg.css
+HTTP_REFERER=http://localhost/ni54-yii/proyecto/
+---
+2017/01/31 13:55:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "proyecto/css/xl.css".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('proyecto/css/xl...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/proyecto/css/xl.css
+HTTP_REFERER=http://localhost/ni54-yii/proyecto/
+---
+2017/01/31 13:55:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "proyecto/css/xs.css".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('proyecto/css/xs...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/proyecto/css/xs.css
+HTTP_REFERER=http://localhost/ni54-yii/proyecto/
+---
+2017/01/31 13:55:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "proyecto/js/bootstrap.min.js".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('proyecto/js/boo...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/proyecto/js/bootstrap.min.js
+HTTP_REFERER=http://localhost/ni54-yii/proyecto/
+---
+2017/01/31 13:55:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "proyecto/css/sp.css".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('proyecto/css/sp...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/proyecto/css/sp.css
+HTTP_REFERER=http://localhost/ni54-yii/proyecto/
+---
+2017/01/31 13:55:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "proyecto/js/script.js".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('proyecto/js/scr...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/proyecto/js/script.js
+HTTP_REFERER=http://localhost/ni54-yii/proyecto/
+---
+2017/01/31 13:55:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "proyecto/js/tipeo.js".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('proyecto/js/tip...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/proyecto/js/tipeo.js
+HTTP_REFERER=http://localhost/ni54-yii/proyecto/
+---
+2017/01/31 13:55:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "proyecto/img/icono-app.svg".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('proyecto/img/ic...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/proyecto/img/icono-app.svg
+HTTP_REFERER=http://localhost/ni54-yii/proyecto/
+---
+2017/01/31 13:55:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "proyecto/js/bootstrap.min.js".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('proyecto/js/boo...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/proyecto/js/bootstrap.min.js
+HTTP_REFERER=http://localhost/ni54-yii/proyecto/
+---
+2017/01/31 13:55:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "proyecto/img/projects/8-1.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('proyecto/img/pr...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/proyecto/img/projects/8-1.png
+HTTP_REFERER=http://localhost/ni54-yii/proyecto/
+---
+2017/01/31 13:55:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "proyecto/js/tipeo.js".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('proyecto/js/tip...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/proyecto/js/tipeo.js
+HTTP_REFERER=http://localhost/ni54-yii/proyecto/
+---
+2017/01/31 13:55:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "proyecto/img/projects/8-2.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('proyecto/img/pr...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/proyecto/img/projects/8-2.png
+HTTP_REFERER=http://localhost/ni54-yii/proyecto/
+---
+2017/01/31 13:55:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "proyecto/js/script.js".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('proyecto/js/scr...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/proyecto/js/script.js
+HTTP_REFERER=http://localhost/ni54-yii/proyecto/
+---
+2017/01/31 13:55:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "proyecto/img/projects/8-3.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('proyecto/img/pr...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/proyecto/img/projects/8-3.png
+HTTP_REFERER=http://localhost/ni54-yii/proyecto/
+---
+2017/01/31 13:55:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "proyecto/img/projects/8-4.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('proyecto/img/pr...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/proyecto/img/projects/8-4.png
+HTTP_REFERER=http://localhost/ni54-yii/proyecto/
+---
+2017/01/31 13:55:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "proyecto/img/projects/8-5.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('proyecto/img/pr...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/proyecto/img/projects/8-5.png
+HTTP_REFERER=http://localhost/ni54-yii/proyecto/
+---
+2017/01/31 13:55:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "proyecto/img/icono-app.svg".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('proyecto/img/ic...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/proyecto/img/icono-app.svg
+HTTP_REFERER=http://localhost/ni54-yii/proyecto/
+---
+2017/01/31 13:55:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "proyecto/img/projects/8-2.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('proyecto/img/pr...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/proyecto/img/projects/8-2.png
+HTTP_REFERER=http://localhost/ni54-yii/proyecto/
+---
+2017/01/31 13:55:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "proyecto/img/projects/8-1.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('proyecto/img/pr...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/proyecto/img/projects/8-1.png
+HTTP_REFERER=http://localhost/ni54-yii/proyecto/
+---
+2017/01/31 13:55:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "proyecto/img/fav-icon-nitro-01.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('proyecto/img/fa...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/proyecto/img/fav-icon-nitro-01.png
+HTTP_REFERER=http://localhost/ni54-yii/proyecto/
+---

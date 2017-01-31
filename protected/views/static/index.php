@@ -300,7 +300,7 @@ $project= Project::model()->findAll($Criteria);
 
 	<script type="text/javascript" src="js/fugaz.js "></script>
 
-<script type="text/javascript" src="js/cohete.js"></script>
+<!-- <script type="text/javascript" src="js/cohete.js"></script> -->
 
 <script type="text/javascript">
 
@@ -320,6 +320,8 @@ window.scrollTo(30,document.body.scrollHeight);
 <script>
 
 var index=0;
+var indexL=-1;
+var indexR=1
 var bTransition=false;
 $("document").ready(function(){
 
@@ -331,10 +333,10 @@ items.css("display","none");
 items.eq(index).css("display", "block");
 
 itemsLeft.css("display","none");
-itemsLeft.eq(index).css("display", "block");
+itemsLeft.eq(indexL).css("display", "block");
 
 itemsRight.css("display","none");
-itemsRight.eq(index).css("display", "block");
+itemsRight.eq(indexR).css("display", "block");
 
 var frameWidth= $("#bolitaMessure .b-carousel img").width();
 var length=$("#bolitaMessure .b-carousel img").length;
@@ -360,9 +362,11 @@ if(bTransition) return;
 
 		if(index<items.length-1){
 			index++;
+			indexR++;
+			indexL++;
 			var item = $('.nombre-proj').eq(index);
-			var itemL= $('.left-remain').eq(index);
-			var itemR= $('.right-remain').eq(index);
+			var itemL= $('.left-remain').eq(indexL);
+			var itemR= $('.right-remain').eq(indexR);
 			items.hide();
 			itemsLeft.hide();
 			itemsRight.hide();
@@ -380,9 +384,11 @@ if(bTransition) return;
 
 		if(index>0){
 			index--;
+			indexR--;
+			indexL--;
 			var item = $('.nombre-proj').eq(index);
-			var itemL= $('.left-remain').eq(index);
-			var itemR= $('.right-remain').eq(index);
+			var itemL= $('.left-remain').eq(indexL);
+			var itemR= $('.right-remain').eq(indexR);
 			items.hide();
 			itemsLeft.hide();
 			itemsRight.hide();
