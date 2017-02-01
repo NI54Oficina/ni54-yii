@@ -120,7 +120,7 @@ $project= Project::model()->findAll($Criteria);
 
 					<?php for( $i=0; $i<count($project)-1; $i++){ ?>
 
-					<img src="img/projects/<?php echo $project[$i]["id_project"]; ?>.png" />
+						<img src="img/projects/<?php echo $project[$i]["id_project"]; ?>.png" />
 
 					<?php	} ?>
 
