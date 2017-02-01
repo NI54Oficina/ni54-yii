@@ -136,11 +136,11 @@ $('.nav-dot').click(function() {
 
 function centerCircleLema(){
 	var circle=parseInt($('.circle-lema').width());
-	var doc= parseInt($(document).width());
+	var container= parseInt($('.circle-container').width());
 
-	var pos = doc/2 - circle/2-60;
+	var pos = container/2 - circle/2;
 
-	$('.circle-lema').css('margin-left', pos+'px');
+	$('.circle-container').css('padding-left', pos+'px');
 
 }
 
