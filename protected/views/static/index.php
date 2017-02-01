@@ -221,16 +221,6 @@ $project= Project::model()->findAll($Criteria);
 				<img class="col-lg-1 col-md-1 col-sm-3 col-xs-3" src="img/mattel.png" alt="">
 	</div>
 
-	<!-- <div class="logo-clientes clientes-3 general-container">
-		<img class="col-lg-1 col-md-1 col-sm-3 col-xs-3 col-lg-offset-2 col-md-offset-2" src="img/para_probar_portfolio-02.png" alt="">
-		<img class="col-lg-1 col-md-1 col-sm-3 col-xs-3" src="img/para_probar_portfolio-02.png" alt="">
-		<img class="col-lg-1 col-md-1 col-sm-3 col-xs-3" src="img/para_probar_portfolio-02.png" alt="">
-		<img class="col-lg-1 col-md-1 col-sm-3 col-xs-3" src="img/para_probar_portfolio-02.png" alt="">
-		<img class="col-lg-1 col-md-1 col-sm-3 col-xs-3" src="img/para_probar_portfolio-02.png" alt="">
-		<img class="col-lg-1 col-md-1 col-sm-3 col-xs-3" src="img/para_probar_portfolio-02.png" alt="">
-		<img class="col-lg-1 col-md-1 col-sm-3 col-xs-3" src="img/para_probar_portfolio-02.png" alt="">
-		<img class="col-lg-1 col-md-1 col-sm-3 col-xs-3" src="img/para_probar_portfolio-02.png" alt="">
-	</div> -->
 
 	<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 dot-nav-slider">
 	<ul>
