@@ -109,7 +109,7 @@ $pantalla= Pantalla::model()->findAll($Criteria);
 				foreach($imagen as $img){
 					//if($img["id_pantalla"]==$pt["id_pantalla"]){ ?>
 
-		       <div class="col-lg-<?php echo $colums; ?> col-md-<?php echo $colums; ?> col-sm-<?php echo $colums; ?> col-xs-12 port">
+		       <div class="col-lg-<?php echo $colums; ?> col-md-<?php echo $colums; ?> col-sm-<?php echo $colums; ?> col-xs-12 port" >
 		         <img class="center-to-parent" src="img/projects/<?php echo $data."-".$img["img"]; ?>.png" alt="">
 		       </div>
 

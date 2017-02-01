@@ -739,7 +739,8 @@ cursor:pointer;
 .port > img{
   text-align: center;
   /*position: relative;*/
-  width: 80%;
+  max-width: 50%;
+  width: auto;
   margin: 0 auto;
 
   position: absolute;
