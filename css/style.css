@@ -142,6 +142,10 @@ ul{
     z-index: 3;
 }
 
+#lo-que-hacemos{
+  padding-top: 0 !important;
+}
+
 #clientes{
   background-color: white;
 }

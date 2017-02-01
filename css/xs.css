@@ -94,6 +94,19 @@
     display: none;
 }
 
+.float-right{
+  padding-right: 0;
+}
+
+.float-left{
+  padding-left: 0;
+}
+
+.about-inner h3 {
+
+    margin-top: 30%;
+}
+
 }
 
 @media screen and (max-width: 767px) and (orientation:portrait){

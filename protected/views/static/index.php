@@ -170,6 +170,11 @@ $project= Project::model()->findAll($Criteria);
 
 		</div>
 
+		<div class=" hidden-lg hidden-sm hidden-md">
+			<p class="arrow-bolita" direction=-1 style=" position:absolute; left:4em; bottom:4em; " ><span class="arrow-bolita glyphicon glyphicon-menu-left"   aria-hidden="true" style="font-size:3em; color: white;color:#00d6bd"></span></p>
+			<p class="arrow-bolita" direction=1 style=" position:absolute; right:4em; bottom:4em; " ><span class="glyphicon glyphicon-menu-right"   aria-hidden="true" style="font-size:3em; color: white;color:#00d6bd" ></span></p>
+
+		</div>
 
 </section>
 
