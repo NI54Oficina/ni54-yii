@@ -52,9 +52,11 @@
   .seccion{
     min-height: 100vh;
   }
- #descripcion{
-   max-height: 100vh;
- }
+
+   #descripcion{
+     max-height: 100vh;
+   }
+
   #port-1 .center-side img{
       top: 0;
       bottom:0;
@@ -79,33 +81,32 @@
 
     padding: 2em;
     width: 100px;
-}
+  }
 
-#fraseFlotante{
-  display: none;
-}
-
-.circle-lema {
-    height: 150px;
-    width: 150px;
-}
-
-#link{
+  #fraseFlotante{
     display: none;
-}
+  }
 
-.float-right{
-  padding-right: 0;
-}
+  .circle-lema {
+      height: 150px;
+      width: 150px;
+  }
 
-.float-left{
-  padding-left: 0;
-}
+  #link{
+      display: none;
+  }
 
-.about-inner h3 {
+  .float-right{
+    padding-right: 0;
+  }
 
+  .float-left{
+    padding-left: 0;
+  }
+
+  .about-inner h3 {
     margin-top: 30%;
-}
+  }
 
 }
 

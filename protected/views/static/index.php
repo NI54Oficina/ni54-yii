@@ -115,11 +115,15 @@ $project= Project::model()->findAll($Criteria);
 			<div id="bolitaMessure" class="bolita-display hidden-xs left-covered arrow-bolita"  direction=-1 >
 
 				<div class="b-carousel c-covered">
-					<?php foreach($project as $p){ ?>
 
-					<img src="img/projects/<?php echo $p["id_project"]; ?>.png" />
+					<img src="img/projects/<?php echo $project[count($project)-1]["id_project"]; ?>.png" />
+
+					<?php for( $i=0; $i<count($project)-1; $i++){ ?>
+
+					<img src="img/projects/<?php echo $project[$i]["id_project"]; ?>.png" />
 
 					<?php	} ?>
+
 				</div>
 
 				<div  class="prev-label"style="position:fixed; display:block; z-index:5"> <p>Anterior  <br><?php foreach($project as $p){ ?><span class="left-remain"><?php echo $p["nombre"]; ?></span><?php	} ?></p> </div>
@@ -151,11 +155,13 @@ $project= Project::model()->findAll($Criteria);
 			<div class="bolita-display hidden-xs right-covered arrow-bolita" direction=1>
 
 				<div class="b-carousel c-covered ">
-					<?php foreach($project as $p){ ?>
+					<?php for( $i=1; $i<count($project); $i++){ ?>
 
-					<img src="img/projects/<?php echo $p["id_project"]; ?>.png" />
+					<img src="img/projects/<?php echo $project[$i]["id_project"]; ?>.png" />
 
 					<?php	} ?>
+
+						<img src="img/projects/<?php echo $project[0]["id_project"]; ?>.png" />
 				</div>
 
 
