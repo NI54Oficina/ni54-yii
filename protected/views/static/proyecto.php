@@ -1,5 +1,5 @@
 <?php
-$data=12;
+$data=1;
 $next=$data+1;
 $prev=$data-1;
 
@@ -104,7 +104,11 @@ $pantalla= Pantalla::model()->findAll($Criteria);
 
 			 $colums=count($imagen);
 
+			 if($colums==0)$colums=1;
+
 			 $colums=12/$colums;
+
+
 
 				foreach($imagen as $img){
 					//if($img["id_pantalla"]==$pt["id_pantalla"]){ ?>

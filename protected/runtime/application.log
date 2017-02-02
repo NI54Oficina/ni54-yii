@@ -7362,3 +7362,53 @@ Stack trace:
 REQUEST_URI=/ni54-yii/proyecto/15
 HTTP_REFERER=http://localhost/ni54-yii/proyecto
 ---
+2017/02/02 14:30:13 [error] [php] Division by zero (C:\xampp\htdocs\ni54-yii\protected\views\static\proyecto.php:107)
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(869): WebController->renderFile()
+#1 C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php(63): WebController->renderPartial()
+#2 unknown(0): WebController->actionGet()
+#3 C:\xampp\htdocs\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#4 C:\xampp\htdocs\ni54-yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#5 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): WebController->runAction()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#9 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): WebController->filterAccessControl()
+#10 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#12 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): WebController->runActionWithFilters()
+#13 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): WebController->run()
+#14 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#15 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\ni54-yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/ni54-yii/proyecto
+in C:\xampp\htdocs\ni54-yii\protected\views\static\proyecto.php (107)
+in C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php (63)
+in C:\xampp\htdocs\ni54-yii\index.php (13)
+2017/02/02 14:35:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "proyecto/view".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('proyecto/view')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/proyecto/2
+HTTP_REFERER=http://localhost/ni54-yii/proyecto
+---
+2017/02/02 14:35:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "proyecto/view".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('proyecto/view')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/proyecto/0
+HTTP_REFERER=http://localhost/ni54-yii/proyecto
+---
+2017/02/02 14:36:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "proyecto/view".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('proyecto/view')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/proyecto/2
+HTTP_REFERER=http://localhost/ni54-yii/proyecto
+---
