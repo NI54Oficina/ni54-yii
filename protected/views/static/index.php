@@ -25,21 +25,21 @@ $project= Project::model()->findAll($Criteria);
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 
 	<!-- CSS -->
-	<link href="css/style.css" rel="stylesheet">
-	<link href="css/xl.css" rel="stylesheet">
-	<link href="css/lg.css" rel="stylesheet">
-	<link href="css/md.css" rel="stylesheet">
-	<link href="css/sm.css" rel="stylesheet">
-	<link href="css/xs.css" rel="stylesheet">
-	<link href="css/sp.css" rel="stylesheet">
+	<link href="<?php echo Yii::app()->getBaseUrl(true); ?>/css/style.css" rel="stylesheet">
+	<link href="<?php echo Yii::app()->getBaseUrl(true); ?>/css/xl.css" rel="stylesheet">
+	<link href="<?php echo Yii::app()->getBaseUrl(true); ?>/css/lg.css" rel="stylesheet">
+	<link href="<?php echo Yii::app()->getBaseUrl(true); ?>/css/md.css" rel="stylesheet">
+	<link href="<?php echo Yii::app()->getBaseUrl(true); ?>/css/sm.css" rel="stylesheet">
+	<link href="<?php echo Yii::app()->getBaseUrl(true); ?>/css/xs.css" rel="stylesheet">
+	<link href="<?php echo Yii::app()->getBaseUrl(true); ?>/css/sp.css" rel="stylesheet">
 
 	<!-- BOOTSTRAP JS -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/phaser.js"></script>
-	<script type="text/javascript" src="js/script.js "></script>
-		<script type="text/javascript" src="js/estrellas.js "></script>
-		<script type="text/javascript" src="js/tipeo.js "></script>
+	<script src="<?php echo Yii::app()->getBaseUrl(true); ?>/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="<?php echo Yii::app()->getBaseUrl(true); ?>/js/phaser.js"></script>
+	<script type="text/javascript" src="<?php echo Yii::app()->getBaseUrl(true); ?>/js/script.js "></script>
+		<script type="text/javascript" src="<?php echo Yii::app()->getBaseUrl(true); ?>/js/estrellas.js "></script>
+		<script type="text/javascript" src="<?php echo Yii::app()->getBaseUrl(true); ?>/js/tipeo.js "></script>
 
 
 
@@ -68,7 +68,7 @@ $project= Project::model()->findAll($Criteria);
 	<!-- <a href="" class="glyphicon glyphicon-menu-down desplazamiento" style=""></a> -->
 
 <section id="contacto" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 " >
- 	<img id="main-logo" src="img/cohete_blanco.svg" alt="">
+ 	<img id="main-logo" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/cohete_blanco.svg" alt="">
 	<h1 id="title-web">NitroInteractivo</h1>
 	<p id="subtitle">al infinito y mas allá...</p>
 
@@ -92,11 +92,11 @@ $project= Project::model()->findAll($Criteria);
 
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 iconos-container">
 	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-	<img class="iconos" src="img/mail.svg" alt="">contacto@ni54.com
+	<img class="iconos" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/mail.svg" alt="">contacto@ni54.com
 	</div>
 
 	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-	<img class="iconos" src="img/tel.svg" alt="">47823813
+	<img class="iconos" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/tel.svg" alt="">47823813
 	</div>
 </div>
 
@@ -116,11 +116,11 @@ $project= Project::model()->findAll($Criteria);
 
 				<div class="b-carousel c-covered">
 
-					<img src="img/projects/<?php echo $project[count($project)-1]["id_project"]; ?>.png" />
+					<img src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/projects/<?php echo $project[count($project)-1]["id_project"]; ?>.png" />
 
 					<?php for( $i=0; $i<count($project)-1; $i++){ ?>
 
-						<img src="img/projects/<?php echo $project[$i]["id_project"]; ?>.png" />
+						<img src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/projects/<?php echo $project[$i]["id_project"]; ?>.png" />
 
 					<?php	} ?>
 
@@ -136,7 +136,7 @@ $project= Project::model()->findAll($Criteria);
 
 					<?php foreach($project as $p){ ?>
 
-							<a href="project/<?php echo $p["id_project"]; ?>"><img src="img/projects/<?php echo $p["id_project"]; ?>.png" /></a>
+							<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/proyecto/<?php echo $p["id_project"]; ?>"><img src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/projects/<?php echo $p["id_project"]; ?>.png" /></a>
 
 					<?php	} ?>
 
@@ -157,11 +157,11 @@ $project= Project::model()->findAll($Criteria);
 				<div class="b-carousel c-covered ">
 					<?php for( $i=1; $i<count($project); $i++){ ?>
 
-					<img src="img/projects/<?php echo $project[$i]["id_project"]; ?>.png" />
+					<img src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/projects/<?php echo $project[$i]["id_project"]; ?>.png" />
 
 					<?php	} ?>
 
-						<img src="img/projects/<?php echo $project[0]["id_project"]; ?>.png" />
+						<img src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/projects/<?php echo $project[0]["id_project"]; ?>.png" />
 				</div>
 
 
@@ -196,9 +196,9 @@ $project= Project::model()->findAll($Criteria);
 		<h3 id="title-section">PARTNERS</h3>
 
 		<div class="logo-clientes">
-			<img class="col-lg-1 col-md-2 col-sm-3 col-xs-3 col-lg-offset-5 col-md-offset-3" src="img/cac.png" alt="">
-			<img class="col-lg-1 col-md-2 col-sm-3 col-xs-3" src="img/uba.png" alt="">
-			<img class="col-lg-1 col-md-2 col-sm-3 col-xs-3" src="img/abuelas.png" alt="">
+			<img class="col-lg-1 col-md-2 col-sm-3 col-xs-3 col-lg-offset-5 col-md-offset-3" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/cac.png" alt="">
+			<img class="col-lg-1 col-md-2 col-sm-3 col-xs-3" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/uba.png" alt="">
+			<img class="col-lg-1 col-md-2 col-sm-3 col-xs-3" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/abuelas.png" alt="">
 
 		</div>
 
@@ -213,11 +213,11 @@ $project= Project::model()->findAll($Criteria);
 	<h3 id="title-section">YA NOS CONOCEN</h3>
 
 	<div class="logo-clientes general-container">
-		<img class="col-lg-1 col-md-1 col-sm-3 col-xs-3 col-lg-offset-4 col-md-offset-4" src="img/barrick.png" alt="">
-		<img class="col-lg-1 col-md-1 col-sm-3 col-xs-3" src="img/bb.png" alt="">
-		<img class="col-lg-1 col-md-1 col-sm-3 col-xs-3" src="img/biomarin.png" alt="">
-		<img class="col-lg-1 col-md-1 col-sm-3 col-xs-3" src="img/bocafan.png" alt="">
-		<img class="col-lg-1 col-md-1 col-sm-3 col-xs-3" src="img/easy.png" alt="">
+		<img class="col-lg-1 col-md-1 col-sm-3 col-xs-3 col-lg-offset-4 col-md-offset-4" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/barrick.png" alt="">
+		<img class="col-lg-1 col-md-1 col-sm-3 col-xs-3" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/bb.png" alt="">
+		<img class="col-lg-1 col-md-1 col-sm-3 col-xs-3" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/biomarin.png" alt="">
+		<img class="col-lg-1 col-md-1 col-sm-3 col-xs-3" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/bocafan.png" alt="">
+		<img class="col-lg-1 col-md-1 col-sm-3 col-xs-3" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/easy.png" alt="">
 
 		<!-- <img class="col-lg-1 col-md-1 col-sm-3 col-xs-3" src="img/cac.png" alt="">
 		<img class="col-lg-1 col-md-1 col-sm-3 col-xs-3" src="img/easy.png" alt=""> -->
@@ -226,10 +226,10 @@ $project= Project::model()->findAll($Criteria);
 
 	<div class="logo-clientes clientes-3 general-container">
 		<img class="col-lg-1 col-md-1 col-sm-3 col-xs-3 col-lg-offset-4 col-md-offset-4" src="img/tang.png" alt="">
-		<img class="col-lg-1 col-md-1 col-sm-3 col-xs-3" src="img/visa.png" alt="">
-		<img class="col-lg-1 col-md-1 col-sm-3 col-xs-3" src="img/ymad.png" alt="">
-		<img class="col-lg-1 col-md-1 col-sm-3 col-xs-3" src="img/zuko.png" alt="">
-				<img class="col-lg-1 col-md-1 col-sm-3 col-xs-3" src="img/mattel.png" alt="">
+		<img class="col-lg-1 col-md-1 col-sm-3 col-xs-3" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/visa.png" alt="">
+		<img class="col-lg-1 col-md-1 col-sm-3 col-xs-3" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/ymad.png" alt="">
+		<img class="col-lg-1 col-md-1 col-sm-3 col-xs-3" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/zuko.png" alt="">
+				<img class="col-lg-1 col-md-1 col-sm-3 col-xs-3" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/mattel.png" alt="">
 	</div>
 
 
@@ -266,11 +266,11 @@ $project= Project::model()->findAll($Criteria);
 
 
 	<div class="planetas col-lg-12 col-sm-12 col-md-12 col-xs-12">
-		<div class="col-lg-6 col-sm-6 col-md-6 col-xs-6" hid="1"> <img class="floating floating-time-1" src="img/planetitas-01.svg" alt=""><p>Contenido <br>Interactivos</p></div>
-		<div class="col-lg-6 col-sm-6 col-md-6 col-xs-6" hid="1"> <img class="floating floating-time-2" src="img/planetitas-05.svg" alt=""><p>Diseño y <br> comunicación</p></div>
-		<div class="col-lg-6 col-sm-6 col-md-6 col-xs-6  float-left" hid="1"> <img class="floating floating-time-3"  src="img/planetitas-02.svg" alt=""><p>Edutainment<br>Gamification</p></div>
-		<div class="col-lg-6 col-sm-6 col-md-6 col-xs-6  float-right" hid="1"> <img class="floating floating-time-1" src="img/planetitas-04.svg" alt=""><p>Videojuegos y <br>aplicaciones</p></div>
-		<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12" hid="1"> <img class="floating floating-time-3"  src="img/planetitas-03.svg" alt=""><p>Websites y <br>mobile apps.</p> </div>
+		<div class="col-lg-6 col-sm-6 col-md-6 col-xs-6" hid="1"> <img class="floating floating-time-1" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/planetitas-01.svg" alt=""><p>Contenido <br>Interactivos</p></div>
+		<div class="col-lg-6 col-sm-6 col-md-6 col-xs-6" hid="1"> <img class="floating floating-time-2" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/planetitas-05.svg" alt=""><p>Diseño y <br> comunicación</p></div>
+		<div class="col-lg-6 col-sm-6 col-md-6 col-xs-6  float-left" hid="1"> <img class="floating floating-time-3"  src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/planetitas-02.svg" alt=""><p>Edutainment<br>Gamification</p></div>
+		<div class="col-lg-6 col-sm-6 col-md-6 col-xs-6  float-right" hid="1"> <img class="floating floating-time-1" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/planetitas-04.svg" alt=""><p>Videojuegos y <br>aplicaciones</p></div>
+		<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12" hid="1"> <img class="floating floating-time-3"  src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/planetitas-03.svg" alt=""><p>Websites y <br>mobile apps.</p> </div>
 
 	</div>
 
@@ -299,7 +299,7 @@ $project= Project::model()->findAll($Criteria);
 
 
 
-	<script type="text/javascript" src="js/fugaz.js "></script>
+	<script type="text/javascript" src="<?php echo Yii::app()->getBaseUrl(true); ?>/js/fugaz.js "></script>
 
 <!-- <script type="text/javascript" src="js/cohete.js"></script> -->
 

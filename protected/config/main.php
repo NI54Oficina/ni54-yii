@@ -45,14 +45,14 @@ return array(
 			'rules'=>array(
 
 				"testData/<id>"=>"web/get/data/testData/id/<id>",
-				"project/<id>"=>"web/get/data/project/id/<id>",
-				
+				"proyecto/<id>"=>"web/get/data/proyecto/id/<id>",
+
 				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
 				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
 				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
 
-				
-				
+
+
 				"<data>"=>array(
 					"web/get/"
 				),
