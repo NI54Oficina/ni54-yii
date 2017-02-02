@@ -19,6 +19,7 @@ class WebController extends Controller
 			'postOnly + delete', // we only allow deletion via POST request
 			'postOnly + contacto', // we only allow deletion via POST requesty
 			'postOnly + testAjax', // we only allow deletion via POST requesty
+			'postOnly + upload', // we only allow deletion via POST requesty
 		);
 	}
 
@@ -31,7 +32,7 @@ class WebController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','view',"get","contacto","testAjax","checkFeeds","checkClima","getLocalidades","getVeterinaria","getVeterinariaByProvincia","setClima"),
+				'actions'=>array('index','view',"get","contacto","testAjax","checkFeeds","checkClima","getLocalidades","getVeterinaria","getVeterinariaByProvincia","setClima","upload"),
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
@@ -199,6 +200,37 @@ class WebController extends Controller
 			}
 		}
 		}
+	}
+	
+	public function actionUpload(){
+		
+			
+			if (isset($_FILES['file'])) {
+				 
+				$targetPath = "uploads/"; 
+				
+				if(isset($_POST["nombre"])){
+					$formato="";
+					if(strpos($_FILES['file']['tmp_name'],".png")>0){
+						$formato= ".png";
+					}
+					if(strpos($_FILES['file']['tmp_name'],".jpg")>0){
+						$formato= ".jpg";
+					}
+					if(strpos($_FILES['file']['tmp_name'],".jpeg")>0){
+						$formato= ".jpeg";
+					}
+					$targetFile =  $targetPath.$nombre.$formato;
+				}else{
+					$targetFile =  $targetPath.$_FILES['file']['name'];
+				}
+				
+				move_uploaded_file($_FILES['file']['tmp_name'],$targetFile);
+				echo $targetFile;
+			}else{
+				echo "0";
+			}
+			
 	}
 
 }
