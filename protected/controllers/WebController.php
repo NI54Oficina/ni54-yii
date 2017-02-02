@@ -54,6 +54,7 @@ class WebController extends Controller
 		$model="";
 
 		$model=$id;
+		
 
 		//echo Pais::model()->findByPk($_SESSION['pais'])->nombre;
 
