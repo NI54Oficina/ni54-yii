@@ -293,7 +293,7 @@ $project= Project::model()->findAll($Criteria);
 
 
 
-
+<img style="max-width:100vw;" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/suelo.png" alt="">
 
 </body>
 

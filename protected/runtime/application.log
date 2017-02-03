@@ -9265,3 +9265,1668 @@ Stack trace:
 REQUEST_URI=/ni54-yii/img/projects/27.png
 HTTP_REFERER=http://localhost/ni54-yii/index.php
 ---
+2017/02/03 14:12:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/25.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/25...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/25.png
+HTTP_REFERER=http://localhost/ni54-yii/
+---
+2017/02/03 14:12:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/23.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/23...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/23.png
+HTTP_REFERER=http://localhost/ni54-yii/
+---
+2017/02/03 14:12:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/24.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/24...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/24.png
+HTTP_REFERER=http://localhost/ni54-yii/
+---
+2017/02/03 14:12:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/27.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/27...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/27.png
+HTTP_REFERER=http://localhost/ni54-yii/
+---
+2017/02/03 14:12:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/26.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/26...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/26.png
+HTTP_REFERER=http://localhost/ni54-yii/
+---
+2017/02/03 14:13:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/27.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/27...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/27.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 14:13:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/23.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/23...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/23.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 14:13:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/24.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/24...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/24.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 14:13:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/25.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/25...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/25.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 14:13:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/26.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/26...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/26.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 14:24:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/27.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/27...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/27.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 14:24:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/23.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/23...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/23.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 14:24:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/26.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/26...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/26.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 14:24:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/25.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/25...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/25.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 14:24:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/24.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/24...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/24.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 14:25:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/27.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/27...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/27.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 14:25:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/23.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/23...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/23.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 14:25:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/24.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/24...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/24.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 14:25:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/25.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/25...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/25.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 14:25:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/26.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/26...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/26.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 14:25:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/27.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/27...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/27.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 14:25:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/24.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/24...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/24.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 14:25:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/23.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/23...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/23.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 14:44:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/27.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/27...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/27.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 14:44:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/23.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/23...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/23.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 14:44:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/24.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/24...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/24.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 14:44:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/25.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/25...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/25.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 14:44:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/26.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/26...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/26.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 14:44:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/23.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/23...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/23.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 14:44:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/24.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/24...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/24.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 14:44:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/27.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/27...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/27.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 14:46:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/27.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/27...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/27.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 14:46:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/23.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/23...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/23.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 14:46:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/24.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/24...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/24.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 14:46:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/25.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/25...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/25.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 14:46:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/26.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/26...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/26.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 14:46:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/24.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/24...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/24.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 14:46:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/23.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/23...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/23.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 14:46:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/27.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/27...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/27.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 14:47:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/27.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/27...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/27.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 14:47:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/23.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/23...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/23.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 14:47:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/24.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/24...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/24.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 14:47:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/25.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/25...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/25.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 14:47:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/26.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/26...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/26.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 14:47:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/27.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/27...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/27.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 14:49:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/27.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/27...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/27.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 14:49:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/23.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/23...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/23.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 14:49:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/24.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/24...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/24.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 14:49:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/25.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/25...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/25.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 14:49:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/26.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/26...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/26.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 14:49:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/27.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/27...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/27.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 15:15:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/27.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/27...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/27.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 15:15:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/23.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/23...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/23.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 15:15:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/24.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/24...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/24.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 15:15:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/25.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/25...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/25.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 15:15:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/26.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/26...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/26.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 15:19:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/27.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/27...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/27.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 15:19:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/23.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/23...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/23.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 15:19:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/24.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/24...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/24.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 15:19:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/25.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/25...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/25.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 15:19:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/26.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/26...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/26.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 15:19:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/25.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/25...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/25.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 15:19:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/27.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/27...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/27.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 15:19:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/23.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/23...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/23.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 15:19:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/24.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/24...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/24.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 15:19:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/26.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/26...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/26.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 15:21:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/27.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/27...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/27.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 15:21:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/23.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/23...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/23.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 15:21:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/24.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/24...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/24.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 15:21:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/25.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/25...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/25.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 15:21:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/26.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/26...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/26.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 15:21:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/27.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/27...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/27.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 15:34:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/27.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/27...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/27.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 15:34:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/23.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/23...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/23.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 15:34:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/24.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/24...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/24.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 15:34:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/25.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/25...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/25.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 15:34:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/26.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/26...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/26.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 15:34:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/23.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/23...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/23.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 15:34:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/24.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/24...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/24.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 15:34:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/27.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/27...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/27.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 16:07:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/26.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/26...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/26.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 16:07:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/24.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/24...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/24.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 16:07:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/27.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/27...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/27.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 16:07:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/23.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/23...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/23.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 16:07:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/25.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/25...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/25.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 16:07:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/27.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/27...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/27.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 16:07:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/23.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/23...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/23.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 16:07:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/24.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/24...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/24.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 16:07:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/25.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/25...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/25.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 16:07:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/26.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/26...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/26.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 16:08:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/27.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/27...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/27.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 16:08:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/23.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/23...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/23.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 16:08:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/24.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/24...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/24.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 16:08:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/25.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/25...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/25.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 16:08:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/26.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/26...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/26.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 16:08:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/27.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/27...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/27.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 16:08:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/23.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/23...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/23.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 16:08:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/24.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/24...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/24.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 16:08:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/25.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/25...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/25.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 16:08:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/26.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/26...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/26.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 16:08:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/25.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/25...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/25.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 16:08:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/27.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/27...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/27.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 16:08:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/23.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/23...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/23.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 16:08:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/24.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/24...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/24.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 16:08:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/27.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/27...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/27.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 16:08:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/23.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/23...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/23.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 16:08:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/24.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/24...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/24.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 16:08:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/25.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/25...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/25.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 16:08:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/26.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/26...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/26.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 16:08:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/27.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/27...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/27.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 16:08:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/25.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/25...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/25.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 16:08:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/24.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/24...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/24.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 16:08:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/23.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/23...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/23.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 16:08:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/27.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/27...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/27.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 16:08:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/23.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/23...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/23.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 16:08:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/24.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/24...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/24.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 16:08:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/25.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/25...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/25.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 16:08:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/26.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/26...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/26.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 16:08:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/27.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/27...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/27.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 16:10:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/27.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/27...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/27.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 16:10:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/23.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/23...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/23.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 16:10:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/24.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/24...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/24.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 16:10:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/25.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/25...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/25.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 16:10:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/26.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/26...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/26.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 16:10:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/27.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/27...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/27.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 16:10:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/23.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/23...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/23.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 16:10:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/24.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/24...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/24.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 16:10:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/25.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/25...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/25.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 16:10:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/26.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/26...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/26.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 16:10:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/23.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/23...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/23.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 16:10:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/27.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/27...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/27.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 16:10:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/24.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/24...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/24.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 16:10:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/25.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/25...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/25.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 16:10:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/26.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/26...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/26.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 16:11:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/27.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/27...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/27.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 16:11:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/23.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/23...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/23.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 16:11:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/24.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/24...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/24.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 16:11:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/25.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/25...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/25.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 16:11:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/26.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/26...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/26.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 16:11:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/23.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/23...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/23.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 16:11:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/27.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/27...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/27.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 16:11:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/25.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/25...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/25.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 16:11:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/24.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/24...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/24.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 16:18:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/27.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/27...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/27.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 16:18:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/23.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/23...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/23.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 16:18:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/24.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/24...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/24.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 16:18:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/25.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/25...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/25.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 16:18:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/26.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/26...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/26.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 16:18:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/27.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/27...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/27.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 16:18:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/23.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/23...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/23.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 16:18:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/24.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/24...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/24.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 16:18:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/26.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/26...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/26.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 16:18:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/25.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/25...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/25.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 17:31:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/27.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/27...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/27.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 17:31:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/25.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/25...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/25.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 17:31:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/26.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/26...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/26.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 17:31:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/23.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/23...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/23.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 17:31:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/24.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/24...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/24.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 17:31:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/27.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/27...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/27.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 17:31:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/23.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/23...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/23.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 17:31:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/24.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/24...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/24.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 17:31:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/26.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/26...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/26.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 17:31:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/25.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/25...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/25.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 17:33:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/27.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/27...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/27.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 17:33:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/23.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/23...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/23.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 17:33:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/24.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/24...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/24.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 17:33:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/25.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/25...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/25.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 17:33:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/26.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/26...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/26.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 17:33:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/27.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/27...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/27.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 17:33:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/24.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/24...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/24.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 17:33:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/23.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/23...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/23.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 17:38:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/24.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/24...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/24.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 17:38:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/23.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/23...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/23.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 17:38:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/26.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/26...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/26.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 17:38:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/27.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/27...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/27.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 17:38:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/25.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/25...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/25.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 17:52:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/27.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/27...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/27.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 17:52:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/23.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/23...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/23.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 17:52:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/24.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/24...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/24.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 17:52:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/25.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/25...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/25.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 17:52:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/26.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/26...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/26.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 17:52:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/27.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/27...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/27.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 17:52:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/25.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/25...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/25.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 17:52:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/23.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/23...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/23.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/02/03 17:52:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/24.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/24...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/24.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---

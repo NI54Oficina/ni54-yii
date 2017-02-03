@@ -92,6 +92,10 @@
       width: 150px;
   }
 
+  .circle-container{
+    padding: 0;
+  }
+
   #link{
       display: none;
   }

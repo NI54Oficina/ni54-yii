@@ -1,7 +1,7 @@
 $(window).on("load",function () {
 
 
-
+// centerCircleLema();
 });
 
 $(window).resize(function(){
@@ -139,6 +139,8 @@ function centerCircleLema(){
 	var container= parseInt($('.circle-container').width());
 
 	var pos = container/2 - circle/2;
+
+	console.log(pos);
 
 	$('.circle-container').css('padding-left', pos+'px');
 
