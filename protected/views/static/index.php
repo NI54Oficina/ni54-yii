@@ -284,16 +284,17 @@ $project= Project::model()->findAll($Criteria);
 		Diseño Gráfico, Ilustración, 3D, Desarrollo Web y APP.</p>
 	</div>
 
+	<img class="hidden-xs" style="max-width:100vw;" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/suelo.png" alt="">
+
+
 </div>
-
-
 
 </section>
 
 
 
+<img style="max-width:100vw;" class="hidden-lg hidden-md hidden-sm"src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/suelo.png" alt="">
 
-<img style="max-width:100vw;" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/suelo.png" alt="">
 
 </body>
 
@@ -301,7 +302,7 @@ $project= Project::model()->findAll($Criteria);
 
 	<script type="text/javascript" src="<?php echo Yii::app()->getBaseUrl(true); ?>/js/fugaz.js "></script>
 
-<!-- <script type="text/javascript" src="js/cohete.js"></script> -->
+<script type="text/javascript" src="js/cohete.js"></script>
 
 <script type="text/javascript">
 
