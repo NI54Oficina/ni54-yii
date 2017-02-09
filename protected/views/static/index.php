@@ -3,6 +3,8 @@
 $Criteria = new CDbCriteria();
 				// $Criteria->condition = "id_project = '".$data."'";
 $project= Project::model()->findAll($Criteria);
+$partners= Partners::model()->findAll($Criteria);
+$clientes= Clientes::model()->findAll($Criteria);
 
 ?>
 <!DOCTYPE HTML>
@@ -212,25 +214,30 @@ $project= Project::model()->findAll($Criteria);
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 clientes" >
 	<h3 id="title-section">YA NOS CONOCEN</h3>
 
-	<div class="logo-clientes general-container">
-		<img class="" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/barrick.png" alt="">
-		<img class="" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/bb.png" alt="">
-		<img class="" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/biomarin.png" alt="">
-		<img class="" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/bocafan.png" alt="">
-		<img class="" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/easy.png" alt="">
+	<?php $j=1;
+				for($i=0; $i<count($clientes)/5; $i++){
 
-		<!-- <img class="col-lg-1 col-md-1 col-sm-3 col-xs-3" src="img/cac.png" alt="">
-		<img class="col-lg-1 col-md-1 col-sm-3 col-xs-3" src="img/easy.png" alt=""> -->
-	</div>
+		 ?>
+
+			<div class="logo-clientes clientes-<?php echo $i ?> general-container">
+
+					<?php for($k=1; $k<6; $k++){  ?>
+							<img class="" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/c-<?php echo $j ?>.png" alt="">
+
+					<?php $j++;  } ?>
 
 
-	<div class="logo-clientes clientes-3 general-container">
+			</div>
+
+	<?php } ?>
+
+	<!-- <div class="logo-clientes clientes-3 general-container">
 		<img class="" src="img/tang.png" alt="">
 		<img class="" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/visa.png" alt="">
 		<img class="" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/ymad.png" alt="">
 		<img class="" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/zuko.png" alt="">
 				<img class="" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/mattel.png" alt="">
-	</div>
+	</div> -->
 
 
 	<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 dot-nav-slider">

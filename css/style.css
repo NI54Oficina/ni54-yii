@@ -324,6 +324,15 @@ ul{
 .clientes-3{
   display: none;
 }
+
+.logo-clientes{
+  display: none;
+}
+
+.logo-clientes:first-child{
+  display: block;
+}
+
 .about{
   padding:0;
   /*background-image: url(../img/fondo-2.png);*/
