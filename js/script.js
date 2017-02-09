@@ -5,7 +5,7 @@ $(window).on("load",function () {
 });
 
 $(window).resize(function(){
-		centerCircleLema();
+		// centerCircleLema();
 });
 
 $(document).on("ready",function(){
@@ -14,7 +14,7 @@ $(document).on("ready",function(){
 	slider();
 	SameHeight();
 	CenterToParent();
-	centerCircleLema();
+	// centerCircleLema();
 	scrollToSector();
 	FitBg();
   checkAnimationOne();

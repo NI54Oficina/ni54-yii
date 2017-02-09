@@ -148,7 +148,7 @@ $project= Project::model()->findAll($Criteria);
 
 			<?php foreach($project as $p){ ?>
 
-				<p id="<?php echo $p["id_project"]; ?>" class="nombre-proj" style="width:300px; position:absolute; left: 0;  right: 0; margin:auto"><?php echo $p["nombre"]; ?><br><span><?php echo $p["tipo"]; ?></span></p>
+				<p id="<?php echo $p["id_project"]; ?>" class="nombre-proj" style="width:300px; position:absolute; left: 0;  right: 0; margin:auto"><?php echo $p["tipo"]; ?><br><span><?php echo $p["nombre"]; ?></span></p>
 
 			<?php	} ?>
 
@@ -196,9 +196,9 @@ $project= Project::model()->findAll($Criteria);
 		<h3 id="title-section">PARTNERS</h3>
 
 		<div class="logo-clientes">
-			<img class="col-lg-1 col-md-2 col-sm-3 col-xs-3 col-lg-offset-5 col-md-offset-3" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/cac.png" alt="">
-			<img class="col-lg-1 col-md-2 col-sm-3 col-xs-3" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/uba.png" alt="">
-			<img class="col-lg-1 col-md-2 col-sm-3 col-xs-3" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/abuelas.png" alt="">
+			<img class="" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/cac.png" alt="">
+			<img class="" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/uba.png" alt="">
+			<img class="" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/abuelas.png" alt="">
 
 		</div>
 
@@ -213,11 +213,11 @@ $project= Project::model()->findAll($Criteria);
 	<h3 id="title-section">YA NOS CONOCEN</h3>
 
 	<div class="logo-clientes general-container">
-		<img class="col-lg-1 col-md-1 col-sm-3 col-xs-3 col-lg-offset-4 col-md-offset-4" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/barrick.png" alt="">
-		<img class="col-lg-1 col-md-1 col-sm-3 col-xs-3" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/bb.png" alt="">
-		<img class="col-lg-1 col-md-1 col-sm-3 col-xs-3" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/biomarin.png" alt="">
-		<img class="col-lg-1 col-md-1 col-sm-3 col-xs-3" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/bocafan.png" alt="">
-		<img class="col-lg-1 col-md-1 col-sm-3 col-xs-3" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/easy.png" alt="">
+		<img class="" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/barrick.png" alt="">
+		<img class="" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/bb.png" alt="">
+		<img class="" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/biomarin.png" alt="">
+		<img class="" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/bocafan.png" alt="">
+		<img class="" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/easy.png" alt="">
 
 		<!-- <img class="col-lg-1 col-md-1 col-sm-3 col-xs-3" src="img/cac.png" alt="">
 		<img class="col-lg-1 col-md-1 col-sm-3 col-xs-3" src="img/easy.png" alt=""> -->
@@ -225,11 +225,11 @@ $project= Project::model()->findAll($Criteria);
 
 
 	<div class="logo-clientes clientes-3 general-container">
-		<img class="col-lg-1 col-md-1 col-sm-3 col-xs-3 col-lg-offset-4 col-md-offset-4" src="img/tang.png" alt="">
-		<img class="col-lg-1 col-md-1 col-sm-3 col-xs-3" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/visa.png" alt="">
-		<img class="col-lg-1 col-md-1 col-sm-3 col-xs-3" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/ymad.png" alt="">
-		<img class="col-lg-1 col-md-1 col-sm-3 col-xs-3" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/zuko.png" alt="">
-				<img class="col-lg-1 col-md-1 col-sm-3 col-xs-3" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/mattel.png" alt="">
+		<img class="" src="img/tang.png" alt="">
+		<img class="" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/visa.png" alt="">
+		<img class="" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/ymad.png" alt="">
+		<img class="" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/zuko.png" alt="">
+				<img class="" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/mattel.png" alt="">
 	</div>
 
 
@@ -275,13 +275,17 @@ $project= Project::model()->findAll($Criteria);
 	</div>
 
 	<div id="about"class="col-lg-12 col-sm-12 col-md-12 col-xs-12 about-inner seccion">
-		<h3 id="dinamic-content">NitroInteractivo </h3>
 
-		<h1>LANZÁ</h1>
-		<h2>Tus ideas con nosotros</h2>
+		<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 center-to-parent">
+			<h3 id="dinamic-content">NitroInteractivo </h3>
 
-		<p>Somos un estudio creativo de comunicación. Fotografía, Cinematografía, <br>
-		Diseño Gráfico, Ilustración, 3D, Desarrollo Web y APP.</p>
+			<h1>LANZÁ</h1>
+			<h2>Tus ideas con nosotros</h2>
+
+			<p>Somos un estudio creativo de comunicación. Fotografía, Cinematografía, <br>
+			Diseño Gráfico, Ilustración, 3D, Desarrollo Web y APP.</p>
+		</div>
+
 	</div>
 
 	<img class="hidden-xs" style="max-width:100vw;" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/suelo.png" alt="">

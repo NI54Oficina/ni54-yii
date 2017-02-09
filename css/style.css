@@ -287,13 +287,20 @@ ul{
 /*CLIENTES*/
 
 .clientes{
+  padding-top: 30px;
   background-color: white;
 }
 
 .logo-clientes{
  padding: 5% 5%;
+ padding-top: 2%;
  text-align: center;
  width: auto;
+}
+
+.logo-clientes img{
+  width: 150px ;
+  padding: 10px;
 }
 
 .nav-dots .nav-dot {
@@ -367,7 +374,7 @@ ul{
 
 
 .planetas{
-  padding-top: 10%;
+  padding-top: 2%;
 }
 
 #canvasSky{
@@ -408,6 +415,9 @@ margin-top: 3em;
   text-align: center;
   padding: 2%;
   border: 3px solid white;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 
 .circle-lema p{

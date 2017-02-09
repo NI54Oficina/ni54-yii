@@ -43,22 +43,8 @@ Temporary Items
 .apdisk
 
 #others
-assets
-1080
-bower_components
-ckeditor
-cgi-bin
-yii
-vademecums
-video
-datatables
-fonts
-recursos-home
-themes
-templates
-runtime
+
 *.log
 *.log
-elmolino
-framework
+
 
