@@ -197,13 +197,15 @@ $clientes= Clientes::model()->findAll($Criteria);
 	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 partners clientes" >
 		<h3 id="title-section">PARTNERS</h3>
 
-		<div class="logo-clientes">
-			<img class="" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/cac.png" alt="">
-			<img class="" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/uba.png" alt="">
-			<img class="" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/abuelas.png" alt="">
+		<div class="logo-clientes clientes-0">
+					<?php foreach ($partners as $part) {?>
 
-		</div>
+								<img class="" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/p-<?php echo $part["id"] ?>.png" alt="">
 
+
+
+					<?php } ?>
+			</div>
 
 	</div>
 
@@ -231,13 +233,6 @@ $clientes= Clientes::model()->findAll($Criteria);
 
 	<?php } ?>
 
-	<!-- <div class="logo-clientes clientes-3 general-container">
-		<img class="" src="img/tang.png" alt="">
-		<img class="" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/visa.png" alt="">
-		<img class="" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/ymad.png" alt="">
-		<img class="" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/zuko.png" alt="">
-				<img class="" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/mattel.png" alt="">
-	</div> -->
 
 
 	<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 dot-nav-slider">

@@ -1,11 +1,11 @@
 $(window).on("load",function () {
 
 
-// centerCircleLema();
+	CenterToParent();
 });
 
 $(window).resize(function(){
-		// centerCircleLema();
+			CenterToParent();
 });
 
 $(document).on("ready",function(){
@@ -13,11 +13,14 @@ $(document).on("ready",function(){
 	tipear();
 	slider();
 	SameHeight();
-	CenterToParent();
+
 	// centerCircleLema();
 	scrollToSector();
 	FitBg();
   checkAnimationOne();
+	CenterToParent();
+
+	scrollUp();
 
 });
 
@@ -158,6 +161,19 @@ function scrollToSector(){
 	});
 }
 
+function scrollUp(){
+	$("#go-up").click(function() {
+
+		var toGo=$(this).attr('name');
+
+		var aTag = $(toGo);
+
+		$('html,body').animate({scrollTop: aTag.offset().top},'slow');
+
+	});
+}
+
+
 function tipear(){
  $(function(){
      $("#dinamic-content").typed({
@@ -166,6 +182,9 @@ function tipear(){
      });
  });
 }
+
+
+
 
 function FitBg(){
 

@@ -167,6 +167,7 @@ ul{
 #portfolio{
 
   margin-bottom: 2em;
+  padding-top: 15em;
 }
 
 #title-web{
@@ -215,6 +216,7 @@ ul{
   border: 1px solid #00d6bd;
   height: 150px;
   margin-top: 2em;
+  background: rgba(00,00,00,.3);
 }
 
 #formulario input::-webkit-input-placeholder, #formulario textarea::-webkit-input-placeholder{
@@ -228,7 +230,8 @@ ul{
 }
 
 .iconos-container{
-  padding:3em 15em;
+  padding:1em 30em;
+
 }
 
 .iconos{
@@ -329,7 +332,7 @@ ul{
   display: none;
 }
 
-.logo-clientes:first-child{
+.clientes-0{
   display: block;
 }
 
@@ -461,7 +464,7 @@ margin-top: 3em;
 	background-image: url("../img/linea_amarilla.svg");
 	background-position: 0px 0px;
 	background-repeat: repeat-x;
-	animation: animatedBackground .31s linear infinite;
+	animation: animatedBackground .40s linear infinite;
   margin: 30px auto;
 
 }
@@ -765,7 +768,7 @@ cursor:pointer;
   max-width: 80%;
   width: auto;
   margin: 0 auto;
-
+  max-height: 90vh;
   position: absolute;
   /*bottom: 10em;*/
   left: 0;
@@ -788,6 +791,21 @@ cursor:pointer;
 
 #go-back:hover{
   animation: buttonBackHover .4s linear;
+}
+
+#go-up{
+  position: fixed;
+  bottom:0;
+  right: 0;
+  padding-right: 60px;
+  padding-bottom: 60px;
+  width: 7em;
+  opacity: .5;
+}
+
+#go-up:hover{
+  opacity: 1;
+  cursor: pointer;
 }
 
 /*ANIMATION*/

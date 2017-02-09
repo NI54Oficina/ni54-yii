@@ -124,6 +124,8 @@ $pantalla= Pantalla::model()->findAll($Criteria);
 <?php
     }?>
 
+		<img id="go-up" name="#descripcion" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/cohete.svg" alt="">
+
   </body>
 
 </html>
