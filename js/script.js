@@ -80,8 +80,14 @@ var currentIndex = 0,
 function cycleItems() {
 
   var item = $('.general-container').eq(currentIndex);
-  items.hide();
+
+  // items.hide();
+	items.animate({left: '-1000px', opacity:"0"});
   item.fadeIn("slow");
+ console.log("entraaaaaaaa sahalaal");
+
+
+
 }
 
 
@@ -126,6 +132,14 @@ $('.nav-dot').click(function() {
 	$(".general-container").hide();
 	$('.general-container').eq(dotIndex).fadeIn("slow");
 
+	// $(".general-container").animate({left: '-1000px', opacity:"0"});
+	// $(".general-container").hide();
+	// $('.general-container').eq(dotIndex).animate({left: '1000px', position:"absolute"});
+	// $('.general-container').eq(dotIndex).fadeIn("slow");
+	// $('.general-container').eq(dotIndex).animate({left: '0px', opacity:'1', position:"absolute"});
+	//
+
+
 	currentIndex = dotIndex;
 	$(".nav-dots").each(function(){
 		$(this).find(".nav-dot").css("background-color", "#c6c6c6");
@@ -135,6 +149,32 @@ $('.nav-dot').click(function() {
 
 
 }
+
+
+function sliderAnim(){
+
+    $('.js--triggerAnimation').click(function(e){
+      e.preventDefault();
+      var anim = $('.js--animations').val();
+      testAnim(anim);
+    });
+
+    $('.js--animations').change(function(){
+      var anim = $(this).val();
+      testAnim(anim);
+    });
+
+
+
+}
+
+function testAnim(x) {
+
+	$('#animationSandbox').removeClass().addClass(x + ' animated').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+		$(this).removeClass();
+	});
+
+};
 
 
 function centerCircleLema(){
