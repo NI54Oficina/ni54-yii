@@ -49,11 +49,11 @@ $clientes= Clientes::model()->findAll($Criteria);
 
 
 <body  id="index">
-	<canvas id="canvasFugaz" style=" position:absolute;height: 335vh; width:100%; z-index:-2"></canvas>
+	<canvas id="canvasFugaz" style=" position:fixed;height:100vh; 100vw; z-index:-2"></canvas>
 
 	<canvas id="canvas"style=""></canvas>
 
-	<div id="canvasNave" class="canvasNave" style="position:absolute; top:0; left:0; width:100%; height:100%">
+	<div id="canvasNave" class="canvasNave" style="position:absolute; top:0; left:0; width:100%; height:auto">
 
 	</div>
 
@@ -88,7 +88,7 @@ $clientes= Clientes::model()->findAll($Criteria);
 		<input type="text" name="correo" value="" placeholder="Correo"><br>
 		<textarea name="mensaje" placeholder="Escriba su consulta o pedido de presupuesto"></textarea><br>
 
-			<button id="enviar" type="button" name="button">Enviar</button>
+		<button id="enviar" type="button" name="button">Enviar</button>
 	</form>
 
 
@@ -167,7 +167,7 @@ $clientes= Clientes::model()->findAll($Criteria);
 				</div>
 
 
-				<div  class="next-label"  style="position:fixed; display:block; z-index:5"> <p>Proximo  <br><?php foreach($project as $p){ ?><span class="right-remain"><?php echo $p["nombre"]; ?></span><?php	} ?></p> </div>
+				<div  class="next-label"  style="position:fixed; display:block; "> <p>Proximo  <br><?php foreach($project as $p){ ?><span class="right-remain"><?php echo $p["nombre"]; ?></span><?php	} ?></p> </div>
 
 			</div>
 
@@ -276,7 +276,17 @@ $clientes= Clientes::model()->findAll($Criteria);
 
 	</div>
 
-	<div id="about"class="col-lg-12 col-sm-12 col-md-12 col-xs-12 about-inner seccion">
+
+
+	<!-- <img class="hidden-xs" style="max-width:100vw;" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/suelo.png" alt=""> -->
+
+
+</div>
+
+</section>
+
+<section class="col-lg-12 col-sm-12 col-md-12 col-xs-12" style="text-align:center; height:100vh;">
+	<div id="about"class="col-lg-12 col-sm-12 col-md-12 col-xs-12 about-inner">
 
 		<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 center-to-parent">
 			<h3 id="dinamic-content">NitroInteractivo </h3>
@@ -290,16 +300,12 @@ $clientes= Clientes::model()->findAll($Criteria);
 
 	</div>
 
-	<img class="hidden-xs" style="max-width:100vw;" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/suelo.png" alt="">
-
-
-</div>
-
+	<img style="max-width:100vw; position:absolute; bottom:0; left:0" class=""src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/suelo.png" alt="">
 </section>
 
 
 
-<img style="max-width:100vw;" class="hidden-lg hidden-md hidden-sm"src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/suelo.png" alt="">
+
 
 
 </body>

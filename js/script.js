@@ -13,11 +13,13 @@ $(document).on("ready",function(){
 	tipear();
 	slider();
 	SameHeight();
-
 	// centerCircleLema();
 	scrollToSector();
 	FitBg();
-  checkAnimationOne();
+	// $('#fraseFlotante')
+
+	// animate-frase-flotante
+  checkAnimationOne('fraseFlotante', 'animate-frase-flotante');
 	CenterToParent();
 
 	scrollUp();
@@ -250,21 +252,28 @@ function isElementInViewport(elem) {
 }
 
 
-function checkAnimationOne() {
+function checkAnimationOne(idObject, classAnimation) {
 
+// $('#fraseFlotante')
 
-    var $elem = $('#fraseFlotante');
+// animate-frase-flotante
+    var $elem = $('#'+idObject);
+
+		console.log($elem);
 
 		if($elem.height()==null)return;
 
 
-    if ($elem.hasClass('animate-frase-flotante')) return;
+    if ($elem.hasClass(classAnimation)) return;
 
     if (isElementInViewport($elem)) {
 
-			console.log("en viewport");
 
-        $elem.addClass('animate-frase-flotante');
+
+        $elem.addClass(classAnimation);
+
+				console.log("en viewport");
+
     }
 }
 
