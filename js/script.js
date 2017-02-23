@@ -8,6 +8,11 @@ $(window).resize(function(){
 			CenterToParent();
 });
 
+$( document).scroll(function() {
+	checkAnimation('fraseFlotante', 'animate-frase-flotante');
+	checkAnimation('main-logo', 'animate-imagen-principal');
+});
+
 $(document).on("ready",function(){
 
 	tipear();
@@ -16,11 +21,8 @@ $(document).on("ready",function(){
 	// centerCircleLema();
 	scrollToSector();
 	FitBg();
-	// $('#fraseFlotante')
 
-	// animate-frase-flotante
-  checkAnimation('fraseFlotante', 'animate-frase-flotante');
-	checkAnimation('main-logo', 'animate-imagen-principal');
+
 	CenterToParent();
 
 	scrollUp();
@@ -87,7 +89,7 @@ function cycleItems() {
   // items.hide();
 	items.animate({left: '-1000px', opacity:"0"});
   item.fadeIn("slow");
- console.log("entraaaaaaaa sahalaal");
+
 
 
 
@@ -186,7 +188,7 @@ function centerCircleLema(){
 
 	var pos = container/2 - circle/2;
 
-	console.log(pos);
+
 
 	$('.circle-container').css('padding-left', pos+'px');
 
@@ -231,8 +233,8 @@ function tipear(){
 
 function FitBg(){
 
- 	var dd=$(document).height();	console.log($(document).height());
-		console.log($(window).height());
+ 	var dd=$(document).height();
+
 
 		$('#canvasFugaz').css('height',dd+'px');
 }
@@ -254,18 +256,16 @@ function isElementInViewport(elem) {
 
 
 function checkAnimation(idObject, classAnimation) {
+ console.log("testniggg");
 
-// $('#fraseFlotante')
-
-// animate-frase-flotante
     var $elem = $('#'+idObject);
 
-		console.log($elem);
+
 
 		if($elem.height()==null)return;
 
 
-    if ($elem.hasClass(classAnimation)) return;
+    if ($elem.hasClass(classAnimation)){$elem.removeClass(classAnimation); return;}
 
     if (isElementInViewport($elem)) {
 
@@ -276,6 +276,8 @@ function checkAnimation(idObject, classAnimation) {
 				console.log("en viewport");
 
     }
+
+		// checkAnimation(idObject, classAnimation);
 }
 
 

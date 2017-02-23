@@ -3,7 +3,7 @@ var height=$(document).height();
 
 var heightScreen=$(window).height();
 
-console.log(width); console.log(height);console.log(heightScreen);
+// console.log(width); console.log(height);console.log(heightScreen);
 
 var game = new Phaser.Game(width, height, Phaser.AUTO, 'canvasNave', { preload: preload, create: create }, true);
 
@@ -75,7 +75,7 @@ function create() {
 
 
 
-		console.log(posY);
+		// console.log(posY);
 
 		if(i>= animations.length){
 			i=0;
@@ -86,8 +86,7 @@ function create() {
 			if(posX!=100){
 				tweenNaveToTop =game.add.tween(nave).to( {angle:45},500, "Linear");
 			}else{
-				tweenNaveToTop =game.add.tween(nave).to( {angle:45},500, "Linear");
-				console.log("entra");
+
 			}
 
 
@@ -113,7 +112,7 @@ function create() {
 			tweenNaveAlpha=game.add.tween(nave).to( {alpha:1},500, "Linear");
 
 
-			console.log(game.input.mouse.wheelDelta);
+			// console.log(game.input.mouse.wheelDelta);
 
 			tweenNave.start();
 			tweenNaveAlpha.start();
