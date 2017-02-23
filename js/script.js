@@ -19,7 +19,8 @@ $(document).on("ready",function(){
 	// $('#fraseFlotante')
 
 	// animate-frase-flotante
-  checkAnimationOne('fraseFlotante', 'animate-frase-flotante');
+  checkAnimation('fraseFlotante', 'animate-frase-flotante');
+	checkAnimation('main-logo', 'animate-imagen-principal');
 	CenterToParent();
 
 	scrollUp();
@@ -252,7 +253,7 @@ function isElementInViewport(elem) {
 }
 
 
-function checkAnimationOne(idObject, classAnimation) {
+function checkAnimation(idObject, classAnimation) {
 
 // $('#fraseFlotante')
 

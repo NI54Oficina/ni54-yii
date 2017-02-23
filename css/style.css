@@ -554,6 +554,10 @@ margin-top: 3em;
   /*animation-fill-mode:forwards;*/
 }
 
+.animate-imagen-principal{
+  animation-name: animate-imagen-principal;
+  animation-duration: 3s;
+}
 
 .separador-inner{
   position: absolute;
@@ -853,6 +857,11 @@ cursor:pointer;
 @keyframes animate-frase-flotante{
   0%{ margin-top: 0px;}
   100%{  margin-top: -200px;}
+}
+
+@keyframes animate-imagen-principal{
+  0%{ visibility: hidden;}
+  100%{  visibility: visible;}
 }
 
 @-webkit-keyframes buttonBackHover{
