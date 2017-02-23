@@ -167,9 +167,14 @@ $clientes= Clientes::model()->findAll($Criteria);
 				</div>
 
 
-				<div  class="next-label"  style="position:fixed; display:block; "> <p>Proximo  <br><?php foreach($project as $p){ ?><span class="right-remain"><?php echo $p["nombre"]; ?></span><?php	} ?></p> </div>
+
 
 			</div>
+
+			<!-- <div id="test-next-label" class="position:absolute; right:0; height:500pz;">
+				<div  class="next-label"  style="position:fixed; display:block; "> <p>Proximo  <br><?php foreach($project as $p){ ?><span class="right-remain"><?php echo $p["nombre"]; ?></span><?php	} ?></p> </div>
+
+			</div> -->
 
 
 			<!-- <div class="arrow-bolita" direction=1>></div> -->
