@@ -256,7 +256,7 @@ function isElementInViewport(elem) {
 
 
 function checkAnimation(idObject, classAnimation) {
- console.log("testniggg");
+
 
     var $elem = $('#'+idObject);
 
@@ -273,7 +273,7 @@ function checkAnimation(idObject, classAnimation) {
 
         $elem.addClass(classAnimation);
 
-				console.log("en viewport");
+
 
     }
 

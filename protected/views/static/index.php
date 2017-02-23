@@ -354,7 +354,7 @@ itemsRight.eq(indexR).css("display", "block");
 
 var frameWidth= $("#bolitaMessure .b-carousel img").width();
 var length=$("#bolitaMessure .b-carousel img").length;
-console.log(frameWidth*length);
+
 var displayWidth=frameWidth*length;
 $(".b-carousel").css("width",displayWidth+"px");
 
