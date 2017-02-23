@@ -243,7 +243,6 @@ function FitBg(){
 function isElementInViewport(elem) {
     var $elem = $(elem);
 
-
     var scrollElem = ((navigator.userAgent.toLowerCase().indexOf('webkit') != -1) ? 'body' : 'html');
     var viewportTop = $(scrollElem).scrollTop();
     var viewportBottom = viewportTop + $(window).height();
@@ -277,7 +276,6 @@ function checkAnimation(idObject, classAnimation) {
 
     }
 
-		// checkAnimation(idObject, classAnimation);
 }
 
 
