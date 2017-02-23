@@ -265,7 +265,7 @@ function checkAnimation(idObject, classAnimation) {
 		if($elem.height()==null)return;
 
 
-    if ($elem.hasClass(classAnimation)){$elem.removeClass(classAnimation); return;}
+    if ($elem.hasClass(classAnimation))return;
 
     if (isElementInViewport($elem)) {
 
