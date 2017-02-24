@@ -242,13 +242,25 @@ $clientes= Clientes::model()->findAll($Criteria);
 
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 clientes" >
 	<h3 id="title-section">YA NOS CONOCEN</h3>
+	<!--  -->
+<!--
+	<div id="carousel">
+		<div class="btn-bar">
+			<div id="buttons"><a id="prev" href="#"><</a><a id="next" href="#">></a> </div>
+		</div>
+		<div id="slides">
+			<ul> -->
+
+				<!--  -->
 
 	<?php $j=1;
 				for($i=0; $i<count($clientes)/5; $i++){
 
 		 ?>
+		 <!-- <li class="slide logo-clientes clientes-<?php echo $i ?>"  hid="2"> -->
 
-			<div class="logo-clientes clientes-<?php echo $i ?> general-container">
+
+			<div class="logo-clientes clientes-<?php echo $i ?> general-container" hid="2">
 
 					<?php for($k=1; $k<6; $k++){  ?>
 							<img class="" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/c-<?php echo $j ?>.png" alt="">
@@ -258,7 +270,54 @@ $clientes= Clientes::model()->findAll($Criteria);
 
 			</div>
 
+			<!-- </li> -->
+
+
+
 	<?php } ?>
+
+
+	<!--  -->
+
+<!-- </ul>
+</div>
+</div> -->
+
+<!--  -->
+
+	<!-- <div id="carousel">
+	  <div class="btn-bar">
+	    <div id="buttons"><a id="prev" href="#"><</a><a id="next" href="#">></a> </div>
+	  </div>
+	  <div id="slides">
+	    <ul>
+	      <li class="slide">
+	            <div class="">
+	              <p>asdasda</p>
+	              <p>sadjnaskdnaksd</p>
+	            </div>
+	      </li>
+	      <li class="slide">
+	        <div class="quoteContainer">
+	          <p class="quote-phrase"><span class="quote-marks">"</span> I could not stop staring! Company A's Web Solutions are by far the most elegant solutions, you can't beat their quality and attention to detail! <span class="quote-marks">"</span> </p>
+	        </div>
+	        <div class="authorContainer">
+	          <p class="quote-author">Andy Fakename // CEO: Andy's Camping Supplies</p>
+	        </div>
+	      </li>
+	      <li class="slide">
+	        <div class="quoteContainer">
+	          <p class="quote-phrase"><span class="quote-marks">"</span>Carl Fakeguy, was the most helpful designer I've ever hired. He listened to my ideas and advised against things that could negatively affect my CEO. Company A is by far the most generous and helpful company, 5/5!<span class="quote-marks">"</span> </p>
+	        </div>
+	        <div class="authorContainer">
+	          <p class="quote-author">Janice Falsename</p>
+	        </div>
+	      </li>
+	    </ul>
+	  </div>
+	</div> -->
+
+	<!--  -->
 
 
 
@@ -455,6 +514,114 @@ $(".b-carousel").on('transitionend webkitTransitionEnd oTransitionEnd otransitio
          bTransition=false;
     });
 </script>
+
+
+<script>
+
+
+$(document).ready(function () {
+    //rotation speed and timer
+    var speed = 5000;
+
+    var run = setInterval(rotate, speed);
+    var slides = $('.slide');
+    var container = $('#slides ul');
+    var elm = container.find(':first-child').prop("tagName");
+    var item_width = container.width();
+    var previous = 'prev'; //id of previous button
+    var next = 'next'; //id of next button
+    slides.width(item_width); //set the slides to the correct pixel width
+    container.parent().width(item_width);
+    container.width(slides.length * item_width); //set the slides container to the correct total width
+    container.find(elm + ':first').before(container.find(elm + ':last'));
+    resetSlides();
+
+
+
+    $('#buttons a').click(function (e) {
+        //slide the item
+
+        if (container.is(':animated')) {
+            return false;
+        }
+        if (e.target.id == previous) {
+            container.stop().animate({
+                'left': 0
+            }, 1500, function () {
+                container.find(elm + ':first').before(container.find(elm + ':last'));
+                resetSlides();
+            });
+        }
+
+        if (e.target.id == next) {
+            container.stop().animate({
+                'left': item_width * -2
+            }, 1500, function () {
+                container.find(elm + ':last').after(container.find(elm + ':first'));
+                resetSlides();
+            });
+        }
+
+        //cancel the link behavior
+        return false;
+
+    });
+
+    //if mouse hover, pause the auto rotation, otherwise rotate it
+    container.parent().mouseenter(function () {
+        clearInterval(run);
+    }).mouseleave(function () {
+        run = setInterval(rotate, speed);
+    });
+
+
+    function resetSlides() {
+        //and adjust the container so current is in the frame
+        container.css({
+            'left': -1 * item_width
+        });
+    }
+
+});
+//a simple function to click next link
+//a timer will call this function, and the rotation will begin
+
+function rotate() {
+    $('#next').click();
+}
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
