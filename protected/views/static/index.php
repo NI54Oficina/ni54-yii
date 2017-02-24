@@ -327,6 +327,13 @@ $clientes= Clientes::model()->findAll($Criteria);
 
 	</div>
 
+	<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 zona-nubes">
+			<img class="animate-nubes" id="nube-1" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/nube-01.svg" alt="">
+			<img class="animate-nubes" id="nube-2" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/nube-03.svg" alt="">
+			<img class="animate-nubes" id="nube-3" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/nube-02.svg" alt="">
+
+	</div>
+
 	<img style="max-width:100vw; position:absolute; bottom:0; left:0" class=""src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/suelo.png" alt="">
 </section>
 

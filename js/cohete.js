@@ -12,6 +12,7 @@ function preload() {
 		game.physics.startSystem(Phaser.Physics.ARCADE);
 		game.load.image('nave', 'img/cohete.svg', 300, 300);
 		game.load.image('logo', 'img/cohete_blanco.svg', 300, 300);
+		// game.load.image('nube', 'img/cohete_blanco.svg', 300, 300);
 
 }
 
