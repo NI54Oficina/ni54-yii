@@ -638,13 +638,25 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMA
 }
 
 
-.prev-label, .next-label{
+/*.prev-label, .next-label{
+  display: none;
+}*/
+
+.next-label, .prev-label{
   display: none;
 }
 
+#test-next-label:hover .next-label{
+  display: block !important;
+}
+
+#test-prev-label:hover .prev-label{
+  display: block !important;
+}
+/*
 #next-port:hover .next-label, #prev-port:hover .prev-label{
   display:block;
-}
+}*/
 
 #next-link:hover, #prev-link:hover{
   cursor: none;

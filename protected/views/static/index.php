@@ -109,7 +109,16 @@ $clientes= Clientes::model()->findAll($Criteria);
 
 	<h3 id="title-section">ESTACION PORTFOLIO</h3>
 
+	<style>
+
+
+
+
+	</style>
+
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 slider-porfolio">
+
+
 
 
 			<!-- <div class="arrow-bolita" direction=-1><</div> -->
@@ -128,7 +137,6 @@ $clientes= Clientes::model()->findAll($Criteria);
 
 				</div>
 
-				<div  class="prev-label"style="position:fixed; display:block; z-index:5"> <p>Anterior  <br><?php foreach($project as $p){ ?><span class="left-remain"><?php echo $p["nombre"]; ?></span><?php	} ?></p> </div>
 
 
 			</div>
@@ -169,12 +177,12 @@ $clientes= Clientes::model()->findAll($Criteria);
 
 
 
+
 			</div>
 
-			<!-- <div id="test-next-label" class="position:absolute; right:0; height:500pz;">
-				<div  class="next-label"  style="position:fixed; display:block; "> <p>Proximo  <br><?php foreach($project as $p){ ?><span class="right-remain"><?php echo $p["nombre"]; ?></span><?php	} ?></p> </div>
 
-			</div> -->
+
+
 
 
 			<!-- <div class="arrow-bolita" direction=1>></div> -->
@@ -186,6 +194,20 @@ $clientes= Clientes::model()->findAll($Criteria);
 		<div class=" hidden-lg hidden-sm hidden-md">
 			<p class="arrow-bolita" direction=-1 style=" position:absolute; left:4em; bottom:4em; " ><span class="arrow-bolita glyphicon glyphicon-menu-left"   aria-hidden="true" style="font-size:3em; color: white;color:#00d6bd"></span></p>
 			<p class="arrow-bolita" direction=1 style=" position:absolute; right:4em; bottom:4em; " ><span class="glyphicon glyphicon-menu-right"   aria-hidden="true" style="font-size:3em; color: white;color:#00d6bd" ></span></p>
+
+		</div>
+
+
+
+		<div id="test-prev-label" class="arrow-bolita" direction=-1 style="position:absolute; left:0; height:400px;width:35vw; z-index:5">
+
+			<div  class="prev-label label-test"style="position:fixed;"> <p>Anterior  <br><?php foreach($project as $p){ ?><span class="left-remain"><?php echo $p["nombre"]; ?></span><?php	} ?></p> </div>
+
+		</div>
+
+		<div id="test-next-label" class="arrow-bolita" direction=1 style="position:absolute; right:0; height:400px; width:35vw;z-index:5">
+
+			<div  class="next-label label-test"  style="position:fixed; z-index:5"> <p>Proximo  <br><?php foreach($project as $p){ ?><span class="right-remain"><?php echo $p["nombre"]; ?></span><?php	} ?></p> </div>
 
 		</div>
 
