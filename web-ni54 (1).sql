@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 03-02-2017 a las 13:36:23
+-- Tiempo de generación: 09-03-2017 a las 17:22:21
 -- Versión del servidor: 5.6.24
 -- Versión de PHP: 5.6.8
 
@@ -19,6 +19,33 @@ SET time_zone = "+00:00";
 --
 -- Base de datos: `web-ni54`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `tbl_clientes`
+--
+
+CREATE TABLE IF NOT EXISTS `tbl_clientes` (
+  `id` int(255) NOT NULL,
+  `img` varchar(255) NOT NULL
+) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=latin1;
+
+--
+-- Volcado de datos para la tabla `tbl_clientes`
+--
+
+INSERT INTO `tbl_clientes` (`id`, `img`) VALUES
+(1, 'Barrick'),
+(2, 'Biogénesis Bagó'),
+(3, 'Biomarin'),
+(4, 'BocaFan'),
+(5, 'Easy'),
+(6, 'Tang'),
+(7, 'Visa'),
+(8, 'Ymad'),
+(9, 'Zuko'),
+(10, 'Mattel');
 
 -- --------------------------------------------------------
 
@@ -133,6 +160,26 @@ INSERT INTO `tbl_pantalla` (`id_pantalla`, `id_project`, `modalidad`, `img`, `tr
 -- --------------------------------------------------------
 
 --
+-- Estructura de tabla para la tabla `tbl_partners`
+--
+
+CREATE TABLE IF NOT EXISTS `tbl_partners` (
+  `id` int(255) NOT NULL,
+  `img` varchar(255) NOT NULL
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
+
+--
+-- Volcado de datos para la tabla `tbl_partners`
+--
+
+INSERT INTO `tbl_partners` (`id`, `img`) VALUES
+(1, 'Cac'),
+(2, 'Uba'),
+(3, 'Abuelas');
+
+-- --------------------------------------------------------
+
+--
 -- Estructura de tabla para la tabla `tbl_project`
 --
 
@@ -221,6 +268,12 @@ INSERT INTO `tbl_user` (`id`, `username`, `password`, `email`) VALUES
 --
 
 --
+-- Indices de la tabla `tbl_clientes`
+--
+ALTER TABLE `tbl_clientes`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indices de la tabla `tbl_img_pantalla`
 --
 ALTER TABLE `tbl_img_pantalla`
@@ -231,6 +284,12 @@ ALTER TABLE `tbl_img_pantalla`
 --
 ALTER TABLE `tbl_pantalla`
   ADD PRIMARY KEY (`id_pantalla`);
+
+--
+-- Indices de la tabla `tbl_partners`
+--
+ALTER TABLE `tbl_partners`
+  ADD PRIMARY KEY (`id`);
 
 --
 -- Indices de la tabla `tbl_project`
@@ -249,6 +308,11 @@ ALTER TABLE `tbl_user`
 --
 
 --
+-- AUTO_INCREMENT de la tabla `tbl_clientes`
+--
+ALTER TABLE `tbl_clientes`
+  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=11;
+--
 -- AUTO_INCREMENT de la tabla `tbl_img_pantalla`
 --
 ALTER TABLE `tbl_img_pantalla`
@@ -258,6 +322,11 @@ ALTER TABLE `tbl_img_pantalla`
 --
 ALTER TABLE `tbl_pantalla`
   MODIFY `id_pantalla` int(255) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=31;
+--
+-- AUTO_INCREMENT de la tabla `tbl_partners`
+--
+ALTER TABLE `tbl_partners`
+  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=4;
 --
 -- AUTO_INCREMENT de la tabla `tbl_project`
 --
