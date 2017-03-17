@@ -158,7 +158,7 @@ $clientes= Clientes::model()->findAll($Criteria);
 
 			<?php foreach($project as $p){ ?>
 
-				<p id="<?php echo $p["id_project"]; ?>" class="nombre-proj" style="width:300px; position:absolute; left: 0;  right: 0; margin:auto"><?php echo $p["tipo"]; ?><br><span><?php echo $p["nombre"]; ?></span></p>
+				<p id="<?php echo $p["id_project"]; ?>" class="nombre-proj" style="width:300px; position:absolute; left: 0;  right: 0; margin:auto"><span><?php echo $p["nombre"]; ?></span> <br>	<?php echo $p["tipo"]; ?></p>
 
 			<?php	} ?>
 
@@ -254,15 +254,15 @@ $clientes= Clientes::model()->findAll($Criteria);
 				<!--  -->
 
 	<?php $j=1;
-				for($i=0; $i<count($clientes)/5; $i++){
+				for($i=0; $i<count($clientes)/10; $i++){
 
 		 ?>
 		 <!-- <li class="slide logo-clientes clientes-<?php echo $i ?>"  hid="2"> -->
 
 
-			<div class="logo-clientes clientes-<?php echo $i ?> general-container" hid="2">
+			<div class="logo-clientes clientes-<?php echo $i ?> general-container" >
 
-					<?php for($k=1; $k<6; $k++){  ?>
+					<?php for($k=1; $k<11; $k++){  ?>
 							<img class="" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/c-<?php echo $j ?>.png" alt="">
 
 					<?php $j++;  } ?>
@@ -321,17 +321,17 @@ $clientes= Clientes::model()->findAll($Criteria);
 
 
 
-	<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 dot-nav-slider">
+	<!-- <div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 dot-nav-slider">
 	<ul>
 		<li class="nav-dots">
 
 				<label for="1" class="nav-dot" ></label>
 				<label for="2" class="nav-dot" ></label>
-				<!-- <label for="3" class="nav-dot" ></label> -->
+
 
 		</li>
 </ul>
-</div>
+</div> -->
 
 </div>
 
@@ -373,6 +373,13 @@ $clientes= Clientes::model()->findAll($Criteria);
 
 <section id="testing" class="col-lg-12 col-sm-12 col-md-12 col-xs-12" style="text-align:center; height:100vh">
 
+	<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 zona-nubes">
+			<img class="animate-nubes" id="nube-1" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/nube-01.svg" alt="">
+			<img class="animate-nubes" id="nube-2" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/nube-03.svg" alt="">
+			<img class="animate-nubes" id="nube-3" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/nube-02.svg" alt="">
+
+	</div>
+
 	<div id="about"class="col-lg-12 col-sm-12 col-md-12 col-xs-12 about-inner">
 
 		<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 center-to-parent">
@@ -387,12 +394,7 @@ $clientes= Clientes::model()->findAll($Criteria);
 
 	</div>
 
-	<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 zona-nubes">
-			<img class="animate-nubes" id="nube-1" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/nube-01.svg" alt="">
-			<img class="animate-nubes" id="nube-2" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/nube-03.svg" alt="">
-			<img class="animate-nubes" id="nube-3" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/nube-02.svg" alt="">
 
-	</div>
 
 	<img style="max-width:100vw; position:absolute; bottom:0; left:0" class=""src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/suelo.png" alt="">
 </section>
