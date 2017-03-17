@@ -64,6 +64,7 @@ body{
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#332958', endColorstr='#7268b7',GradientType=0 );
   */
    background: radial-gradient(circle,  #4c407d 8%,#3c2d63,#3b2b5e,   #312453,    #332554,#02011e 90%);
+
   /*background-image: url('../img/fondo_prueba.jpg');*/
   background-size: 100% auto;
   /*overflow: hidden;*/
@@ -1028,4 +1029,8 @@ a#next:hover {
 .authorContainer {
   display: table;
   width: 100%;
+}
+
+#testing{
+  background: radial-gradient(at 50% bottom,white,#362859,transparent);
 }

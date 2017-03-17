@@ -371,7 +371,8 @@ $clientes= Clientes::model()->findAll($Criteria);
 
 </section>
 
-<section class="col-lg-12 col-sm-12 col-md-12 col-xs-12" style="text-align:center; height:100vh;">
+<section id="testing" class="col-lg-12 col-sm-12 col-md-12 col-xs-12" style="text-align:center; height:100vh">
+
 	<div id="about"class="col-lg-12 col-sm-12 col-md-12 col-xs-12 about-inner">
 
 		<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 center-to-parent">
