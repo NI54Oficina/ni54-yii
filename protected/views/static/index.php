@@ -53,7 +53,7 @@ $clientes= Clientes::model()->findAll($Criteria);
 
 	<canvas id="canvas"style=""></canvas>
 
-	<div id="canvasNave" class="canvasNave" style="position:absolute; top:0; left:0; width:100%; height:auto">
+	<div id="canvasNave" class="canvasNave" style="position:absolute; top:0; left:0; width:100vw">
 
 	</div>
 

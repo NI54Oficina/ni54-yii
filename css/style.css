@@ -254,6 +254,7 @@ ul{
 #title-section{
   color: #00d6bd;
   font-family: 'aleobold';
+  margin-top: 0;
 }
   /*
   .clip-ellipse {
@@ -297,8 +298,7 @@ ul{
 }
 
 .logo-clientes{
- padding: 5% 5%;
- padding-top: 2%;
+ padding:10px;
  text-align: center;
  width: auto;
 }
@@ -373,10 +373,10 @@ ul{
 }
 
 .about-inner{
-  margin:5% auto;
+
   position: absolute;
   bottom: 0;
-  padding-bottom: 5em;
+  padding-bottom: 10em;
 
 }
 
@@ -553,8 +553,8 @@ margin-top: 3em;
 
 .animate-frase-flotante{
   animation-name: animate-frase-flotante;
-  animation-duration: 3s
-  /*animation-fill-mode:forwards;*/
+  animation-duration: 3s;
+  animation-fill-mode:forwards;
 }
 
 .animate-imagen-principal{
@@ -574,7 +574,7 @@ margin-top: 3em;
 }
 
 .separador{
-  margin: 20px auto;
+  margin: 20px auto 0 auto;
 }
 
 /*PROJECT.PHP*/
@@ -843,13 +843,14 @@ cursor:pointer;
 .zona-nubes #nube-1{
   left: 0;
   padding-left: 3em;
-  padding-top: 7em;
+  padding-top: 40em;
 }
 
 .zona-nubes #nube-2{
   left: 0;
   right: 0;
   padding-left: 3em;
+  padding-top: 20em;
   margin:auto;
 }
 
@@ -857,6 +858,7 @@ cursor:pointer;
   right: 0;
   padding-left: 3em;
   padding-right: 5em;
+  padding-top: 30em;
 }
 
 .animate-nubes{

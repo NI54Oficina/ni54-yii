@@ -94,6 +94,11 @@
     display: none;
   }
 
+  .animate-nubes {
+    animation:none;
+
+  }
+
   .circle-lema {
       height: 150px;
       width: 150px;
@@ -122,8 +127,18 @@
 
   .zona-nubes > img{
     position: absolute;
-    padding-top: 5em;
+    padding-top: 5em !important;
     width: 70%;
+  }
+
+  .zona-nubes > img:last-child{
+    padding-top: 0em !important;
+    width: 100%;
+  }
+
+  .zona-nubes > img:first-child{
+    padding-top: 10em !important;
+    width: 50%;
   }
 
 }

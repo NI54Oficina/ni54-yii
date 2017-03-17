@@ -19,7 +19,7 @@ function preload() {
 
 function create() {
 
-	posY=height-200;
+	posY=height;-200;
 	posX=this.game.width-200;
 
 	i=0;
