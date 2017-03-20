@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 09-03-2017 a las 17:22:21
+-- Tiempo de generación: 20-03-2017 a las 18:34:33
 -- Versión del servidor: 5.6.24
 -- Versión de PHP: 5.6.8
 
@@ -37,7 +37,7 @@ CREATE TABLE IF NOT EXISTS `tbl_clientes` (
 
 INSERT INTO `tbl_clientes` (`id`, `img`) VALUES
 (1, 'Barrick'),
-(2, 'Biogénesis Bagó'),
+(2, 'Biogénesis_Bagó'),
 (3, 'Biomarin'),
 (4, 'BocaFan'),
 (5, 'Easy'),

@@ -12,15 +12,15 @@
                 this.on("sending", function(file, xhr, formData){
 						$("#imagen-cargada").hide();
 						$("#imagen-cargando").show();
-						
+
                         //formData.append("nombre", "portada");
-                      
+
                 });
             },
-			success: function(data,response){ 
+			success: function(data,response){
 				console.log(response);
 				console.log(data);
-				
+
 				$("#imagen-cargada").show();
 				$("#imagen-cargando").hide();
 				//$("#dropzone-example").hide();

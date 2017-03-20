@@ -227,8 +227,7 @@ $clientes= Clientes::model()->findAll($Criteria);
 		<div class="logo-clientes clientes-0">
 					<?php foreach ($partners as $part) {?>
 
-								<img class="" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/p-<?php echo $part["id"] ?>.png" alt="">
-
+								<img class="" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/p-<?php echo $part["img"] ?>.png" alt="">
 
 
 					<?php } ?>
@@ -253,19 +252,20 @@ $clientes= Clientes::model()->findAll($Criteria);
 
 				<!--  -->
 
-	<?php $j=1;
-				for($i=0; $i<count($clientes)/10; $i++){
-
-		 ?>
-		 <!-- <li class="slide logo-clientes clientes-<?php echo $i ?>"  hid="2"> -->
 
 
 			<div class="logo-clientes clientes-<?php echo $i ?> general-container" >
 
-					<?php for($k=1; $k<11; $k++){  ?>
-							<img class="" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/c-<?php echo $j ?>.png" alt="">
 
-					<?php $j++;  } ?>
+
+					<?php foreach ($clientes as $clien) {?>
+
+								<img class="" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/c-<?php echo $clien["img"] ?>.png" alt="">
+
+
+					<?php } ?>
+
+
 
 
 			</div>
@@ -274,7 +274,7 @@ $clientes= Clientes::model()->findAll($Criteria);
 
 
 
-	<?php } ?>
+
 
 
 	<!--  -->

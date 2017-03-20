@@ -70,5 +70,10 @@
       </a>
 
 
+      <p><span>Aclaraciones</span><br>
+
+      </p>
+
+
   </body>
 </html>
