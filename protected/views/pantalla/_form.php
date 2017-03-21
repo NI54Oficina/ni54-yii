@@ -22,6 +22,21 @@
 	<div class="row">
 		<?php echo $form->labelEx($model,'id_project'); ?>
 		<!-- <?php echo $form->textField($model,'id_project'); ?> -->
+
+		<select class="" name="Pantalla[id_project]">
+			<?php
+			// $data="1";
+			$Criteria = new CDbCriteria();
+							// $Criteria->condition = "id_project = '".$data."'";
+			$project= Project::model()->findAll($Criteria);
+
+			foreach($project as $p){
+			?>
+			<option value="<?php echo $p["id_project"]; ?>"><?php echo $p["nombre"]; ?></option>
+
+			<?php }?>
+		</select>
+
 		<?php echo $form->error($model,'id_project'); ?>
 	</div>
 
