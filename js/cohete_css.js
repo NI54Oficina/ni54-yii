@@ -82,20 +82,20 @@ function moveNave(){
         var angle;
 
          if(prevPos<resp[1] && prevLeft!=left && left==0){
-           angle=-150;
+           angle=-120;
 
          }else if(prevPos<resp[1] && prevLeft!=left && left==1){
-           angle=150;
+           angle=12;
 
 
          }else if(prevPos<resp[1] && prevLeft==left){
            angle=180;
 
          }else if(prevPos>resp[1] && prevLeft!=left && left==0){
-           angle=-45;
+           angle=-30;
 
          }else if(prevPos>resp[1] && prevLeft!=left && left==1){
-           angle=45;
+           angle=30;
 
          }else if(prevPos>resp[1] && prevLeft==left){
            angle=0;
@@ -106,11 +106,16 @@ function moveNave(){
 
         prevPos=resp[1];
         prevLeft=left;
+        posX=pos[left];
 
         $nave.animateRotate(angle, 100, "linear");
 
+        if($elem[0]=="#step-1"){opa=0;posX=$(window).width()/2; }else{opa=1;}
+
+
         $nave.animate({top:(resp[1])+height,
-                       left: pos[left]},400);
+                       left: posX,
+                      opacity:opa},700);
 
 
 
