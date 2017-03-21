@@ -70,6 +70,7 @@ body{
   /*overflow: hidden;*/
   color: white;
 
+
 }
 
 canvas{
@@ -95,6 +96,7 @@ canvas{
  }
  section{
    padding: 0;
+   position: relative;
  }
 
 
@@ -116,6 +118,35 @@ li{
 ul{
     margin-bottom: 0px;
 }
+.m{
+  height: 10px;
+  width: 100%;
+  position: absolute;
+  bottom:0;
+  top:0;
+  margin:auto;
+  background-color: transparent;
+}
+
+#step-5{
+  bottom:0;
+  margin:none;
+  height: 10px;
+  width: 100%;
+  background-color: transparent;
+  position: absolute;
+  padding-bottom: 9em;
+}
+
+#step-1{
+  top:0;
+  margin:none;
+  height: 10px;
+  width: 100%;
+  background-color: transparent;
+  position: absolute;
+}
+
 
 .list-item{
     background: #00D6BD;

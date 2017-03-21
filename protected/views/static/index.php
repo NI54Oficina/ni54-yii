@@ -45,10 +45,13 @@ $clientes= Clientes::model()->findAll($Criteria);
 
 
 
+
 </head>
 
 
 <body  id="index">
+
+	<img style="position:absolute; left:1000; bottom:0; z-index:9" id="nave" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/cohete.svg" alt="">
 	<canvas id="canvasFugaz" style=" position:fixed;height:100vh; 100vw; z-index:-2"></canvas>
 
 	<canvas id="canvas"style=""></canvas>
@@ -70,6 +73,8 @@ $clientes= Clientes::model()->findAll($Criteria);
 	<!-- <a href="" class="glyphicon glyphicon-menu-down desplazamiento" style=""></a> -->
 
 <section id="contacto" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 " >
+	<div class="" id="step-1"></div>
+
  	<img id="main-logo" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/cohete_blanco.svg" alt="">
 	<h1 id="title-web">NitroInteractivo</h1>
 	<p id="subtitle">al infinito y mas allá...</p>
@@ -92,20 +97,22 @@ $clientes= Clientes::model()->findAll($Criteria);
 	</form>
 
 
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 iconos-container">
-	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-	<img class="iconos" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/mail.svg" alt="">contacto@ni54.com
-	</div>
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 iconos-container">
+			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+			<img class="iconos" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/mail.svg" alt="">contacto@ni54.com
+			</div>
 
-	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-	<img class="iconos" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/tel.svg" alt="">47823813
-	</div>
-</div>
+			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+			<img class="iconos" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/tel.svg" alt="">47823813
+			</div>
+		</div>
 
 
 </section>
 
 <section id="portfolio" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 seccion" >
+
+	<div class="m" id="step-2"></div>
 
 	<h3 id="title-section">ESTACION PORTFOLIO</h3>
 
@@ -213,10 +220,8 @@ $clientes= Clientes::model()->findAll($Criteria);
 
 </section>
 
-<!-- <section id="main-lema" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-</section> -->
-
 <section id="clientes" class="col-lg-12 col-md-12 col-sm-12 col-xs-12" >
+
 
 	<h1 id="fraseFlotante" class="" style="">ALGUNA FRASE QUE DESCRIBA NUESTRA MANERA DE TRABAJAR</h1>
 
@@ -239,113 +244,115 @@ $clientes= Clientes::model()->findAll($Criteria);
 		<div class="separador-inner"></div>
 	</div>
 
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 clientes" >
-	<h3 id="title-section">YA NOS CONOCEN</h3>
-	<!--  -->
-<!--
-	<div id="carousel">
-		<div class="btn-bar">
-			<div id="buttons"><a id="prev" href="#"><</a><a id="next" href="#">></a> </div>
-		</div>
-		<div id="slides">
-			<ul> -->
-
-				<!--  -->
-
-
-
-			<div class="logo-clientes clientes-<?php echo $i ?> general-container" >
-
-
-
-					<?php foreach ($clientes as $clien) {?>
-
-								<img class="" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/c-<?php echo $clien["img"] ?>.png" alt="">
-
-
-					<?php } ?>
-
-
-
-
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 clientes" >
+		<h3 id="title-section">YA NOS CONOCEN</h3>
+		<!--  -->
+	<!--
+		<div id="carousel">
+			<div class="btn-bar">
+				<div id="buttons"><a id="prev" href="#"><</a><a id="next" href="#">></a> </div>
 			</div>
+			<div id="slides">
+				<ul> -->
 
-			<!-- </li> -->
-
-
-
-
+					<!--  -->
 
 
-	<!--  -->
 
-<!-- </ul>
-</div>
-</div> -->
+				<div class="logo-clientes clientes-<?php echo $i ?> general-container" >
 
-<!--  -->
 
-	<!-- <div id="carousel">
-	  <div class="btn-bar">
-	    <div id="buttons"><a id="prev" href="#"><</a><a id="next" href="#">></a> </div>
-	  </div>
-	  <div id="slides">
-	    <ul>
-	      <li class="slide">
-	            <div class="">
-	              <p>asdasda</p>
-	              <p>sadjnaskdnaksd</p>
-	            </div>
-	      </li>
-	      <li class="slide">
-	        <div class="quoteContainer">
-	          <p class="quote-phrase"><span class="quote-marks">"</span> I could not stop staring! Company A's Web Solutions are by far the most elegant solutions, you can't beat their quality and attention to detail! <span class="quote-marks">"</span> </p>
-	        </div>
-	        <div class="authorContainer">
-	          <p class="quote-author">Andy Fakename // CEO: Andy's Camping Supplies</p>
-	        </div>
-	      </li>
-	      <li class="slide">
-	        <div class="quoteContainer">
-	          <p class="quote-phrase"><span class="quote-marks">"</span>Carl Fakeguy, was the most helpful designer I've ever hired. He listened to my ideas and advised against things that could negatively affect my CEO. Company A is by far the most generous and helpful company, 5/5!<span class="quote-marks">"</span> </p>
-	        </div>
-	        <div class="authorContainer">
-	          <p class="quote-author">Janice Falsename</p>
-	        </div>
-	      </li>
-	    </ul>
-	  </div>
+
+						<?php foreach ($clientes as $clien) {?>
+
+									<img class="" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/c-<?php echo $clien["img"] ?>.png" alt="">
+
+
+						<?php } ?>
+
+
+
+
+				</div>
+
+				<!-- </li> -->
+
+
+
+
+
+
+		<!--  -->
+
+	<!-- </ul>
+	</div>
 	</div> -->
 
 	<!--  -->
 
+		<!-- <div id="carousel">
+		  <div class="btn-bar">
+		    <div id="buttons"><a id="prev" href="#"><</a><a id="next" href="#">></a> </div>
+		  </div>
+		  <div id="slides">
+		    <ul>
+		      <li class="slide">
+		            <div class="">
+		              <p>asdasda</p>
+		              <p>sadjnaskdnaksd</p>
+		            </div>
+		      </li>
+		      <li class="slide">
+		        <div class="quoteContainer">
+		          <p class="quote-phrase"><span class="quote-marks">"</span> I could not stop staring! Company A's Web Solutions are by far the most elegant solutions, you can't beat their quality and attention to detail! <span class="quote-marks">"</span> </p>
+		        </div>
+		        <div class="authorContainer">
+		          <p class="quote-author">Andy Fakename // CEO: Andy's Camping Supplies</p>
+		        </div>
+		      </li>
+		      <li class="slide">
+		        <div class="quoteContainer">
+		          <p class="quote-phrase"><span class="quote-marks">"</span>Carl Fakeguy, was the most helpful designer I've ever hired. He listened to my ideas and advised against things that could negatively affect my CEO. Company A is by far the most generous and helpful company, 5/5!<span class="quote-marks">"</span> </p>
+		        </div>
+		        <div class="authorContainer">
+		          <p class="quote-author">Janice Falsename</p>
+		        </div>
+		      </li>
+		    </ul>
+		  </div>
+		</div> -->
+
+		<!--  -->
 
 
-	<!-- <div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 dot-nav-slider">
-	<ul>
-		<li class="nav-dots">
 
-				<label for="1" class="nav-dot" ></label>
-				<label for="2" class="nav-dot" ></label>
+		<!-- <div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 dot-nav-slider">
+		<ul>
+			<li class="nav-dots">
+
+					<label for="1" class="nav-dot" ></label>
+					<label for="2" class="nav-dot" ></label>
 
 
-		</li>
-</ul>
-</div> -->
+			</li>
+	</ul>
+	</div> -->
 
-</div>
+	</div>
 
 </section>
 
 <section id="lo-que-hacemos" class="col-lg-12 col-sm-12 col-md-12 col-xs-12">
-<div class="about col-lg-12 col-sm-12 col-md-12 col-xs-12">
-	<!-- <canvas id="canvasSky"></canvas> -->
+		<div class="m" id="step-4"></div>
 
-<div class="circle-container col-lg-12 col-sm-12 col-md-12 col-xs-12">
-		<div class="circle-lema">
-			<p>Lo que nos <br> gusta hacer</p>
+		<div class="about col-lg-12 col-sm-12 col-md-12 col-xs-12">
+			<!-- <canvas id="canvasSky"></canvas> -->
+
+		<div class="circle-container col-lg-12 col-sm-12 col-md-12 col-xs-12">
+				<div class="circle-lema">
+					<p>Lo que nos <br> gusta hacer</p>
+				</div>
 		</div>
-</div>
 
 
 
@@ -353,25 +360,27 @@ $clientes= Clientes::model()->findAll($Criteria);
 
 
 
-	<div class="planetas col-lg-12 col-sm-12 col-md-12 col-xs-12">
-		<div class="col-lg-6 col-sm-6 col-md-6 col-xs-6" hid="1"> <img class="floating floating-time-1" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/planetitas-01.svg" alt=""><p>Contenido <br>Interactivos</p></div>
-		<div class="col-lg-6 col-sm-6 col-md-6 col-xs-6" hid="1"> <img class="floating floating-time-2" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/planetitas-05.svg" alt=""><p>Diseño y <br> comunicación</p></div>
-		<div class="col-lg-6 col-sm-6 col-md-6 col-xs-6  float-left" hid="1"> <img class="floating floating-time-3"  src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/planetitas-02.svg" alt=""><p>Edutainment<br>Gamification</p></div>
-		<div class="col-lg-6 col-sm-6 col-md-6 col-xs-6  float-right" hid="1"> <img class="floating floating-time-1" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/planetitas-04.svg" alt=""><p>Videojuegos y <br>aplicaciones</p></div>
-		<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12" hid="1"> <img class="floating floating-time-3"  src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/planetitas-03.svg" alt=""><p>Websites y <br>mobile apps.</p> </div>
+			<div class="planetas col-lg-12 col-sm-12 col-md-12 col-xs-12">
+				<div class="col-lg-6 col-sm-6 col-md-6 col-xs-6" hid="1"> <img class="floating floating-time-1" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/planetitas-01.svg" alt=""><p>Contenido <br>Interactivos</p></div>
+				<div class="col-lg-6 col-sm-6 col-md-6 col-xs-6" hid="1"> <img class="floating floating-time-2" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/planetitas-05.svg" alt=""><p>Diseño y <br> comunicación</p></div>
+				<div class="col-lg-6 col-sm-6 col-md-6 col-xs-6  float-left" hid="1"> <img class="floating floating-time-3"  src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/planetitas-02.svg" alt=""><p>Edutainment<br>Gamification</p></div>
+				<div class="col-lg-6 col-sm-6 col-md-6 col-xs-6  float-right" hid="1"> <img class="floating floating-time-1" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/planetitas-04.svg" alt=""><p>Videojuegos y <br>aplicaciones</p></div>
+				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12" hid="1"> <img class="floating floating-time-3"  src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/planetitas-03.svg" alt=""><p>Websites y <br>mobile apps.</p> </div>
 
-	</div>
-
-
-
-	<!-- <img class="hidden-xs" style="max-width:100vw;" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/suelo.png" alt=""> -->
+			</div>
 
 
-</div>
+
+			<!-- <img class="hidden-xs" style="max-width:100vw;" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/suelo.png" alt=""> -->
+
+
+		</div>
 
 </section>
 
 <section id="testing" class="col-lg-12 col-sm-12 col-md-12 col-xs-12" style="text-align:center; height:100vh">
+
+<div class="" id="step-5"></div>
 
 	<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 zona-nubes">
 			<img class="animate-nubes" id="nube-1" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/nube-01.svg" alt="">
@@ -381,6 +390,8 @@ $clientes= Clientes::model()->findAll($Criteria);
 	</div>
 
 	<div id="about"class="col-lg-12 col-sm-12 col-md-12 col-xs-12 about-inner">
+
+
 
 		<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 center-to-parent">
 			<h3 id="dinamic-content">NitroInteractivo </h3>
@@ -411,6 +422,7 @@ $clientes= Clientes::model()->findAll($Criteria);
 	<script type="text/javascript" src="<?php echo Yii::app()->getBaseUrl(true); ?>/js/fugaz.js "></script>
 
 <!-- <script type="text/javascript" src="js/cohete.js"></script> -->
+		<script type="text/javascript" src="<?php echo Yii::app()->getBaseUrl(true); ?>/js/cohete_css.js "></script>
 
 <script type="text/javascript">
 
