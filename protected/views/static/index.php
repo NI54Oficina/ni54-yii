@@ -53,9 +53,9 @@ $clientes= Clientes::model()->findAll($Criteria);
 
 	<canvas id="canvas"style=""></canvas>
 
-	<div id="canvasNave" class="canvasNave" style="position:absolute; top:0; left:0; width:100vw">
+	<!-- <div id="canvasNave" class="canvasNave" style="position:absolute; top:0; left:0; width:100vw; display:none">
 
-	</div>
+	</div> -->
 
 	<!-- <a href="" class="glyphicon glyphicon-menu-up desplazamiento" style="top:0;"></a> -->
 
@@ -410,7 +410,7 @@ $clientes= Clientes::model()->findAll($Criteria);
 
 	<script type="text/javascript" src="<?php echo Yii::app()->getBaseUrl(true); ?>/js/fugaz.js "></script>
 
-<script type="text/javascript" src="js/cohete.js"></script>
+<!-- <script type="text/javascript" src="js/cohete.js"></script> -->
 
 <script type="text/javascript">
 
