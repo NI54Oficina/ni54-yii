@@ -21,7 +21,7 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'id_project'); ?>
-		<?php echo $form->textField($model,'id_project'); ?>
+		<!-- <?php echo $form->textField($model,'id_project'); ?> -->
 		<?php echo $form->error($model,'id_project'); ?>
 	</div>
 

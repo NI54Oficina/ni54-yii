@@ -9,6 +9,7 @@
 	<?php echo CHtml::link(CHtml::encode($data->id_pantalla), array('view', 'id'=>$data->id_pantalla)); ?>
 	<br />
 
+
 	<b><?php echo CHtml::encode($data->getAttributeLabel('id_project')); ?>:</b>
 	<?php echo CHtml::encode($data->id_project); ?>
 	<br />

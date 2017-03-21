@@ -54,7 +54,7 @@ class WebController extends Controller
 		$model="";
 
 		$model=$id;
-		
+
 
 		//echo Pais::model()->findByPk($_SESSION['pais'])->nombre;
 
@@ -202,14 +202,14 @@ class WebController extends Controller
 		}
 		}
 	}
-	
+
 	public function actionUpload(){
-		
-			
+
+
 			if (isset($_FILES['file'])) {
-				 
-				$targetPath = "uploads/"; 
-				
+
+				$targetPath = "img/"; 
+
 				if(isset($_POST["nombre"])){
 					$formato="";
 					if(strpos($_FILES['file']['tmp_name'],".png")>0){
@@ -225,13 +225,13 @@ class WebController extends Controller
 				}else{
 					$targetFile =  $targetPath.$_FILES['file']['name'];
 				}
-				
+
 				move_uploaded_file($_FILES['file']['tmp_name'],$targetFile);
 				echo $targetFile;
 			}else{
 				echo "0";
 			}
-			
+
 	}
 
 }
