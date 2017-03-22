@@ -204,12 +204,24 @@ class WebController extends Controller
 	}
 
 	public function actionUpload(){
+
+		echo "test";
 			// $_POST["idPantalla"];
 			$idPantalla=$_POST["idPantalla"];
+
+
+
+
+
+			// echo $idProjecto[1];
+
+
+
+
 			$numeroImage= ImgPantalla::model()->findByAttributes(array("id_pantalla"=>$idPantalla),array("order"=>"id DESC"));
 			$numeroImage= ++$numeroImage->img;
 
-
+			// $projecto=Project::model()->findAllByAttributes(array("id_pantalla"=>$idPantalla));
 
 			if (isset($_FILES['file'])) {
 
