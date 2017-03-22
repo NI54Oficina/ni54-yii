@@ -73,19 +73,19 @@ function moveNave(){
 
         left=Math.floor((Math.random() * 2) + 0);
 
+        posMax= $(window).width()-200;
 
-
-        pos=[100,1000];
+        pos=[200,posMax];
 
         height=($(window).height())/2;
 
         var angle;
 
          if(prevPos<resp[1] && prevLeft!=left && left==0){
-           angle=-120;
+           angle=-170;
 
          }else if(prevPos<resp[1] && prevLeft!=left && left==1){
-           angle=12;
+           angle=-200;
 
 
          }else if(prevPos<resp[1] && prevLeft==left){
@@ -110,12 +110,26 @@ function moveNave(){
 
         $nave.animateRotate(angle, 100, "linear");
 
-        if($elem[0]=="#step-1"){opa=0;posX=$(window).width()/2; }else{opa=1;}
+        if($elem[0]=="#step-1"){
+          opa=0;posX=$(window).width()/2;
+          opaLogo=1;
+          // timeLogo=
+
+        }else{opa=1;
+        opaLogo=0;}
 
 
         $nave.animate({top:(resp[1])+height,
                        left: posX,
-                      opacity:opa},700);
+                      opacity:opa},
+                      700,
+                      function(){
+
+                                  $("#main-logo").animate({opacity:opaLogo},200)
+                                  
+                                }
+
+                    );
 
 
 

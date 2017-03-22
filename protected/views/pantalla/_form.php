@@ -23,6 +23,8 @@
 		<?php echo $form->labelEx($model,'id_project'); ?>
 		<!-- <?php echo $form->textField($model,'id_project'); ?> -->
 
+
+
 		<select class="" name="Pantalla[id_project]">
 			<?php
 			// $data="1";
@@ -36,6 +38,8 @@
 
 			<?php }?>
 		</select>
+
+		
 
 		<?php echo $form->error($model,'id_project'); ?>
 	</div>
