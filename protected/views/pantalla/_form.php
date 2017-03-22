@@ -34,12 +34,14 @@
 
 			foreach($project as $p){
 			?>
-			<option value="<?php echo $p["id_project"]; ?>"><?php echo $p["nombre"]; ?></option>
+			<option value="<?php echo $p["id_project"]; ?>" <?php
+			if(isset($model -> id_project) && $model -> id_project==$p["id_project"] ){ echo "selected"; }
+			 ?>><?php echo $p["nombre"]; ?></option>
 
 			<?php }?>
 		</select>
 
-		
+
 
 		<?php echo $form->error($model,'id_project'); ?>
 	</div>

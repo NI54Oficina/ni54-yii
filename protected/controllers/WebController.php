@@ -204,30 +204,43 @@ class WebController extends Controller
 	}
 
 	public function actionUpload(){
+			// $_POST["idPantalla"];
+			$idPantalla=$_POST["idPantalla"];
+			$numeroImage= ImgPantalla::model()->findByAttributes(array("id_pantalla"=>$idPantalla),array("order"=>"id DESC"));
+			$numeroImage= ++$numeroImage->img;
+
 
 
 			if (isset($_FILES['file'])) {
 
-				$targetPath = "img/"; 
+				$targetPath = "img/";
 
-				if(isset($_POST["nombre"])){
+				//if(isset($_POST["nombre"])){
+				$nombre=$idPantalla."-".$numeroImage;
 					$formato="";
-					if(strpos($_FILES['file']['tmp_name'],".png")>0){
+					if(strpos($_FILES['file']['name'],".png")>0){
 						$formato= ".png";
 					}
-					if(strpos($_FILES['file']['tmp_name'],".jpg")>0){
+					if(strpos($_FILES['file']['name'],".jpg")>0){
 						$formato= ".jpg";
 					}
-					if(strpos($_FILES['file']['tmp_name'],".jpeg")>0){
+					if(strpos($_FILES['file']['name'],".jpeg")>0){
 						$formato= ".jpeg";
 					}
 					$targetFile =  $targetPath.$nombre.$formato;
-				}else{
+				/*}else{
 					$targetFile =  $targetPath.$_FILES['file']['name'];
-				}
+				}*/
+				//echo $targetFile;
+				//exit();
 
 				move_uploaded_file($_FILES['file']['tmp_name'],$targetFile);
-				echo $targetFile;
+				//echo $targetFile;
+				$imgPantalla= new ImgPantalla();
+				$imgPantalla->id_pantalla= $idPantalla;
+				$imgPantalla->img= $numeroImage;
+				$imgPantalla->save();
+				echo $nombre.$formato;
 			}else{
 				echo "0";
 			}
