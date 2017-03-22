@@ -62,7 +62,11 @@ class ImgPantallaController extends Controller
 	 */
 	public function actionCreate()
 	{
+
+
 		$model=new ImgPantalla;
+		if(isset($_POST["pantalla"]))
+		$model->id_pantalla= $_POST["pantalla"];
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);

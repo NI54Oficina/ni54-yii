@@ -51,7 +51,7 @@
         </div>
       </a>
 
-      <a href="<?php echo Yii::app()->getBaseUrl(true); ?>/index.php/imgPantalla/create" target="_blank">
+      <a href="<?php echo Yii::app()->getBaseUrl(true); ?>/1" target="_blank">
         <div class="button">
           <p>INGRESAR IMAGENES POR SOLAPAS</p>
         </div>
