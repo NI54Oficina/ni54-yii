@@ -25,6 +25,10 @@
     visibility: visible;
   }
 
+  #nave{
+    width: 30px;
+  }
+
   canvas{
     display:none;
   }

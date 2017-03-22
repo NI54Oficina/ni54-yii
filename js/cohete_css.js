@@ -64,7 +64,7 @@ function moveNave(){
 
       if($elem[0]!=prevElem){
 
-        console.log($elem);
+      
 
         prevElem=$elem[0];
 
@@ -125,8 +125,8 @@ function moveNave(){
                       700,
                       function(){
 
-                                  $("#main-logo").animate({opacity:opaLogo},200)
-                                  
+                                  $("#main-logo").animate({opacity:opaLogo},100)
+
                                 }
 
                     );
