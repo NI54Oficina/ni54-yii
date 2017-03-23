@@ -113,6 +113,8 @@ $pantalla= Pantalla::model()->findAll($Criteria);
 		         <img class="center-to-parent" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/<?php echo $data."-".$img["img"]; ?>.png" alt="">
 		       </div>
 
+					 
+
       	<?php
       // $count++;
       // $colums=12/$count;
