@@ -14,7 +14,7 @@
 	.response{
 		text-align: center;
 		color:gray;
-		font-size: 1.5em;	
+		font-size: 1.5em;
 
 	}
 </style>
@@ -24,13 +24,15 @@
 <script>
 
 
-	$("div#dropzone-example").dropzone({ url: "<?php echo Yii::app()->getBaseUrl(true); ?>/web/upload/",
+	$("div#dropzone-example").dropzone({ url: "<?php echo Yii::app()->getBaseUrl(true); ?>/imgPantalla/upload/",
 			init: function() {
                 this.on("sending", function(file, xhr, formData){
 						$("#imagen-cargada").hide();
 						$("#imagen-cargando").show();
 
                         formData.append("idPantalla", "<?php echo $model->id_pantalla; ?>");
+
+
 
                 });
             },
