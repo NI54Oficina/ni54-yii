@@ -38754,3 +38754,1708 @@ Stack trace:
 REQUEST_URI=/ni54-yii/web/upload/
 HTTP_REFERER=http://localhost/ni54-yii/index.php/imgPantalla/create
 ---
+2017/03/23 13:12:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/27.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/27...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/27.png
+HTTP_REFERER=http://localhost/ni54-yii/
+---
+2017/03/23 13:12:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/23.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/23...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/23.png
+HTTP_REFERER=http://localhost/ni54-yii/
+---
+2017/03/23 13:12:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/25.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/25...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/25.png
+HTTP_REFERER=http://localhost/ni54-yii/
+---
+2017/03/23 13:12:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/26.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/26...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/26.png
+HTTP_REFERER=http://localhost/ni54-yii/
+---
+2017/03/23 13:12:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/24.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/24...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/24.png
+HTTP_REFERER=http://localhost/ni54-yii/
+---
+2017/03/23 13:22:56 [error] [php] Creating default object from empty value (C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php:222)
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): WebController->runAction()
+#1 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1116): CFilterChain->run()
+#2 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): WebController->filterPostOnly()
+#3 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#4 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): WebController->filterAccessControl()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): WebController->runActionWithFilters()
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): WebController->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\ni54-yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/ni54-yii/web/upload/
+in C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php (222)
+in C:\xampp\htdocs\ni54-yii\index.php (13)
+2017/03/23 13:23:56 [error] [php] Creating default object from empty value (C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php:222)
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): WebController->runAction()
+#1 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1116): CFilterChain->run()
+#2 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): WebController->filterPostOnly()
+#3 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#4 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): WebController->filterAccessControl()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): WebController->runActionWithFilters()
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): WebController->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\ni54-yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/ni54-yii/web/upload/
+in C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php (222)
+in C:\xampp\htdocs\ni54-yii\index.php (13)
+2017/03/23 13:24:03 [error] [php] Creating default object from empty value (C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php:222)
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): WebController->runAction()
+#1 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1116): CFilterChain->run()
+#2 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): WebController->filterPostOnly()
+#3 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#4 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): WebController->filterAccessControl()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): WebController->runActionWithFilters()
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): WebController->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\ni54-yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/ni54-yii/web/upload/
+in C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php (222)
+in C:\xampp\htdocs\ni54-yii\index.php (13)
+2017/03/23 13:24:21 [error] [php] Creating default object from empty value (C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php:222)
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): WebController->runAction()
+#1 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1116): CFilterChain->run()
+#2 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): WebController->filterPostOnly()
+#3 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#4 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): WebController->filterAccessControl()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): WebController->runActionWithFilters()
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): WebController->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\ni54-yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/ni54-yii/web/upload/
+in C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php (222)
+in C:\xampp\htdocs\ni54-yii\index.php (13)
+2017/03/23 13:24:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/27.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/27...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/27.png
+HTTP_REFERER=http://localhost/ni54-yii/
+---
+2017/03/23 13:24:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/23.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/23...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/23.png
+HTTP_REFERER=http://localhost/ni54-yii/
+---
+2017/03/23 13:24:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/24.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/24...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/24.png
+HTTP_REFERER=http://localhost/ni54-yii/
+---
+2017/03/23 13:24:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/25.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/25...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/25.png
+HTTP_REFERER=http://localhost/ni54-yii/
+---
+2017/03/23 13:24:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/26.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/26...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/26.png
+HTTP_REFERER=http://localhost/ni54-yii/
+---
+2017/03/23 13:25:06 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/img".' in C:\xampp\htdocs\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php(65): CController->renderPartial('//static/img', 'cargar_img-oscu...')
+#1 [internal function]: WebController->actionGet('img', 'cargar_img-oscu...')
+#2 C:\xampp\htdocs\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\xampp\htdocs\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/im...')
+#14 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/img/cargar_img-oscuro.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php/imgPantalla/create
+---
+2017/03/23 13:25:08 [error] [php] Creating default object from empty value (C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php:222)
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): WebController->runAction()
+#1 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1116): CFilterChain->run()
+#2 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): WebController->filterPostOnly()
+#3 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#4 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): WebController->filterAccessControl()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): WebController->runActionWithFilters()
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): WebController->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\ni54-yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/ni54-yii/web/upload/
+in C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php (222)
+in C:\xampp\htdocs\ni54-yii\index.php (13)
+2017/03/23 13:26:21 [error] [php] Creating default object from empty value (C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php:222)
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): WebController->runAction()
+#1 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1116): CFilterChain->run()
+#2 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): WebController->filterPostOnly()
+#3 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#4 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): WebController->filterAccessControl()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): WebController->runActionWithFilters()
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): WebController->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\ni54-yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/ni54-yii/web/upload/
+in C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php (222)
+in C:\xampp\htdocs\ni54-yii\index.php (13)
+2017/03/23 13:28:00 [error] [php] Creating default object from empty value (C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php:222)
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): WebController->runAction()
+#1 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1116): CFilterChain->run()
+#2 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): WebController->filterPostOnly()
+#3 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#4 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): WebController->filterAccessControl()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): WebController->runActionWithFilters()
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): WebController->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\ni54-yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/ni54-yii/web/upload/
+in C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php (222)
+in C:\xampp\htdocs\ni54-yii\index.php (13)
+2017/03/23 13:29:11 [error] [php] Creating default object from empty value (C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php:222)
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): WebController->runAction()
+#1 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1116): CFilterChain->run()
+#2 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): WebController->filterPostOnly()
+#3 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#4 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): WebController->filterAccessControl()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): WebController->runActionWithFilters()
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): WebController->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\ni54-yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/ni54-yii/web/upload/
+in C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php (222)
+in C:\xampp\htdocs\ni54-yii\index.php (13)
+2017/03/23 13:29:18 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\ni54-yii\framework\web\CController.php:1118
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('upload')
+#9 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/upload')
+#10 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/ni54-yii/web/upload/
+---
+2017/03/23 13:58:16 [error] [php] Creating default object from empty value (C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php:222)
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): WebController->runAction()
+#1 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1116): CFilterChain->run()
+#2 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): WebController->filterPostOnly()
+#3 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#4 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): WebController->filterAccessControl()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): WebController->runActionWithFilters()
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): WebController->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\ni54-yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/ni54-yii/web/upload/
+in C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php (222)
+in C:\xampp\htdocs\ni54-yii\index.php (13)
+2017/03/23 13:58:20 [error] [php] Creating default object from empty value (C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php:222)
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): WebController->runAction()
+#1 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1116): CFilterChain->run()
+#2 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): WebController->filterPostOnly()
+#3 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#4 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): WebController->filterAccessControl()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): WebController->runActionWithFilters()
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): WebController->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\ni54-yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/ni54-yii/web/upload/
+in C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php (222)
+in C:\xampp\htdocs\ni54-yii\index.php (13)
+2017/03/23 13:58:31 [error] [php] Undefined index: idPantalla (C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php:210)
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): WebController->runAction()
+#1 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1116): CFilterChain->run()
+#2 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): WebController->filterPostOnly()
+#3 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#4 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): WebController->filterAccessControl()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): WebController->runActionWithFilters()
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): WebController->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\ni54-yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/ni54-yii/web/upload/
+in C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php (210)
+in C:\xampp\htdocs\ni54-yii\index.php (13)
+2017/03/23 14:00:32 [error] [php] Undefined index: idPantalla (C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php:210)
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): WebController->runAction()
+#1 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1116): CFilterChain->run()
+#2 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): WebController->filterPostOnly()
+#3 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#4 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): WebController->filterAccessControl()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): WebController->runActionWithFilters()
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): WebController->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\ni54-yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/ni54-yii/web/upload/
+in C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php (210)
+in C:\xampp\htdocs\ni54-yii\index.php (13)
+2017/03/23 14:00:45 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\ni54-yii\framework\web\CController.php:1118
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('upload')
+#9 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/upload')
+#10 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/ni54-yii/web/upload/
+---
+2017/03/23 14:11:32 [error] [php] Undefined index: idPantalla (C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php:210)
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): WebController->runAction()
+#1 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1116): CFilterChain->run()
+#2 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): WebController->filterPostOnly()
+#3 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#4 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): WebController->filterAccessControl()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): WebController->runActionWithFilters()
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): WebController->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\ni54-yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/ni54-yii/web/upload/
+in C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php (210)
+in C:\xampp\htdocs\ni54-yii\index.php (13)
+2017/03/23 14:13:57 [error] [php] Creating default object from empty value (C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php:222)
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): WebController->runAction()
+#1 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1116): CFilterChain->run()
+#2 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): WebController->filterPostOnly()
+#3 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#4 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): WebController->filterAccessControl()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): WebController->runActionWithFilters()
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): WebController->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\ni54-yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/ni54-yii/web/upload/
+in C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php (222)
+in C:\xampp\htdocs\ni54-yii\index.php (13)
+2017/03/23 14:17:02 [error] [php] Creating default object from empty value (C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php:222)
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): WebController->runAction()
+#1 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1116): CFilterChain->run()
+#2 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): WebController->filterPostOnly()
+#3 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#4 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): WebController->filterAccessControl()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): WebController->runActionWithFilters()
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): WebController->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\ni54-yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/ni54-yii/web/upload/
+in C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php (222)
+in C:\xampp\htdocs\ni54-yii\index.php (13)
+2017/03/23 14:20:19 [error] [php] Creating default object from empty value (C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php:222)
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): WebController->runAction()
+#1 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1116): CFilterChain->run()
+#2 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): WebController->filterPostOnly()
+#3 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#4 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): WebController->filterAccessControl()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): WebController->runActionWithFilters()
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): WebController->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\ni54-yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/ni54-yii/web/upload/
+in C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php (222)
+in C:\xampp\htdocs\ni54-yii\index.php (13)
+2017/03/23 14:23:22 [error] [php] Creating default object from empty value (C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php:222)
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): WebController->runAction()
+#1 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1116): CFilterChain->run()
+#2 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): WebController->filterPostOnly()
+#3 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#4 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): WebController->filterAccessControl()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): WebController->runActionWithFilters()
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): WebController->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\ni54-yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/ni54-yii/web/upload/
+in C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php (222)
+in C:\xampp\htdocs\ni54-yii\index.php (13)
+2017/03/23 14:35:57 [error] [php] Creating default object from empty value (C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php:222)
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): WebController->runAction()
+#1 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1116): CFilterChain->run()
+#2 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): WebController->filterPostOnly()
+#3 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#4 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): WebController->filterAccessControl()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): WebController->runActionWithFilters()
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): WebController->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\ni54-yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/ni54-yii/web/upload/
+in C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php (222)
+in C:\xampp\htdocs\ni54-yii\index.php (13)
+2017/03/23 14:39:21 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php:225)
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): WebController->runAction()
+#1 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1116): CFilterChain->run()
+#2 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): WebController->filterPostOnly()
+#3 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#4 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): WebController->filterAccessControl()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): WebController->runActionWithFilters()
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): WebController->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\ni54-yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/ni54-yii/web/upload/
+in C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php (225)
+in C:\xampp\htdocs\ni54-yii\index.php (13)
+2017/03/23 14:40:12 [error] [php] Undefined offset: 1 (C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php:225)
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): WebController->runAction()
+#1 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1116): CFilterChain->run()
+#2 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): WebController->filterPostOnly()
+#3 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#4 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): WebController->filterAccessControl()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): WebController->runActionWithFilters()
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): WebController->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\ni54-yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/ni54-yii/web/upload/
+in C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php (225)
+in C:\xampp\htdocs\ni54-yii\index.php (13)
+2017/03/23 14:41:37 [error] [php] Undefined offset: 1 (C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php:225)
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): WebController->runAction()
+#1 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1116): CFilterChain->run()
+#2 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): WebController->filterPostOnly()
+#3 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#4 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): WebController->filterAccessControl()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): WebController->runActionWithFilters()
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): WebController->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\ni54-yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/ni54-yii/web/upload/
+in C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php (225)
+in C:\xampp\htdocs\ni54-yii\index.php (13)
+2017/03/23 14:43:21 [error] [php] Creating default object from empty value (C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php:222)
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): WebController->runAction()
+#1 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1116): CFilterChain->run()
+#2 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): WebController->filterPostOnly()
+#3 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#4 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): WebController->filterAccessControl()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): WebController->runActionWithFilters()
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): WebController->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\ni54-yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/ni54-yii/web/upload/
+in C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php (222)
+in C:\xampp\htdocs\ni54-yii\index.php (13)
+2017/03/23 14:44:05 [error] [php] Creating default object from empty value (C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php:222)
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): WebController->runAction()
+#1 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1116): CFilterChain->run()
+#2 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): WebController->filterPostOnly()
+#3 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#4 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): WebController->filterAccessControl()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): WebController->runActionWithFilters()
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): WebController->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\ni54-yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/ni54-yii/web/upload/
+in C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php (222)
+in C:\xampp\htdocs\ni54-yii\index.php (13)
+2017/03/23 14:53:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/22-8.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/22...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/22-8.png
+HTTP_REFERER=http://localhost/ni54-yii/proyecto/22
+---
+2017/03/23 15:09:04 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/-1".' in C:\xampp\htdocs\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php(65): CController->renderPartial('//static/-1', '')
+#1 [internal function]: WebController->actionGet('-1', '')
+#2 C:\xampp\htdocs\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\xampp\htdocs\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get')
+#14 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/-1
+HTTP_REFERER=http://localhost/ni54-yii/proyecto
+---
+2017/03/23 15:09:13 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/-1".' in C:\xampp\htdocs\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php(65): CController->renderPartial('//static/-1', '')
+#1 [internal function]: WebController->actionGet('-1', '')
+#2 C:\xampp\htdocs\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\xampp\htdocs\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get')
+#14 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/-1
+HTTP_REFERER=http://localhost/ni54-yii/proyecto
+---
+2017/03/23 15:09:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/27.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/27...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/27.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/03/23 15:09:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/1.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/1....')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/1.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/03/23 15:09:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/2.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/2....')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/2.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/03/23 15:09:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/3.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/3....')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/3.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/03/23 15:09:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/4.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/4....')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/4.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/03/23 15:09:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/5.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/5....')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/5.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/03/23 15:09:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/6.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/6....')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/6.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/03/23 15:09:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/7.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/7....')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/7.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/03/23 15:09:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/8.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/8....')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/8.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/03/23 15:09:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/9.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/9....')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/9.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/03/23 15:09:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/10.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/10...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/10.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/03/23 15:09:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/11.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/11...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/11.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/03/23 15:09:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/12.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/12...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/12.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/03/23 15:09:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/13.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/13...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/13.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/03/23 15:09:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/14.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/14...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/14.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/03/23 15:09:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/15.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/15...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/15.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/03/23 15:09:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/16.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/16...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/16.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/03/23 15:09:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/19.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/19...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/19.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/03/23 15:09:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/20.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/20...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/20.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/03/23 15:09:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/21.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/21...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/21.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/03/23 15:09:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/22.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/22...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/22.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/03/23 15:09:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/23.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/23...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/23.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/03/23 15:09:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/26.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/26...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/26.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/03/23 15:09:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/24.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/24...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/24.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/03/23 15:09:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/25.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/25...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/25.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/03/23 15:09:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/27.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/27...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/27.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/03/23 15:09:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/1.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/1....')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/1.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/03/23 15:09:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/2.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/2....')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/2.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/03/23 15:09:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/3.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/3....')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/3.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/03/23 15:09:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/4.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/4....')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/4.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/03/23 15:09:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/5.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/5....')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/5.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/03/23 15:09:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/6.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/6....')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/6.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/03/23 15:09:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/7.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/7....')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/7.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/03/23 15:09:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/8.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/8....')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/8.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/03/23 15:09:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/9.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/9....')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/9.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/03/23 15:09:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/11.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/11...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/11.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/03/23 15:09:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/10.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/10...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/10.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/03/23 15:09:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/12.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/12...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/12.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/03/23 15:09:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/13.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/13...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/13.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/03/23 15:09:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/15.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/15...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/15.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/03/23 15:09:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/projects/14.png".' in C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/projects/14...')
+#1 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ni54-yii/img/projects/14.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/03/23 15:10:42 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/img".' in C:\xampp\htdocs\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php(65): CController->renderPartial('//static/img', '27.png')
+#1 [internal function]: WebController->actionGet('img', '27.png')
+#2 C:\xampp\htdocs\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\xampp\htdocs\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/im...')
+#14 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/img/27.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/03/23 15:10:42 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/img".' in C:\xampp\htdocs\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php(65): CController->renderPartial('//static/img', '26.png')
+#1 [internal function]: WebController->actionGet('img', '26.png')
+#2 C:\xampp\htdocs\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\xampp\htdocs\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/im...')
+#14 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/img/26.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/03/23 15:10:42 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/img".' in C:\xampp\htdocs\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php(65): CController->renderPartial('//static/img', '25.png')
+#1 [internal function]: WebController->actionGet('img', '25.png')
+#2 C:\xampp\htdocs\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\xampp\htdocs\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/im...')
+#14 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/img/25.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/03/23 15:10:42 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/img".' in C:\xampp\htdocs\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php(65): CController->renderPartial('//static/img', '23.png')
+#1 [internal function]: WebController->actionGet('img', '23.png')
+#2 C:\xampp\htdocs\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\xampp\htdocs\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/im...')
+#14 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/img/23.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/03/23 15:10:42 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/img".' in C:\xampp\htdocs\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php(65): CController->renderPartial('//static/img', '24.png')
+#1 [internal function]: WebController->actionGet('img', '24.png')
+#2 C:\xampp\htdocs\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\xampp\htdocs\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/im...')
+#14 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/img/24.png
+HTTP_REFERER=http://localhost/ni54-yii/index.php
+---
+2017/03/23 15:16:24 [error] [php] Undefined index: idPantalla (C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php:210)
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): WebController->runAction()
+#1 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1116): CFilterChain->run()
+#2 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): WebController->filterPostOnly()
+#3 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#4 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): WebController->filterAccessControl()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): WebController->runActionWithFilters()
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): WebController->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\ni54-yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/ni54-yii/web/upload/
+in C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php (210)
+in C:\xampp\htdocs\ni54-yii\index.php (13)
+2017/03/23 15:30:28 [error] [exception.CException] exception 'CException' with message 'Property "Clientes.id_pantalla" is not defined.' in C:\xampp\htdocs\ni54-yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('id_pantalla')
+#1 C:\xampp\htdocs\ni54-yii\protected\views\clientes\_form.php(33): CActiveRecord->__get('id_pantalla')
+#2 C:\xampp\htdocs\ni54-yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ni54-yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\ni54-yii\protected\views\clientes\create.php(22): CController->renderPartial('_form', Array)
+#6 C:\xampp\htdocs\ni54-yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\ni54-yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#10 C:\xampp\htdocs\ni54-yii\protected\controllers\ClientesController.php(79): CController->render('create', Array)
+#11 C:\xampp\htdocs\ni54-yii\framework\web\actions\CInlineAction.php(49): ClientesController->actionCreate()
+#12 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#19 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('create')
+#21 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('clientes/create')
+#22 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#23 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/ni54-yii/index.php/clientes/create
+HTTP_REFERER=http://localhost/ni54-yii/admin
+---
+2017/03/23 15:30:39 [error] [exception.CException] exception 'CException' with message 'Property "Clientes.id_pantalla" is not defined.' in C:\xampp\htdocs\ni54-yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('id_pantalla')
+#1 C:\xampp\htdocs\ni54-yii\protected\views\clientes\_form.php(33): CActiveRecord->__get('id_pantalla')
+#2 C:\xampp\htdocs\ni54-yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ni54-yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\ni54-yii\protected\views\clientes\create.php(22): CController->renderPartial('_form', Array)
+#6 C:\xampp\htdocs\ni54-yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\ni54-yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#10 C:\xampp\htdocs\ni54-yii\protected\controllers\ClientesController.php(79): CController->render('create', Array)
+#11 C:\xampp\htdocs\ni54-yii\framework\web\actions\CInlineAction.php(49): ClientesController->actionCreate()
+#12 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#19 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('create')
+#21 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('clientes/create')
+#22 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#23 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/ni54-yii/index.php/clientes/create
+HTTP_REFERER=http://localhost/ni54-yii/admin
+---
+2017/03/23 15:35:01 [error] [exception.CException] exception 'CException' with message 'Property "Clientes.id_pantalla" is not defined.' in C:\xampp\htdocs\ni54-yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('id_pantalla')
+#1 C:\xampp\htdocs\ni54-yii\protected\views\clientes\_form.php(33): CActiveRecord->__get('id_pantalla')
+#2 C:\xampp\htdocs\ni54-yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ni54-yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\ni54-yii\protected\views\clientes\create.php(22): CController->renderPartial('_form', Array)
+#6 C:\xampp\htdocs\ni54-yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\ni54-yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#10 C:\xampp\htdocs\ni54-yii\protected\controllers\ClientesController.php(79): CController->render('create', Array)
+#11 C:\xampp\htdocs\ni54-yii\framework\web\actions\CInlineAction.php(49): ClientesController->actionCreate()
+#12 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#19 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('create')
+#21 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('clientes/create')
+#22 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#23 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/ni54-yii/index.php/clientes/create
+HTTP_REFERER=http://localhost/ni54-yii/admin
+---
+2017/03/23 15:35:14 [error] [exception.CException] exception 'CException' with message 'Property "Clientes.id_pantalla" is not defined.' in C:\xampp\htdocs\ni54-yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('id_pantalla')
+#1 C:\xampp\htdocs\ni54-yii\protected\views\clientes\_form.php(34): CActiveRecord->__get('id_pantalla')
+#2 C:\xampp\htdocs\ni54-yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ni54-yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\ni54-yii\protected\views\clientes\create.php(22): CController->renderPartial('_form', Array)
+#6 C:\xampp\htdocs\ni54-yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\ni54-yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#10 C:\xampp\htdocs\ni54-yii\protected\controllers\ClientesController.php(79): CController->render('create', Array)
+#11 C:\xampp\htdocs\ni54-yii\framework\web\actions\CInlineAction.php(49): ClientesController->actionCreate()
+#12 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#19 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('create')
+#21 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('clientes/create')
+#22 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#23 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/ni54-yii/index.php/clientes/create
+HTTP_REFERER=http://localhost/ni54-yii/admin
+---
+2017/03/23 15:44:04 [error] [php] Undefined variable: idPantalla (C:\xampp\htdocs\ni54-yii\protected\views\clientes\_form.php:35)
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(869): ClientesController->renderFile()
+#1 C:\xampp\htdocs\ni54-yii\protected\views\clientes\create.php(22): ClientesController->renderPartial()
+#2 C:\xampp\htdocs\ni54-yii\framework\web\CBaseController.php(126): require()
+#3 C:\xampp\htdocs\ni54-yii\framework\web\CBaseController.php(95): ClientesController->renderInternal()
+#4 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(869): ClientesController->renderFile()
+#5 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(782): ClientesController->renderPartial()
+#6 C:\xampp\htdocs\ni54-yii\protected\controllers\ClientesController.php(79): ClientesController->render()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\actions\CInlineAction.php(49): ClientesController->actionCreate()
+#8 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): ClientesController->runAction()
+#10 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#12 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): ClientesController->filterAccessControl()
+#13 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): ClientesController->runActionWithFilters()
+#16 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): ClientesController->run()
+#17 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\ni54-yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/ni54-yii/index.php/clientes/create
+in C:\xampp\htdocs\ni54-yii\protected\views\clientes\_form.php (35)
+in C:\xampp\htdocs\ni54-yii\protected\views\clientes\create.php (22)
+in C:\xampp\htdocs\ni54-yii\protected\controllers\ClientesController.php (79)
+2017/03/23 15:44:31 [error] [php] Creating default object from empty value (C:\xampp\htdocs\ni54-yii\protected\views\clientes\_form.php:36)
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(869): ClientesController->renderFile()
+#1 C:\xampp\htdocs\ni54-yii\protected\views\clientes\create.php(22): ClientesController->renderPartial()
+#2 C:\xampp\htdocs\ni54-yii\framework\web\CBaseController.php(126): require()
+#3 C:\xampp\htdocs\ni54-yii\framework\web\CBaseController.php(95): ClientesController->renderInternal()
+#4 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(869): ClientesController->renderFile()
+#5 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(782): ClientesController->renderPartial()
+#6 C:\xampp\htdocs\ni54-yii\protected\controllers\ClientesController.php(79): ClientesController->render()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\actions\CInlineAction.php(49): ClientesController->actionCreate()
+#8 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): ClientesController->runAction()
+#10 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#12 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): ClientesController->filterAccessControl()
+#13 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): ClientesController->runActionWithFilters()
+#16 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): ClientesController->run()
+#17 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\ni54-yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/ni54-yii/index.php/clientes/create
+in C:\xampp\htdocs\ni54-yii\protected\views\clientes\_form.php (36)
+in C:\xampp\htdocs\ni54-yii\protected\views\clientes\create.php (22)
+in C:\xampp\htdocs\ni54-yii\protected\controllers\ClientesController.php (79)
+2017/03/23 16:12:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "upload".' in C:\xampp\htdocs\ni54-yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(270): CController->missingAction('upload')
+#1 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('upload')
+#2 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/upload')
+#3 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ni54-yii/web/upload/
+HTTP_REFERER=http://localhost/ni54-yii/index.php/imgPantalla/create
+---
+2017/03/23 16:12:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "upload".' in C:\xampp\htdocs\ni54-yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(270): CController->missingAction('upload')
+#1 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('upload')
+#2 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/upload')
+#3 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ni54-yii/web/upload/
+HTTP_REFERER=http://localhost/ni54-yii/index.php/imgPantalla/create
+---
+2017/03/23 16:16:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "upload".' in C:\xampp\htdocs\ni54-yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(270): CController->missingAction('upload')
+#1 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('upload')
+#2 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/upload')
+#3 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ni54-yii/web/upload/
+HTTP_REFERER=http://localhost/ni54-yii/index.php/imgPantalla/create
+---
+2017/03/23 16:16:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "upload".' in C:\xampp\htdocs\ni54-yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(270): CController->missingAction('upload')
+#1 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('upload')
+#2 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/upload')
+#3 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ni54-yii/web/upload/
+HTTP_REFERER=http://localhost/ni54-yii/index.php/imgPantalla/create
+---
+2017/03/23 16:17:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "upload".' in C:\xampp\htdocs\ni54-yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(270): CController->missingAction('upload')
+#1 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('upload')
+#2 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/upload')
+#3 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ni54-yii/web/upload/
+HTTP_REFERER=http://localhost/ni54-yii/index.php/imgPantalla/create
+---
+2017/03/23 16:18:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "upload".' in C:\xampp\htdocs\ni54-yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(270): CController->missingAction('upload')
+#1 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('upload')
+#2 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/upload')
+#3 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ni54-yii/web/upload/
+HTTP_REFERER=http://localhost/ni54-yii/index.php/imgPantalla/create
+---
+2017/03/23 16:22:21 [error] [php] Creating default object from empty value (C:\xampp\htdocs\ni54-yii\protected\controllers\ImgPantallaController.php:198)
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): ImgPantallaController->runAction()
+#1 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1116): CFilterChain->run()
+#2 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): ImgPantallaController->filterPostOnly()
+#3 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#4 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): ImgPantallaController->filterAccessControl()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): ImgPantallaController->runActionWithFilters()
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): ImgPantallaController->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\ni54-yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/ni54-yii/imgPantalla/upload/
+in C:\xampp\htdocs\ni54-yii\protected\controllers\ImgPantallaController.php (198)
+in C:\xampp\htdocs\ni54-yii\index.php (13)
+2017/03/23 16:22:54 [error] [php] Creating default object from empty value (C:\xampp\htdocs\ni54-yii\protected\controllers\ImgPantallaController.php:198)
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): ImgPantallaController->runAction()
+#1 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1116): CFilterChain->run()
+#2 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): ImgPantallaController->filterPostOnly()
+#3 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#4 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): ImgPantallaController->filterAccessControl()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): ImgPantallaController->runActionWithFilters()
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): ImgPantallaController->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\ni54-yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/ni54-yii/ImgPantalla/upload/
+in C:\xampp\htdocs\ni54-yii\protected\controllers\ImgPantallaController.php (198)
+in C:\xampp\htdocs\ni54-yii\index.php (13)
+2017/03/23 16:24:35 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/img".' in C:\xampp\htdocs\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php(65): CController->renderPartial('//static/img', '27.png')
+#1 [internal function]: WebController->actionGet('img', '27.png')
+#2 C:\xampp\htdocs\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\xampp\htdocs\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/im...')
+#14 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/img/27.png
+HTTP_REFERER=http://localhost/ni54-yii/
+---
+2017/03/23 16:24:35 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/img".' in C:\xampp\htdocs\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php(65): CController->renderPartial('//static/img', '23.png')
+#1 [internal function]: WebController->actionGet('img', '23.png')
+#2 C:\xampp\htdocs\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\xampp\htdocs\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/im...')
+#14 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/img/23.png
+HTTP_REFERER=http://localhost/ni54-yii/
+---
+2017/03/23 16:24:35 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/img".' in C:\xampp\htdocs\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php(65): CController->renderPartial('//static/img', '25.png')
+#1 [internal function]: WebController->actionGet('img', '25.png')
+#2 C:\xampp\htdocs\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\xampp\htdocs\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/im...')
+#14 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/img/25.png
+HTTP_REFERER=http://localhost/ni54-yii/
+---
+2017/03/23 16:24:35 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/img".' in C:\xampp\htdocs\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php(65): CController->renderPartial('//static/img', '24.png')
+#1 [internal function]: WebController->actionGet('img', '24.png')
+#2 C:\xampp\htdocs\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\xampp\htdocs\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/im...')
+#14 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/img/24.png
+HTTP_REFERER=http://localhost/ni54-yii/
+---
+2017/03/23 16:24:35 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/img".' in C:\xampp\htdocs\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php(65): CController->renderPartial('//static/img', '26.png')
+#1 [internal function]: WebController->actionGet('img', '26.png')
+#2 C:\xampp\htdocs\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\xampp\htdocs\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/im...')
+#14 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/img/26.png
+HTTP_REFERER=http://localhost/ni54-yii/
+---
+2017/03/23 16:24:35 [error] [exception.CException] exception 'CException' with message 'WebController cannot find the requested view "//static/img".' in C:\xampp\htdocs\ni54-yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php(65): CController->renderPartial('//static/img', '27.png')
+#1 [internal function]: WebController->actionGet('img', '27.png')
+#2 C:\xampp\htdocs\ni54-yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(WebController), Array)
+#3 C:\xampp\htdocs\ni54-yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(WebController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('get')
+#13 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/get/data/im...')
+#14 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/ni54-yii/img/27.png
+HTTP_REFERER=http://localhost/ni54-yii/
+---
+2017/03/23 16:24:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "upload".' in C:\xampp\htdocs\ni54-yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(270): CController->missingAction('upload')
+#1 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): CController->run('upload')
+#2 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController('web/upload')
+#3 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ni54-yii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ni54-yii/web/upload/
+HTTP_REFERER=http://localhost/ni54-yii/index.php/partners/create
+---
+2017/03/23 16:25:07 [error] [php] Creating default object from empty value (C:\xampp\htdocs\ni54-yii\protected\controllers\ImgPantallaController.php:199)
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): ImgPantallaController->runAction()
+#1 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1116): CFilterChain->run()
+#2 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): ImgPantallaController->filterPostOnly()
+#3 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#4 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): ImgPantallaController->filterAccessControl()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): ImgPantallaController->runActionWithFilters()
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): ImgPantallaController->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\ni54-yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/ni54-yii/imgpantalla/upload/
+in C:\xampp\htdocs\ni54-yii\protected\controllers\ImgPantallaController.php (199)
+in C:\xampp\htdocs\ni54-yii\index.php (13)
+2017/03/23 16:28:55 [error] [php] Creating default object from empty value (C:\xampp\htdocs\ni54-yii\protected\controllers\ImgPantallaController.php:199)
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): ImgPantallaController->runAction()
+#1 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1116): CFilterChain->run()
+#2 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): ImgPantallaController->filterPostOnly()
+#3 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#4 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): ImgPantallaController->filterAccessControl()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): ImgPantallaController->runActionWithFilters()
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): ImgPantallaController->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\ni54-yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/ni54-yii/ImgPantalla/upload/
+in C:\xampp\htdocs\ni54-yii\protected\controllers\ImgPantallaController.php (199)
+in C:\xampp\htdocs\ni54-yii\index.php (13)
+2017/03/23 16:29:38 [error] [php] Creating default object from empty value (C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php:222)
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): WebController->runAction()
+#1 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1116): CFilterChain->run()
+#2 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): WebController->filterPostOnly()
+#3 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#4 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): WebController->filterAccessControl()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): WebController->runActionWithFilters()
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): WebController->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\ni54-yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/ni54-yii/web/upload/
+in C:\xampp\htdocs\ni54-yii\protected\controllers\WebController.php (222)
+in C:\xampp\htdocs\ni54-yii\index.php (13)
+2017/03/23 16:38:37 [error] [php] Creating default object from empty value (C:\xampp\htdocs\ni54-yii\protected\controllers\ImgPantallaController.php:199)
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): ImgPantallaController->runAction()
+#1 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1116): CFilterChain->run()
+#2 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): ImgPantallaController->filterPostOnly()
+#3 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#4 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): ImgPantallaController->filterAccessControl()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): ImgPantallaController->runActionWithFilters()
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): ImgPantallaController->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\ni54-yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/ni54-yii/imgPantalla/upload/
+in C:\xampp\htdocs\ni54-yii\protected\controllers\ImgPantallaController.php (199)
+in C:\xampp\htdocs\ni54-yii\index.php (13)
+2017/03/23 16:47:26 [error] [php] Creating default object from empty value (C:\xampp\htdocs\ni54-yii\protected\controllers\ImgPantallaController.php:199)
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): ImgPantallaController->runAction()
+#1 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1116): CFilterChain->run()
+#2 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): ImgPantallaController->filterPostOnly()
+#3 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#4 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): ImgPantallaController->filterAccessControl()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): ImgPantallaController->runActionWithFilters()
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): ImgPantallaController->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\ni54-yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/ni54-yii/imgPantalla/upload/
+in C:\xampp\htdocs\ni54-yii\protected\controllers\ImgPantallaController.php (199)
+in C:\xampp\htdocs\ni54-yii\index.php (13)
+2017/03/23 16:51:02 [error] [php] Creating default object from empty value (C:\xampp\htdocs\ni54-yii\protected\controllers\ImgPantallaController.php:199)
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): ImgPantallaController->runAction()
+#1 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1116): CFilterChain->run()
+#2 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): ImgPantallaController->filterPostOnly()
+#3 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#4 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): ImgPantallaController->filterAccessControl()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): ImgPantallaController->runActionWithFilters()
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): ImgPantallaController->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\ni54-yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/ni54-yii/imgPantalla/upload/
+in C:\xampp\htdocs\ni54-yii\protected\controllers\ImgPantallaController.php (199)
+in C:\xampp\htdocs\ni54-yii\index.php (13)
+2017/03/23 17:18:08 [error] [php] Creating default object from empty value (C:\xampp\htdocs\ni54-yii\protected\controllers\ImgPantallaController.php:225)
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): ImgPantallaController->runAction()
+#1 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1116): CFilterChain->run()
+#2 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): ImgPantallaController->filterPostOnly()
+#3 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#4 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): ImgPantallaController->filterAccessControl()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): ImgPantallaController->runActionWithFilters()
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): ImgPantallaController->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\ni54-yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/ni54-yii/imgPantalla/upload/
+in C:\xampp\htdocs\ni54-yii\protected\controllers\ImgPantallaController.php (225)
+in C:\xampp\htdocs\ni54-yii\index.php (13)
+2017/03/23 17:21:56 [error] [php] Creating default object from empty value (C:\xampp\htdocs\ni54-yii\protected\controllers\ImgPantallaController.php:225)
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): ImgPantallaController->runAction()
+#1 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1116): CFilterChain->run()
+#2 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): ImgPantallaController->filterPostOnly()
+#3 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#4 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): ImgPantallaController->filterAccessControl()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): ImgPantallaController->runActionWithFilters()
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): ImgPantallaController->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\ni54-yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/ni54-yii/imgPantalla/upload/
+in C:\xampp\htdocs\ni54-yii\protected\controllers\ImgPantallaController.php (225)
+in C:\xampp\htdocs\ni54-yii\index.php (13)

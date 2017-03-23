@@ -19,7 +19,7 @@ class WebController extends Controller
 			'postOnly + delete', // we only allow deletion via POST request
 			'postOnly + contacto', // we only allow deletion via POST requesty
 			'postOnly + testAjax', // we only allow deletion via POST requesty
-			'postOnly + upload', // we only allow deletion via POST requesty
+			// 'postOnly + upload', // we only allow deletion via POST requesty
 		);
 	}
 
@@ -32,7 +32,7 @@ class WebController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','view',"get","contacto","testAjax","checkFeeds","checkClima","getLocalidades","getVeterinaria","getVeterinariaByProvincia","setClima","upload"),
+				'actions'=>array('index','view',"get","contacto","testAjax","checkFeeds","checkClima","getLocalidades","getVeterinaria","getVeterinariaByProvincia","setClima"),
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
@@ -203,64 +203,65 @@ class WebController extends Controller
 		}
 	}
 
-	public function actionUpload(){
-
-
-			// $_POST["idPantalla"];
-			$idPantalla=$_POST["idPantalla"];
-
-
-			if($idPantalla==null) exit("Error - No fue selecionada ninguna pantalla");
-
-
-			// echo $idProjecto[1];
-
-
-
-
-			$numeroImage= ImgPantalla::model()->findByAttributes(array("id_pantalla"=>$idPantalla),array("order"=>"id DESC"));
-			$numeroImage= ++$numeroImage->img;
-
-			$projecto=Pantalla::model()->findAllByAttributes(array("id_pantalla"=>$idPantalla));
-
-			$idProjecto=$projecto["0"]["id_project"];
-
-
-
-			if (isset($_FILES['file'])) {
-
-				$targetPath = "img/";
-
-				//if(isset($_POST["nombre"])){
-				$nombre=$idProjecto."-".$numeroImage;
-					$formato="";
-					if(strpos($_FILES['file']['name'],".png")>0){
-						$formato= ".png";
-					}
-					if(strpos($_FILES['file']['name'],".jpg")>0){
-						$formato= ".jpg";
-					}
-					if(strpos($_FILES['file']['name'],".jpeg")>0){
-						$formato= ".jpeg";
-					}
-					$targetFile =  $targetPath.$nombre.$formato;
-				/*}else{
-					$targetFile =  $targetPath.$_FILES['file']['name'];
-				}*/
-				//echo $targetFile;
-				//exit();
-
-				move_uploaded_file($_FILES['file']['tmp_name'],$targetFile);
-				//echo $targetFile;
-				$imgPantalla= new ImgPantalla();
-				$imgPantalla->id_pantalla= $idPantalla;
-				$imgPantalla->img= $numeroImage;
-				$imgPantalla->save();
-				echo $nombre.$formato;
-			}else{
-				echo "0";
-			}
-
-	}
-
+// 	public function actionUpload(){
+//
+//
+// 			// $_POST["idPantalla"];
+// 			$idPantalla=$_POST["idPantalla"];
+//
+//
+// 			if($idPantalla==null) exit("Error - No fue selecionada ninguna pantalla ".$idPantalla);
+//
+//
+// 			// echo $idProjecto[1];
+//
+//
+//
+//
+// 			$numeroImage= ImgPantalla::model()->findByAttributes(array("id_pantalla"=>$idPantalla),array("order"=>"id DESC"));
+// 			$numeroImage= ++$numeroImage->img;
+//
+// 			$projecto=Pantalla::model()->findAllByAttributes(array("id_pantalla"=>$idPantalla));
+//
+// 			$idProjecto=$projecto["0"]["id_project"];
+//
+//
+//
+// 			if (isset($_FILES['file'])) {
+//
+// 				$targetPath = "img/";
+//
+// 				//if(isset($_POST["nombre"])){
+// 				$nombre=$idProjecto."-".$numeroImage;
+//
+// 					$formato="";
+// 					if(strpos($_FILES['file']['name'],".png")>0){
+// 						$formato= ".png";
+// 					}
+// 					if(strpos($_FILES['file']['name'],".jpg")>0){
+// 						$formato= ".jpg";
+// 					}
+// 					if(strpos($_FILES['file']['name'],".jpeg")>0){
+// 						$formato= ".jpeg";
+// 					}
+// 					$targetFile =  $targetPath.$nombre.$formato;
+// 				/*}else{
+// 					$targetFile =  $targetPath.$_FILES['file']['name'];
+// 				}*/
+// 				//echo $targetFile;
+// 				//exit();
+//
+// 				move_uploaded_file($_FILES['file']['tmp_name'],$targetFile);
+// 				//echo $targetFile;
+// 				$imgPantalla= new ImgPantalla();
+// 				$imgPantalla->id_pantalla= $idPantalla;
+// 				$imgPantalla->img= $numeroImage;
+// 				$imgPantalla->save();
+// 				echo $nombre.$formato;
+// 			}else{
+// 				echo "0";
+// 			}
+//
+// 	}
+//
 }

@@ -16,6 +16,8 @@ class ImgPantallaController extends Controller
 		return array(
 			'accessControl', // perform access control for CRUD operations
 			'postOnly + delete', // we only allow deletion via POST request
+			'postOnly + testAjax', // we only allow deletion via POST requesty
+			'postOnly + upload', // we only allow deletion via POST requesty
 		);
 	}
 
@@ -28,7 +30,7 @@ class ImgPantallaController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','view'),
+				'actions'=>array('index','view','upload',"testAjax"),
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
@@ -174,4 +176,97 @@ class ImgPantallaController extends Controller
 			Yii::app()->end();
 		}
 	}
+
+
+	public function actionTestajax(){
+		//header("Access-Control-Allow-Origin: *");
+
+		$metas= MetatagPage::model()->findAllByAttributes(array('idPage'=>"1",));
+		$model=null;
+		$data=1;
+
+		if($_POST["url"]=="header"){
+			$this->renderPartial("//static/stylesheet-code2",$model);
+			$this->renderPartial("//static/header",$model);
+		}else{
+			/*if($_POST["url"]!="home"){
+				$this->renderPartial("//static/header",$model);
+			}*/
+			$segments= explode('/',$_POST["url"]);
+			if(count($segments)>2){
+				//echo "<div style='width:100%;height:40px;background-color:red;'>sdasdas</div>";
+				$this->renderPartial("//static/".$segments[1],$segments[2]);
+			}else{
+				//$this->renderPartial("//static/".$segments[1],$segments[2]);
+			//}else{
+				$this->renderPartial("//static/".$_POST["url"],$model);
+			//}
+			}
+		}
+	}
+
+	public function actionUpload(){
+
+
+			// $_POST["idPantalla"];
+
+			$idPantalla=$_POST["idPantalla"];
+
+
+			if($idPantalla==null) exit("Error - No fue selecionada ninguna pantalla ".$idPantalla);
+
+
+			// echo $idProjecto[1];
+
+
+
+
+			$numeroImage= ImgPantalla::model()->findByAttributes(array("id_pantalla"=>$idPantalla),array("order"=>"id DESC"));
+			$numeroImage= ++$numeroImage->img;
+
+			$projecto=Pantalla::model()->findAllByAttributes(array("id_pantalla"=>$idPantalla));
+
+			$idProjecto=$projecto["0"]["id_project"];
+
+
+
+			if (isset($_FILES['file'])) {
+
+				$targetPath = "img/";
+
+				//if(isset($_POST["nombre"])){
+				$nombre=$idProjecto."-".$numeroImage;
+
+					$formato="";
+					if(strpos($_FILES['file']['name'],".png")>0){
+						$formato= ".png";
+					}
+					if(strpos($_FILES['file']['name'],".jpg")>0){
+						$formato= ".jpg";
+					}
+					if(strpos($_FILES['file']['name'],".jpeg")>0){
+						$formato= ".jpeg";
+					}
+					$targetFile =  $targetPath.$nombre.$formato;
+				/*}else{
+					$targetFile =  $targetPath.$_FILES['file']['name'];
+				}*/
+				//echo $targetFile;
+				//exit();
+
+				move_uploaded_file($_FILES['file']['tmp_name'],$targetFile);
+				//echo $targetFile;
+				$imgPantalla= new ImgPantalla();
+				$imgPantalla->id_pantalla= $idPantalla;
+				$imgPantalla->img= $numeroImage;
+				$imgPantalla->save();
+				echo $nombre.$formato;
+			}else{
+				echo "0";
+			}
+
+	}
+
+
+
 }
