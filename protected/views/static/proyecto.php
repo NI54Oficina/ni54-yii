@@ -90,7 +90,7 @@ $pantalla= Pantalla::model()->findAll($Criteria);
                 <p class="tipo-trabajo"><?php echo $pt["trabajo"]; ?></p>
               </div>
               <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 center-side port">
-                <img class="center-to-parent" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/projects/<?php echo $data."-".$pt["img"]; ?>.png" alt="">
+                <img class="center-to-parent" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/<?php echo $data."-".$pt["img"]; ?>.png" alt="">
               </div>
 
               <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 right-side port"></div>
@@ -110,7 +110,7 @@ $pantalla= Pantalla::model()->findAll($Criteria);
 					//if($img["id_pantalla"]==$pt["id_pantalla"]){ ?>
 
 		       <div class="col-lg-<?php echo $colums; ?> col-md-<?php echo $colums; ?> col-sm-<?php echo $colums; ?> col-xs-12 port" >
-		         <img class="center-to-parent" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/projects/<?php echo $data."-".$img["img"]; ?>.png" alt="">
+		         <img class="center-to-parent" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/<?php echo $data."-".$img["img"]; ?>.png" alt="">
 		       </div>
 
       	<?php

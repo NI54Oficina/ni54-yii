@@ -48,7 +48,7 @@
     foreach($project as $p){
     ?>
 
-    <p id="<?php echo $p["id_project"]; ?>"><?php  echo $p["nombre"]; ?></p>
+    <p id="<?php echo $p["id_project"]; ?>"><?php echo $p["id_project"]; ?> - <?php  echo $p["nombre"]; ?></p>
     <?php
 
         $pantalla= Pantalla::model()->findAllByAttributes(array("id_project"=>$p->id_project));

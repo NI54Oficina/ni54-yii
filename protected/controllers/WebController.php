@@ -205,12 +205,12 @@ class WebController extends Controller
 
 	public function actionUpload(){
 
-		echo "test";
+
 			// $_POST["idPantalla"];
 			$idPantalla=$_POST["idPantalla"];
 
 
-
+			if($idPantalla==null) exit("Error - No fue selecionada ninguna pantalla");
 
 
 			// echo $idProjecto[1];
@@ -221,14 +221,18 @@ class WebController extends Controller
 			$numeroImage= ImgPantalla::model()->findByAttributes(array("id_pantalla"=>$idPantalla),array("order"=>"id DESC"));
 			$numeroImage= ++$numeroImage->img;
 
-			// $projecto=Project::model()->findAllByAttributes(array("id_pantalla"=>$idPantalla));
+			$projecto=Pantalla::model()->findAllByAttributes(array("id_pantalla"=>$idPantalla));
+
+			$idProjecto=$projecto["0"]["id_project"];
+
+
 
 			if (isset($_FILES['file'])) {
 
 				$targetPath = "img/";
 
 				//if(isset($_POST["nombre"])){
-				$nombre=$idPantalla."-".$numeroImage;
+				$nombre=$idProjecto."-".$numeroImage;
 					$formato="";
 					if(strpos($_FILES['file']['name'],".png")>0){
 						$formato= ".png";

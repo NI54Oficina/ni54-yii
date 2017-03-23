@@ -134,11 +134,11 @@ $clientes= Clientes::model()->findAll($Criteria);
 
 				<div class="b-carousel c-covered">
 
-					<img src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/projects/<?php echo $project[count($project)-1]["id_project"]; ?>.png" />
+					<img src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/<?php echo $project[count($project)-1]["id_project"]; ?>.png" />
 
 					<?php for( $i=0; $i<count($project)-1; $i++){ ?>
 
-						<img src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/projects/<?php echo $project[$i]["id_project"]; ?>.png" />
+						<img src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/<?php echo $project[$i]["id_project"]; ?>.png" />
 
 					<?php	} ?>
 
@@ -153,7 +153,7 @@ $clientes= Clientes::model()->findAll($Criteria);
 
 					<?php foreach($project as $p){ ?>
 
-							<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/proyecto/<?php echo $p["id_project"]; ?>"><img src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/projects/<?php echo $p["id_project"]; ?>.png" /></a>
+							<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/proyecto/<?php echo $p["id_project"]; ?>"><img src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/<?php echo $p["id_project"]; ?>.png" /></a>
 
 					<?php	} ?>
 
@@ -174,11 +174,11 @@ $clientes= Clientes::model()->findAll($Criteria);
 				<div class="b-carousel c-covered ">
 					<?php for( $i=1; $i<count($project); $i++){ ?>
 
-					<img src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/projects/<?php echo $project[$i]["id_project"]; ?>.png" />
+					<img src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/<?php echo $project[$i]["id_project"]; ?>.png" />
 
 					<?php	} ?>
 
-						<img src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/projects/<?php echo $project[0]["id_project"]; ?>.png" />
+						<img src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/<?php echo $project[0]["id_project"]; ?>.png" />
 				</div>
 
 
