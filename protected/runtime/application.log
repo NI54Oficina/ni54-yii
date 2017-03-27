@@ -41050,3 +41050,22 @@ Stack trace:
 REQUEST_URI=/ni54-yii/partners/upload/
 in C:\xampp\htdocs\ni54-yii\protected\controllers\PartnersController.php (191)
 in C:\xampp\htdocs\ni54-yii\index.php (13)
+2017/03/27 18:45:26 [error] [php] Undefined variable: nombreImage (C:\xampp\htdocs\ni54-yii\protected\controllers\PartnersController.php:238)
+Stack trace:
+#0 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(133): PartnersController->runAction()
+#1 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1116): CFilterChain->run()
+#2 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): PartnersController->filterPostOnly()
+#3 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#4 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\xampp\htdocs\ni54-yii\framework\web\filters\CInlineFilter.php(58): PartnersController->filterAccessControl()
+#7 C:\xampp\htdocs\ni54-yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\xampp\htdocs\ni54-yii\framework\web\CController.php(265): PartnersController->runActionWithFilters()
+#10 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(282): PartnersController->run()
+#11 C:\xampp\htdocs\ni54-yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\xampp\htdocs\ni54-yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\ni54-yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/ni54-yii/partners/upload/
+in C:\xampp\htdocs\ni54-yii\protected\controllers\PartnersController.php (238)
+in C:\xampp\htdocs\ni54-yii\index.php (13)

@@ -186,19 +186,24 @@ class PartnersController extends Controller
 
 			$indiceImg= Partners::model()->findAll(array("order"=>"id DESC"));
 
-			$algo=$indiceImg["0"]->id;
 
 
-			exit((int)($algo));
+
+
 
 			if(isset($indiceImg)){
-				$indiceImg=count($indiceImg);
-				$indexImg=intval($indexImg)+1;
-			}else{ $indiceImg=1;}
+				// $indiceImg=$indiceImg["0"]->id;
+				//
+				// $indiceImg=(int)$indiceImg;
+				//
+				// $indiceImg++;
+				$indiceImg2=1;
+
+			}else{ $indiceImg2=1;}
 
 
 
-			exit($indexImg);
+			exit($indiceImg2."algo");
 
 
 
