@@ -182,8 +182,28 @@ class PartnersController extends Controller
 
 	 		$nombreImg=$_POST["nombreImg"];
 
+			if($nombreImg==null) exit("Error - No fue selecionado un nombre para la imagen ");
 
-	 		if($nombreImg==null) exit("Error - No fue selecionado un nombre para la imagen ");
+			$indiceImg= Partners::model()->findAll(array("order"=>"id DESC"));
+
+			$algo=$indiceImg["0"]->id;
+
+
+			exit((int)($algo));
+
+			if(isset($indiceImg)){
+				$indiceImg=count($indiceImg);
+				$indexImg=intval($indexImg)+1;
+			}else{ $indiceImg=1;}
+
+
+
+			exit($indexImg);
+
+
+
+
+
 
 
 
@@ -192,7 +212,7 @@ class PartnersController extends Controller
 	 			$targetPath = "img/";
 
 	 			//if(isset($_POST["nombre"])){
-	 			$nombre="p-".$nombreImg;
+	 			$nombre="p-".$indiceImg;
 
 	 				$formato="";
 	 				if(strpos($_FILES['file']['name'],".png")>0){
@@ -208,6 +228,12 @@ class PartnersController extends Controller
 
 
 	 			move_uploaded_file($_FILES['file']['tmp_name'],$targetFile);
+				//echo $targetFile;
+				$partners= new Partners();
+				$partners->id= $indiceImg;
+				$partners->img= $nombreImage;
+				$partners->save();
+				echo $nombre.$formato;
 
 	 		}else{
 	 			echo "0";
