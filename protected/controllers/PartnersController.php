@@ -16,6 +16,7 @@ class PartnersController extends Controller
 		return array(
 			'accessControl', // perform access control for CRUD operations
 			'postOnly + delete', // we only allow deletion via POST request
+			'postOnly + upload', // we only allow deletion via POST requesty
 		);
 	}
 
@@ -28,7 +29,7 @@ class PartnersController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','view'),
+				'actions'=>array('index','view', 'upload'),
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
@@ -170,4 +171,48 @@ class PartnersController extends Controller
 			Yii::app()->end();
 		}
 	}
+
+
+	// functin para partners
+
+	 public function actionUpload(){
+
+
+
+
+	 		$nombreImg=$_POST["nombreImg"];
+
+
+	 		if($nombreImg==null) exit("Error - No fue selecionado un nombre para la imagen ");
+
+
+
+	 		if (isset($_FILES['file'])) {
+
+	 			$targetPath = "img/";
+
+	 			//if(isset($_POST["nombre"])){
+	 			$nombre="p-".$nombreImg;
+
+	 				$formato="";
+	 				if(strpos($_FILES['file']['name'],".png")>0){
+	 					$formato= ".png";
+	 				}
+	 				if(strpos($_FILES['file']['name'],".jpg")>0){
+	 					$formato= ".jpg";
+	 				}
+	 				if(strpos($_FILES['file']['name'],".jpeg")>0){
+	 					$formato= ".jpeg";
+	 				}
+	 				$targetFile =  $targetPath.$nombre.$formato;
+
+
+	 			move_uploaded_file($_FILES['file']['tmp_name'],$targetFile);
+
+	 		}else{
+	 			echo "0";
+	 		}
+
+	 }
+
 }

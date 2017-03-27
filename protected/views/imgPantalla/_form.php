@@ -30,7 +30,8 @@
 						$("#imagen-cargada").hide();
 						$("#imagen-cargando").show();
 
-                        formData.append("idPantalla", "<?php echo $model->id_pantalla; ?>");
+						formData.append("idPantalla", "<?php echo $model->id_pantalla; ?>");
+                        
 
 
 

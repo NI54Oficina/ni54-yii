@@ -208,21 +208,17 @@ class ImgPantallaController extends Controller
 	public function actionUpload(){
 
 
-			// $_POST["idPantalla"];
-
 			$idPantalla=$_POST["idPantalla"];
 
 
 			if($idPantalla==null) exit("Error - No fue selecionada ninguna pantalla ".$idPantalla);
 
 
-			// echo $idProjecto[1];
-
-
-
-
 			$numeroImage= ImgPantalla::model()->findByAttributes(array("id_pantalla"=>$idPantalla),array("order"=>"id DESC"));
-			$numeroImage= ++$numeroImage->img;
+			if(isset($numeroImage)){
+				$numeroImage= ++$numeroImage->img;
+			}else{ $numeroImage=1;}
+
 
 			$projecto=Pantalla::model()->findAllByAttributes(array("id_pantalla"=>$idPantalla));
 

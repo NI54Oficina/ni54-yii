@@ -24,13 +24,13 @@
 <script>
 
 
-	$("div#dropzone-example").dropzone({ url: "<?php echo Yii::app()->getBaseUrl(true); ?>/web/upload/",
+	$("div#dropzone-example").dropzone({ url: "<?php echo Yii::app()->getBaseUrl(true); ?>/clientes/upload/",
 			init: function() {
                 this.on("sending", function(file, xhr, formData){
 						$("#imagen-cargada").hide();
 						$("#imagen-cargando").show();
 
-                        formData.append("idPantalla", "");
+                        formData.append("nombreImg",$("#Clientes_img").val());
 
                 });
             },
