@@ -188,11 +188,20 @@ class ClientesController extends Controller
 
 
 
+			$clientes= new Clientes();
+			$clientes->img= $nombreImg;
+			$clientes->save();
+
+			$indiceImg= $clientes->id;
+
+
+
   		if (isset($_FILES['file'])) {
 
   			$targetPath = "img/";
 
-  			//if(isset($_POST["nombre"])){
+  			if(isset($_POST["nombre"])){
+
   			$nombre="c-".$nombreImg;
 
   				$formato="";
@@ -209,6 +218,9 @@ class ClientesController extends Controller
 
 
   			move_uploaded_file($_FILES['file']['tmp_name'],$targetFile);
+
+
+				echo $nombre.$formato;
 
   		}else{
   			echo "0";
