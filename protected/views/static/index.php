@@ -116,13 +116,6 @@ $clientes= Clientes::model()->findAll($Criteria);
 
 	<h3 id="title-section">ESTACION PORTFOLIO</h3>
 
-	<style>
-
-
-
-
-	</style>
-
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 slider-porfolio">
 
 
@@ -232,7 +225,7 @@ $clientes= Clientes::model()->findAll($Criteria);
 		<div class="logo-clientes clientes-0">
 					<?php foreach ($partners as $part) {?>
 
-								<img class="" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/p-<?php echo $part["img"] ?>.png" alt="">
+								<img class="" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/p-<?php echo $part["id"] ?>.png" alt="<?php echo $part["img"] ?>">
 
 
 					<?php } ?>
@@ -265,7 +258,7 @@ $clientes= Clientes::model()->findAll($Criteria);
 
 						<?php foreach ($clientes as $clien) {?>
 
-									<img class="" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/c-<?php echo $clien["img"] ?>.png" alt="">
+									<img class="" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/c-<?php echo $clien["id"] ?>.png" alt="<?php echo $clien["img"] ?>">
 
 
 						<?php } ?>
@@ -361,11 +354,11 @@ $clientes= Clientes::model()->findAll($Criteria);
 
 
 			<div class="planetas col-lg-12 col-sm-12 col-md-12 col-xs-12">
-				<div class="col-lg-6 col-sm-6 col-md-6 col-xs-6" hid="1"> <img class="floating floating-time-1" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/planetitas-01.svg" alt=""><p>Contenido <br>Interactivos</p></div>
-				<div class="col-lg-6 col-sm-6 col-md-6 col-xs-6" hid="1"> <img class="floating floating-time-2" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/planetitas-05.svg" alt=""><p>Diseño y <br> comunicación</p></div>
-				<div class="col-lg-6 col-sm-6 col-md-6 col-xs-6  float-left" hid="1"> <img class="floating floating-time-3"  src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/planetitas-02.svg" alt=""><p>Edutainment<br>Gamification</p></div>
-				<div class="col-lg-6 col-sm-6 col-md-6 col-xs-6  float-right" hid="1"> <img class="floating floating-time-1" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/planetitas-04.svg" alt=""><p>Videojuegos y <br>aplicaciones</p></div>
-				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12" hid="1"> <img class="floating floating-time-3"  src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/planetitas-03.svg" alt=""><p>Websites y <br>mobile apps.</p> </div>
+				<div class="col-lg-6 col-sm-6 col-md-6 col-xs-6 floating-planet" hid="1"> <img class="floating floating-time-1" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/planetitas-01.svg" alt=""><p>Contenido <br>Interactivos</p></div>
+				<div class="col-lg-6 col-sm-6 col-md-6 col-xs-6 floating-planet" hid="1"> <img class="floating floating-time-2" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/planetitas-05.svg" alt=""><p>Diseño y <br> comunicación</p></div>
+				<div class="col-lg-6 col-sm-6 col-md-6 col-xs-6 floating-planet  float-left" hid="1"> <img class="floating floating-time-3"  src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/planetitas-02.svg" alt=""><p>Edutainment<br>Gamification</p></div>
+				<div class="col-lg-6 col-sm-6 col-md-6 col-xs-6 floating-planet float-right" hid="1"> <img class="floating floating-time-1" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/planetitas-04.svg" alt=""><p>Videojuegos y <br>aplicaciones</p></div>
+				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 floating-planet" hid="1"> <img class="floating floating-time-3"  src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/planetitas-03.svg" alt=""><p>Websites y <br>mobile apps.</p> </div>
 
 			</div>
 
@@ -407,7 +400,7 @@ $clientes= Clientes::model()->findAll($Criteria);
 
 
 
-	<img style="max-width:100vw; position:absolute; bottom:0; left:0" class=""src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/suelo.png" alt="">
+	<img style="width:100%; position:absolute; bottom:0; left:0" class="piso" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/suelo.png" alt="">
 </section>
 
 

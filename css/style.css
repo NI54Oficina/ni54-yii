@@ -132,7 +132,7 @@ ul{
   bottom:0;
   margin:none;
   height: 10px;
-  width: 100%;
+  /*width: 100%;*/
   background-color: transparent;
   position: absolute;
   padding-bottom: 9em;

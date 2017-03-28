@@ -33,6 +33,14 @@
     display:none;
   }
 
+  .floating-planet{
+    height: auto;
+  }
+
+  .piso{
+    height: 50px;
+  }
+
 
   .desplazamiento {
 
