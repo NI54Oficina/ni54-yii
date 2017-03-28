@@ -196,13 +196,13 @@ class ClientesController extends Controller
 
 
 
-  		if (isset($_FILES['file'])) {
+  		if (isset($_FILES['file'])){
 
   			$targetPath = "img/";
 
-  			if(isset($_POST["nombre"])){
+  			// if(isset($_POST["nombre"])){
 
-  			$nombre="c-".$nombreImg;
+  			$nombre="c-".$indiceImg;
 
   				$formato="";
   				if(strpos($_FILES['file']['name'],".png")>0){
