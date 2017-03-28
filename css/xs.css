@@ -153,6 +153,11 @@
     width: 50%;
   }
 
+  #testing {
+    background: radial-gradient(at 35% bottom,white,#67588f,#362859,transparent);
+    background-size: 150%;
+}
+
 }
 
 @media screen and (max-width: 767px) and (orientation:portrait){
