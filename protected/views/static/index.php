@@ -268,6 +268,11 @@ border-radius: 5px;
 counter-increment: carousel-cell;
 }
 
+
+.flickity-page-dots{
+	display: none;
+}
+
 /* cell number */
 /*.carousel-cell:before {
 display: block;
@@ -306,6 +311,8 @@ color: white;
 <script>
 
 var $carousel = $('.carousel').flickity();
+
+$carousel.flickity( 'select', 4);
 
 $('.button-group').on( 'click', '.button', function() {
   var index = $(this).index();
