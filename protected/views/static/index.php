@@ -34,6 +34,7 @@ $clientes= Clientes::model()->findAll($Criteria);
 	<link href="<?php echo Yii::app()->getBaseUrl(true); ?>/css/sm.css" rel="stylesheet">
 	<link href="<?php echo Yii::app()->getBaseUrl(true); ?>/css/xs.css" rel="stylesheet">
 	<link href="<?php echo Yii::app()->getBaseUrl(true); ?>/css/sp.css" rel="stylesheet">
+	<link href="<?php echo Yii::app()->getBaseUrl(true); ?>/css/flickity.css" rel="stylesheet">
 
 	<!-- BOOTSTRAP JS -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -42,6 +43,8 @@ $clientes= Clientes::model()->findAll($Criteria);
 	<script type="text/javascript" src="<?php echo Yii::app()->getBaseUrl(true); ?>/js/script.js "></script>
 		<script type="text/javascript" src="<?php echo Yii::app()->getBaseUrl(true); ?>/js/estrellas.js "></script>
 		<script type="text/javascript" src="<?php echo Yii::app()->getBaseUrl(true); ?>/js/tipeo.js "></script>
+		<script type="text/javascript" src="<?php echo Yii::app()->getBaseUrl(true); ?>/js/flickity.pkgd.js "></script>
+
 
 
 
@@ -240,7 +243,7 @@ $clientes= Clientes::model()->findAll($Criteria);
 	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 clientes" >
 		<h3 id="title-section">YA NOS CONOCEN</h3>
 
-		
+
 		<!--  -->
 	<!--
 		<div id="carousel">
@@ -251,26 +254,71 @@ $clientes= Clientes::model()->findAll($Criteria);
 				<ul> -->
 
 					<!--  -->
+						<style media="screen">
+						/*.carousel {
+background: #FAFAFA;
+}*/
+
+.carousel-cell {
+width: 120px;
+height: 100px;
+margin-right: 10px;
+/*background: #8C8;*/
+border-radius: 5px;
+counter-increment: carousel-cell;
+}
+
+/* cell number */
+/*.carousel-cell:before {
+display: block;
+text-align: center;
+content: counter(carousel-cell);
+line-height: 200px;
+font-size: 80px;
+color: white;
+}*/
+.flickity-prev-next-button{
+	display: none;
+}
+
+						</style>
+
+						<div class="logo-clientes clientes-<?php echo $i ?> general-container carousel" >
 
 
 
-				<div class="logo-clientes clientes-<?php echo $i ?> general-container" >
+								<?php foreach ($clientes as $clien) {?>
 
+									<div class="carousel-cell">
 
+											<img class="" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/c-<?php echo $clien["id"] ?>.png" alt="<?php echo $clien["img"] ?>">
 
-						<?php foreach ($clientes as $clien) {?>
-
-									<img class="" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/c-<?php echo $clien["id"] ?>.png" alt="<?php echo $clien["img"] ?>">
-
-
-						<?php } ?>
+									</div>
+								<?php } ?>
 
 
 
 
-				</div>
+						</div>
 
-				<!-- </li> -->
+
+
+<script>
+
+var $carousel = $('.carousel').flickity();
+
+$('.button-group').on( 'click', '.button', function() {
+  var index = $(this).index();
+
+  $carousel.flickity( 'select', index);
+});
+
+</script>
+
+
+
+
+
 
 
 
