@@ -239,6 +239,8 @@ $clientes= Clientes::model()->findAll($Criteria);
 
 	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 clientes" >
 		<h3 id="title-section">YA NOS CONOCEN</h3>
+
+		
 		<!--  -->
 	<!--
 		<div id="carousel">
