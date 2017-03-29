@@ -27,13 +27,29 @@
 
   #nave{
     width: 30px;
+    display: none;
+  }
+
+  .planetas {
+    padding-top: 20%;
+  }
+/*
+  #contacto{
+    .planetas {
+    padding-top: 20%;
+  }
+  }*/
+
+
+  #portfolio h3 {
+      margin-bottom: 15%;
   }
 
   canvas{
     display:none;
   }
 
-  .floating-planet{
+  .contacto-planet{
     height: auto;
   }
 

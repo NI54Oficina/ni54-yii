@@ -163,13 +163,18 @@ ul{
   opacity: 0;
 }
 
+
+#contacto{
+  padding-bottom: 10em !important;
+}
+
 #contacto,#portfolio, #clientes, #lo-que-hacemos{
   text-align: center;
   color: white;
   padding: 0;
   z-index: 1;
 }
-
+<fd
 #clientes,#contacto, .circle-container,#portfolio{
     z-index: 3;
 }
@@ -180,6 +185,7 @@ ul{
 
 #clientes{
   background-color: white;
+  padding: 10px 0 10px 0;
 }
 
 
@@ -199,7 +205,7 @@ ul{
 #portfolio{
 
   margin-bottom: 2em;
-  padding-top: 15em;
+  /*padding-top: 15em;*/
 }
 
 #title-web{
@@ -484,6 +490,7 @@ margin-top: 3em;
   color:#00d6bd;
   padding-right:50px;
   z-index:4;
+  font-size: 18px;
 }
 
 .desplazamiento:hover{
@@ -876,7 +883,7 @@ cursor:pointer;
 .zona-nubes #nube-1{
   left: 0;
   padding-left: 3em;
-  padding-top: 40em;
+  padding-top: 15%;
 }
 
 .zona-nubes #nube-2{
@@ -889,9 +896,11 @@ cursor:pointer;
 
 .zona-nubes #nube-3{
   right: 0;
-  padding-left: 3em;
-  padding-right: 5em;
-  padding-top: 30em;
+  /*padding-left: 3em;*/
+  padding-right: 15%;
+  padding-top: 10%;
+  animation: animate-nubes-right 1s infinite;
+
 }
 
 .animate-nubes{
@@ -957,9 +966,15 @@ cursor:pointer;
 }
 
 @-webkit-keyframes animate-nubes{
-    0% {padding-left: 3em}
-    50% {padding-left: 5em;}
-    100% {padding-left: 3em}
+    0% {padding-left: 15%}
+    50% {padding-left: 20%;}
+    100% {padding-left: 15%}
+}
+
+@-webkit-keyframes animate-nubes-right{
+    0% {padding-right: : 15%}
+    50% {padding-right: : 20%;}
+    100% {padding-right: : 15%}
 }
 
 
@@ -1073,7 +1088,7 @@ a#next:hover {
 }
 
 #testing{
-  background: radial-gradient(at 50% bottom,white,#67588f,#362859,transparent);
+  background: radial-gradient(at 50% bottom,white,#67588f,#322554,transparent);
 }
 
 #descripcion #prev-port:hover .prev-label, #descripcion #next-port:hover .next-label{

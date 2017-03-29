@@ -51,7 +51,7 @@ $clientes= Clientes::model()->findAll($Criteria);
 
 <body  id="index">
 
-	<img style="position:absolute; left:1000; bottom:0; z-index:9" id="nave" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/cohete.svg" alt="">
+	<img style="position:absolute; left:1000; bottom:0; z-index:9;     width: 60px;" id="nave" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/cohete.svg" alt="">
 	<canvas id="canvasFugaz" style=" position:fixed;height:100vh; 100vw; z-index:-2"></canvas>
 
 	<canvas id="canvas"style=""></canvas>
@@ -62,11 +62,11 @@ $clientes= Clientes::model()->findAll($Criteria);
 
 	<!-- <a href="" class="glyphicon glyphicon-menu-up desplazamiento" style="top:0;"></a> -->
 
-	<a id="link" name="#contacto" href="#" class="glyphicon glyphicon-minus desplazamiento" style="top: 49%"; ></a>
+	<a id="link" name="#contacto" href="#" class="glyphicon glyphicon-minus desplazamiento" style="top: 48%"; ></a>
 	<a id="link" name="#portfolio" href="#" class="glyphicon glyphicon-minus desplazamiento" style="top: 50%;"></a>
-	<a id="link" name="#clientes" href="#" class="glyphicon glyphicon-minus desplazamiento" style="top: 51%;"></a>
-	<a id="link" name="#lo-que-hacemos" href="#" class="glyphicon glyphicon-minus desplazamiento" style=" top: 52%;"></a>
-	<a id="link" name="#about" href="#" class="glyphicon glyphicon-minus desplazamiento" style=" top: 53%;"></a>
+	<a id="link" name="#clientes" href="#" class="glyphicon glyphicon-minus desplazamiento" style="top: 52%;"></a>
+	<a id="link" name="#lo-que-hacemos" href="#" class="glyphicon glyphicon-minus desplazamiento" style=" top: 54%;"></a>
+	<a id="link" name="#about" href="#" class="glyphicon glyphicon-minus desplazamiento" style=" top: 56%;"></a>
 
 
 
@@ -192,8 +192,8 @@ $clientes= Clientes::model()->findAll($Criteria);
 		</div>
 
 		<div class=" hidden-lg hidden-sm hidden-md">
-			<p class="arrow-bolita" direction=-1 style=" position:absolute; left:4em; bottom:4em; " ><span class="arrow-bolita glyphicon glyphicon-menu-left"   aria-hidden="true" style="font-size:3em; color: white;color:#00d6bd"></span></p>
-			<p class="arrow-bolita" direction=1 style=" position:absolute; right:4em; bottom:4em; " ><span class="glyphicon glyphicon-menu-right"   aria-hidden="true" style="font-size:3em; color: white;color:#00d6bd" ></span></p>
+			<p class="arrow-bolita" direction=-1 style=" position:absolute; left:2em; bottom:7em; " ><span class="arrow-bolita glyphicon glyphicon-menu-left"   aria-hidden="true" style="font-size:3em; color: white;color:#00d6bd"></span></p>
+			<p class="arrow-bolita" direction=1 style=" position:absolute; right:2em; bottom:7em; " ><span class="glyphicon glyphicon-menu-right"   aria-hidden="true" style="font-size:3em; color: white;color:#00d6bd" ></span></p>
 
 		</div>
 
@@ -201,11 +201,11 @@ $clientes= Clientes::model()->findAll($Criteria);
 
 		<div id="test-prev-label" class="arrow-bolita" direction=-1 style="position:absolute; left:0; height:400px;width:35vw; z-index:5">
 
-			<div  class="prev-label label-test"style="position:fixed;"> <p>Anterior  <br><?php foreach($project as $p){ ?><span class="left-remain"><?php echo $p["nombre"]; ?></span><?php	} ?></p> </div>
+			<div  class="prev-label label-test hidden-xs"style="position:fixed;"> <p>Anterior  <br><?php foreach($project as $p){ ?><span class="left-remain"><?php echo $p["nombre"]; ?></span><?php	} ?></p> </div>
 
 		</div>
 
-		<div id="test-next-label" class="arrow-bolita" direction=1 style="position:absolute; right:0; height:400px; width:35vw;z-index:5">
+		<div id="test-next-label" class="arrow-bolita hidden-xs" direction=1 style="position:absolute; right:0; height:400px; width:35vw;z-index:5">
 
 			<div  class="next-label label-test"  style="position:fixed; z-index:5"> <p>Proximo  <br><?php foreach($project as $p){ ?><span class="right-remain"><?php echo $p["nombre"]; ?></span><?php	} ?></p> </div>
 
@@ -216,7 +216,7 @@ $clientes= Clientes::model()->findAll($Criteria);
 <section id="clientes" class="col-lg-12 col-md-12 col-sm-12 col-xs-12" >
 
 
-	<h1 id="fraseFlotante" class="" style="">ALGUNA FRASE QUE DESCRIBA NUESTRA MANERA DE TRABAJAR</h1>
+	<!-- <h1 id="fraseFlotante" class="" style="">ALGUNA FRASE QUE DESCRIBA NUESTRA MANERA DE TRABAJAR</h1> -->
 
 
 	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 partners clientes" >
@@ -354,11 +354,11 @@ $clientes= Clientes::model()->findAll($Criteria);
 
 
 			<div class="planetas col-lg-12 col-sm-12 col-md-12 col-xs-12">
-				<div class="col-lg-6 col-sm-6 col-md-6 col-xs-6 floating-planet" hid="1"> <img class="floating floating-time-1" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/planetitas-01.svg" alt=""><p>Contenido <br>Interactivos</p></div>
-				<div class="col-lg-6 col-sm-6 col-md-6 col-xs-6 floating-planet" hid="1"> <img class="floating floating-time-2" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/planetitas-05.svg" alt=""><p>Diseño y <br> comunicación</p></div>
-				<div class="col-lg-6 col-sm-6 col-md-6 col-xs-6 floating-planet  float-left" hid="1"> <img class="floating floating-time-3"  src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/planetitas-02.svg" alt=""><p>Edutainment<br>Gamification</p></div>
+				<div class="col-lg-6 col-sm-6 col-md-6 col-xs-4 floating-planet" hid="1"> <img class="floating floating-time-1" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/planetitas-01.svg" alt=""><p>Contenido <br>Interactivos</p></div>
+				<div class="col-lg-6 col-sm-6 col-md-6 col-xs-4 floating-planet" hid="1"> <img class="floating floating-time-2" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/planetitas-05.svg" alt=""><p>Diseño y <br> comunicación</p></div>
+				<div class="col-lg-6 col-sm-6 col-md-6 col-xs-4 floating-planet  float-left" hid="1"> <img class="floating floating-time-3"  src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/planetitas-02.svg" alt=""><p>Edutainment<br>Gamification</p></div>
 				<div class="col-lg-6 col-sm-6 col-md-6 col-xs-6 floating-planet float-right" hid="1"> <img class="floating floating-time-1" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/planetitas-04.svg" alt=""><p>Videojuegos y <br>aplicaciones</p></div>
-				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 floating-planet" hid="1"> <img class="floating floating-time-3"  src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/planetitas-03.svg" alt=""><p>Websites y <br>mobile apps.</p> </div>
+				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-6 floating-planet" hid="1"> <img class="floating floating-time-3"  src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/planetitas-03.svg" alt=""><p>Websites y <br>mobile apps.</p> </div>
 
 			</div>
 
