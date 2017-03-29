@@ -466,7 +466,7 @@ $('.button-group').on( 'click', '.button', function() {
     bottom: 0;
     width: 4em;
     margin: auto;
-    padding-bottom: 20px;" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/cohete.svg" alt="">
+    padding-bottom: 20px;" class="hidden-lg hidden-sm hidden-md" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/cohete.svg" alt="">
 
 
 </section>
