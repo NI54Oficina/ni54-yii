@@ -458,6 +458,17 @@ $('.button-group').on( 'click', '.button', function() {
 
 
 	<img style="width:100%; position:absolute; bottom:0; left:0" class="piso" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/suelo.png" alt="">
+
+
+<img style="position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 4em;
+    margin: auto;
+    padding-bottom: 20px;" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/cohete.svg" alt="">
+
+
 </section>
 
 
