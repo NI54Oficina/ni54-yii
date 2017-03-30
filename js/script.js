@@ -1,3 +1,5 @@
+mobile=0;
+
 $(window).on("load",function () {
 
 
@@ -6,14 +8,18 @@ $(window).on("load",function () {
 
 $(window).resize(function(){
 			CenterToParent();
+
+			isMobile();
 });
 
 $( document).scroll(function() {
-	checkAnimation('fraseFlotante', 'animate-frase-flotante');
+	// checkAnimation('fraseFlotante', 'animate-frase-flotante');
 	// checkAnimation('main-logo', 'animate-imagen-principal');
 });
 
 $(document).on("ready",function(){
+
+	isMobile();
 
 	tipear();
 	slider();
@@ -21,11 +27,11 @@ $(document).on("ready",function(){
 	// centerCircleLema();
 	scrollToSector();
 	FitBg();
-
-
 	CenterToParent();
-
 	scrollUp();
+
+
+
 
 });
 
@@ -362,3 +368,8 @@ function CenterToParent(){
     $( ".next-label" ).css( "bottom", + bottom + "px" );
     $( ".next-label" ).css( "right", + right + "px" );
   });
+
+
+isMobile(){
+	if( $(window).width()<1200) mobile=1;
+}

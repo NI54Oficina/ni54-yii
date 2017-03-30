@@ -23,11 +23,23 @@
 
   #main-logo {
     visibility: visible;
+    opacity:1;
   }
 
   #nave{
     width: 30px;
     display: none;
+  }
+
+  #nube{
+    left:0;
+    right: 0;
+    padding-bottom: 0;
+    display: block;
+    opacity: 1 ;
+    position: absolute;
+    margin:auto;
+    width: 30%;
   }
 
   .planetas {

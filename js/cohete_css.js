@@ -11,9 +11,7 @@ $(window).scroll(function(){
     // checkAnimation();
     moveNave();
 
-
 });
-
 
 $.fn.animateRotate = function(angle, duration, easing, complete) {
     var args = $.speed(duration, easing, complete);
@@ -28,11 +26,10 @@ $.fn.animateRotate = function(angle, duration, easing, complete) {
     });
 };
 
+
+
 function isElementInViewportRever(elem) {
     var $elem = $(elem);
-
-
-
 
     var scrollElem = ((navigator.userAgent.toLowerCase().indexOf('webkit') != -1) ? 'body' : 'html');
     var viewportTop = $(scrollElem).scrollTop();
@@ -44,9 +41,9 @@ function isElementInViewportRever(elem) {
     return [(elemTop < viewportBottom) && (elemBottom > viewportTop),viewportTop];
 }
 
-
-
 function moveNave(){
+
+  if(mobile)return;
 
 
   var $nave =$('#nave');
@@ -55,8 +52,6 @@ function moveNave(){
 
   indexes.forEach(function($elem){
 
-
-
     resp=isElementInViewportRever($elem[0]);
 
     if(resp[0]){
@@ -64,7 +59,7 @@ function moveNave(){
 
       if($elem[0]!=prevElem){
 
-      
+
 
         prevElem=$elem[0];
 
@@ -102,8 +97,6 @@ function moveNave(){
 
          }
 
-
-
         prevPos=resp[1];
         prevLeft=left;
         posX=pos[left];
@@ -115,8 +108,10 @@ function moveNave(){
           opaLogo=1;
           // timeLogo=
 
-        }else{opa=1;
-        opaLogo=0;}
+        }else{
+          opa=1;
+          opaLogo=0;
+        }
 
 
         $nave.animate({top:(resp[1])+height,
@@ -125,24 +120,31 @@ function moveNave(){
                       700,
                       function(){
 
-                                  $("#main-logo").animate({opacity:opaLogo},100)
+                                  $("#main-logo").animate({opacity:opaLogo},100);
+
+                                  if($elem[0]=="#step-5"){
+                                    $nave.animate({top:$(document).height()-200},
+                                                  700);
+
+                                      $nave.animateRotate(0, 400, "linear");
+
+
+                                      $("#nube").animate({opacity:1,left:posX-50},500);
+                                      $("#nube").fadeIn();
+                                  }else{
+                                      $("#nube").animate({opacity:0},200);
+                                      $("#nube").fadeOut();
+                                  }
+
+
 
                                 }
-
                     );
-
-
 
       }
 
 
-
-
-
     }
-
-
-
 
   });
 

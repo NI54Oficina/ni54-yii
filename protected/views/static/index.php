@@ -76,7 +76,7 @@ $clientes= Clientes::model()->findAll($Criteria);
 	<!-- <a href="" class="glyphicon glyphicon-menu-down desplazamiento" style=""></a> -->
 
 <section id="contacto" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 " >
-	<div class="" id="step-1"></div>
+	<div class="hidden-xs hidden-md hidden-sm" id="step-1"></div>
 
  	<img id="main-logo" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/cohete_blanco.svg" alt="">
 	<h1 id="title-web">NitroInteractivo</h1>
@@ -115,7 +115,7 @@ $clientes= Clientes::model()->findAll($Criteria);
 
 <section id="portfolio" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 seccion" >
 
-	<div class="m" id="step-2"></div>
+	<div class="m hidden-xs hidden-md hidden-sm" id="step-2"></div>
 
 	<h3 id="title-section">ESTACION PORTFOLIO</h3>
 
@@ -393,7 +393,7 @@ $('.button-group').on( 'click', '.button', function() {
 </section>
 
 <section id="lo-que-hacemos" class="col-lg-12 col-sm-12 col-md-12 col-xs-12">
-		<div class="m" id="step-4"></div>
+		<div class="m hidden-xs hidden-md hidden-sm" id="step-4"></div>
 
 		<div class="about col-lg-12 col-sm-12 col-md-12 col-xs-12">
 			<!-- <canvas id="canvasSky"></canvas> -->
@@ -430,7 +430,7 @@ $('.button-group').on( 'click', '.button', function() {
 
 <section id="testing" class="col-lg-12 col-sm-12 col-md-12 col-xs-12" style="text-align:center; height:100vh">
 
-<div class="" id="step-5"></div>
+<div class="hidden-xs hidden-md hidden-sm" id="step-5"></div>
 
 	<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 zona-nubes">
 			<img class="animate-nubes" id="nube-1" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/nube-01.svg" alt="">
@@ -460,14 +460,8 @@ $('.button-group').on( 'click', '.button', function() {
 	<img style="width:100%; position:absolute; bottom:0; left:0" class="piso" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/suelo.png" alt="">
 
 
-<img style="position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: 4em;
-    margin: auto;
-    padding-bottom: 20px;" class="hidden-lg hidden-sm hidden-md" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/cohete.svg" alt="">
-
+<img style="position: absolute;left: 0;right: 0;bottom: 0;width: 4em;  margin: auto; padding-bottom: 20px;" class="hidden-lg hidden-sm hidden-md" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/cohete.svg" alt="">
+<img id="nube" style="" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/nubecita.png" alt="">
 
 </section>
 
