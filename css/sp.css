@@ -4,6 +4,20 @@
   and (max-device-width: 1024px)
   and (orientation: landscape)  {
 
+    #main-logo {
+    visibility: visible;
+    opacity: 1;
+    }
+
+    #nube {
+    left: 0;
+    right: 0;
+    padding-bottom: 0;
+    display: block;
+    opacity: 1;
+    position: absolute;
+    margin: auto;
+  }
 
 
 /*fin ipad landscape*/
@@ -15,6 +29,18 @@
 and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (orientation : portrait) {
+
+  #nave-estatica{
+    padding-bottom: 40px;
+    width: 5em;
+  }
+
+  .about-inner {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      padding-bottom: 30em;
+  }
 
 
   #formulario input, #formulario textarea{
@@ -44,7 +70,7 @@ and (orientation : portrait) {
   }
 
   #nave{
-    width: 30px;
+    width: 5em;
     display: none;
   }
 
@@ -56,7 +82,7 @@ and (orientation : portrait) {
     opacity: 1 ;
     position: absolute;
     margin:auto;
-    width: 30%;
+    width: 25%;
   }
 
   .flickity-page-dots {
@@ -227,6 +253,14 @@ and (max-device-width : 1024px)  {
     display:none;
   }
 
+
+  .zona-nubes #nube-2 {
+    width: 60%;
+  }
+
+  .zona-nubes #nube-3 {
+    width: 50%;
+  }
 
 }
 
