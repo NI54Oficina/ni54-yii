@@ -9,7 +9,7 @@ $(window).on("load",function () {
 $(window).resize(function(){
 			CenterToParent();
 
-			isMobile();
+
 });
 
 $( document).scroll(function() {
@@ -19,7 +19,7 @@ $( document).scroll(function() {
 
 $(document).on("ready",function(){
 
-	isMobile();
+
 
 	tipear();
 	slider();

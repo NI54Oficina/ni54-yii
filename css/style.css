@@ -777,7 +777,34 @@ left:0;
  .nombre-proj{
    font-family: 'open_sansregular';
    line-height: 2em;
+   width:300px;
+   position:relative;
+   left:0;
+   right: 0;
+   margin:auto;
+   /*left: 0;
+   right: 0;
+   margin:auto;
+   bottom:0;
+   padding-bottom:3em;*/
  }
+
+ .flecha-port{
+    position:absolute;
+    /*left:2em;*/
+    bottom:7em;
+ }
+
+ .floating-planet{
+   min-height: 150px;
+ }
+
+ .floating-planet p{
+   left: 0;
+   right: 0;
+   margin:auto;
+ }
+
  .nombre-proj span{
    font-size:1.2em;
    color:#f3b32f;

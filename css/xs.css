@@ -43,7 +43,7 @@
   }
 
   .flickity-page-dots {
-       display: block; 
+       display: block;
   }
 
   .planetas {
@@ -190,6 +190,12 @@
     background-size: 150%;
 }
 
+
+    .nombre-proj{
+      padding-bottom: 7em;
+      position: absolute;
+      bottom:0
+    }
 }
 
 @media screen and (max-width: 767px) and (orientation:portrait){
@@ -198,5 +204,23 @@
 }
 
 @media screen and (max-width: 767px) and (orientation:landscape){
+  .nombre-proj {
+  padding-bottom:0;
+  position: absolute;
+  bottom: 0;
+  }
+
+  .flecha-port {
+
+    bottom:0;
+  }
+
+  .zona-nubes #nube-2 {
+    width: 30%;
+  }
+
+  .zona-nubes #nube-3 {
+    width: 30%;
+  }
 
 }
