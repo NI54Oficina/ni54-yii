@@ -126,7 +126,7 @@ $clientes= Clientes::model()->findAll($Criteria);
 
 			<!-- <div class="arrow-bolita" direction=-1><</div> -->
 
-			<div id="bolitaMessure" class="bolita-display hidden-xs left-covered arrow-bolita"  direction=-1 >
+			<div id="bolitaMessure" class="bolita-display hidden-xs hidden-sm left-covered arrow-bolita"  direction=-1 >
 
 				<div class="b-carousel c-covered">
 
@@ -165,7 +165,7 @@ $clientes= Clientes::model()->findAll($Criteria);
 
 			<?php	} ?>
 
-			<div class="bolita-display hidden-xs right-covered arrow-bolita" direction=1>
+			<div class="bolita-display hidden-xs hidden-sm right-covered arrow-bolita" direction=1>
 
 				<div class="b-carousel c-covered ">
 					<?php for( $i=1; $i<count($project); $i++){ ?>
@@ -225,11 +225,13 @@ $clientes= Clientes::model()->findAll($Criteria);
 	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 partners clientes" >
 		<h3 id="title-section">PARTNERS</h3>
 
-		<div class="logo-clientes clientes-0">
+		<div class="logo-clientes clientes-0 carousel-0">
 					<?php foreach ($partners as $part) {?>
 
-								<img class="" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/p-<?php echo $part["id"] ?>.png" alt="<?php echo $part["img"] ?>">
+								<div class="carousel-cell">
 
+								<img class="" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/p-<?php echo $part["id"] ?>.png" alt="<?php echo $part["img"] ?>">
+								</div>
 
 					<?php } ?>
 			</div>
@@ -254,39 +256,32 @@ $clientes= Clientes::model()->findAll($Criteria);
 				<ul> -->
 
 					<!--  -->
-						<style media="screen">
-						/*.carousel {
-background: #FAFAFA;
-}*/
+<style media="screen">
 
-.carousel-cell {
-width: 120px;
-height: 100px;
-margin-right: 10px;
-/*background: #8C8;*/
-border-radius: 5px;
-counter-increment: carousel-cell;
-}
+		.carousel-cell {
+		width: 120px;
+		height: 100px;
+		margin-right: 10px;
+		border-radius: 5px;
+		}
 
 
-.flickity-page-dots{
-	display: none;
-}
+		.flickity-page-dots{
+			display: none;
+		}
 
-/* cell number */
-/*.carousel-cell:before {
-display: block;
-text-align: center;
-content: counter(carousel-cell);
-line-height: 200px;
-font-size: 80px;
-color: white;
-}*/
-.flickity-prev-next-button{
-	display: none;
-}
+		/* cell number */
+		/*.carousel-cell:before {
+		display: block;
+		text-align: center;
+		content: counter(carousel-cell);
+		line-height: 200px;
+		font-size: 80px;
+		color: white;
+		}*/
 
-						</style>
+
+</style>
 
 						<div class="logo-clientes clientes-<?php echo $i ?> general-container carousel" >
 
@@ -320,73 +315,20 @@ $('.button-group').on( 'click', '.button', function() {
   $carousel.flickity( 'select', index);
 });
 
+
+var $carousel1 = $('.carousel-0').flickity();
+
+$carousel1.flickity( 'select', 1	);
+
+$('.button-group').on( 'click', '.button', function() {
+  var index = $(this).index();
+
+  $carousel.flickity( 'select', index);
+});
+
 </script>
 
 
-
-
-
-
-
-
-
-
-
-		<!--  -->
-
-	<!-- </ul>
-	</div>
-	</div> -->
-
-	<!--  -->
-
-		<!-- <div id="carousel">
-		  <div class="btn-bar">
-		    <div id="buttons"><a id="prev" href="#"><</a><a id="next" href="#">></a> </div>
-		  </div>
-		  <div id="slides">
-		    <ul>
-		      <li class="slide">
-		            <div class="">
-		              <p>asdasda</p>
-		              <p>sadjnaskdnaksd</p>
-		            </div>
-		      </li>
-		      <li class="slide">
-		        <div class="quoteContainer">
-		          <p class="quote-phrase"><span class="quote-marks">"</span> I could not stop staring! Company A's Web Solutions are by far the most elegant solutions, you can't beat their quality and attention to detail! <span class="quote-marks">"</span> </p>
-		        </div>
-		        <div class="authorContainer">
-		          <p class="quote-author">Andy Fakename // CEO: Andy's Camping Supplies</p>
-		        </div>
-		      </li>
-		      <li class="slide">
-		        <div class="quoteContainer">
-		          <p class="quote-phrase"><span class="quote-marks">"</span>Carl Fakeguy, was the most helpful designer I've ever hired. He listened to my ideas and advised against things that could negatively affect my CEO. Company A is by far the most generous and helpful company, 5/5!<span class="quote-marks">"</span> </p>
-		        </div>
-		        <div class="authorContainer">
-		          <p class="quote-author">Janice Falsename</p>
-		        </div>
-		      </li>
-		    </ul>
-		  </div>
-		</div> -->
-
-		<!--  -->
-
-
-
-		<!-- <div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 dot-nav-slider">
-		<ul>
-			<li class="nav-dots">
-
-					<label for="1" class="nav-dot" ></label>
-					<label for="2" class="nav-dot" ></label>
-
-
-			</li>
-	</ul>
-	</div> -->
 
 	</div>
 

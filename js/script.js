@@ -368,8 +368,3 @@ function CenterToParent(){
     $( ".next-label" ).css( "bottom", + bottom + "px" );
     $( ".next-label" ).css( "right", + right + "px" );
   });
-
-
-isMobile(){
-	if( $(window).width()<1200) mobile=1;
-}

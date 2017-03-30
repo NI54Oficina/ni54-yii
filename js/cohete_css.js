@@ -6,12 +6,33 @@ prevElem= null;
 prevPos=$(document).height();
 prevLeft=1;
 
+mobile=0;
+
 
 $(window).scroll(function(){
     // checkAnimation();
     moveNave();
 
 });
+
+
+$(document).on("ready",function(){
+
+	isMobile();
+
+});
+
+
+$(window).resize(function(){
+
+			isMobile();
+});
+
+
+function isMobile(){
+	if( $(window).width()<1200) mobile=1;
+}
+
 
 $.fn.animateRotate = function(angle, duration, easing, complete) {
     var args = $.speed(duration, easing, complete);

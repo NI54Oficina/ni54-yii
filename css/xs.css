@@ -42,6 +42,10 @@
     width: 30%;
   }
 
+  .flickity-page-dots {
+       display: block; 
+  }
+
   .planetas {
     padding-top: 20%;
   }
