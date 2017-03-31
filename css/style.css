@@ -535,7 +535,7 @@ margin-top: 3em;
 
  .floating{
     /*float: left;*/
-    margin-top: 5px;
+    margin-top: 10px;
     width: 50px;
     height: auto;
 }
@@ -645,7 +645,7 @@ margin-top: 3em;
 
 #descripcion h1{
   color:#00d6bd;
-  font-size: 3em;
+  font-size: 2em;
   font-family: 'aleobold';
 }
 
@@ -778,7 +778,8 @@ left:0;
    font-family: 'open_sansregular';
    line-height: 2em;
    width:300px;
-   position:relative;
+   position:absolute;
+   padding-top: 400px;
    left:0;
    right: 0;
    margin:auto;

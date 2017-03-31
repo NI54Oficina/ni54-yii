@@ -106,7 +106,7 @@ $clientes= Clientes::model()->findAll($Criteria);
 			</div>
 
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-			<img class="iconos" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/tel.svg" alt="">47823813
+			<img class="iconos" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/tel.svg" alt=""><br class="hidden-lg hidden-sm hidden-md">47823813
 			</div>
 		</div>
 
@@ -215,7 +215,7 @@ $clientes= Clientes::model()->findAll($Criteria);
 
 		</div>
 
-		<div id="test-next-label" class="arrow-bolita hidden-xs hidden-sm hidden-md" direction=1 style="position:absolute;top:0;s right:0; height:400px; width:35vw;z-index:5">
+		<div id="test-next-label" class="arrow-bolita hidden-xs hidden-sm hidden-md" direction=1 style="position:absolute;top:0;right:0; height:400px; width:35vw;z-index:5">
 
 			<div  class="next-label label-test"  style="position:fixed; z-index:5"> <p>Proximo  <br><?php foreach($project as $p){ ?><span class="right-remain"><?php echo $p["nombre"]; ?></span><?php	} ?></p> </div>
 
