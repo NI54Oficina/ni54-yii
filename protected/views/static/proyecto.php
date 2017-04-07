@@ -56,7 +56,16 @@ $pantalla= Pantalla::model()->findAll($Criteria);
 
     <section id="descripcion" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 seccion">
 
-    <a id="prev-link" href="<?php echo Yii::app()->getBaseUrl(true); ?>/proyecto/<?php echo $prev; ?>">   <div id="prev-port" class="col-lg-3 col-md-3 col-sm-3 col-xs-1 prev-post">   <div  class="prev-label" style="position:fixed; "> <p style="color: #7268b7;"><span>Anterior </span><br><?php echo $prevproject["nombre"]; ?></p> </div> </div></a>
+			<a class="hidden-lg"  href="<?php echo Yii::app()->getBaseUrl(true); ?>/proyecto/<?php echo $prev; ?>"><span class="glyphicon glyphicon-menu-left"></span></a>
+			<a class="hidden-lg"  href="<?php echo Yii::app()->getBaseUrl(true); ?>/proyecto/<?php echo $next; ?>"><span class="glyphicon glyphicon-menu-right"></span></a>
+
+    <a id="prev-link"  class="hidden-xs hidden-sm hidde-md" href="<?php echo Yii::app()->getBaseUrl(true); ?>/proyecto/<?php echo $prev; ?>">
+			<div id="prev-port" class="col-lg-3 col-md-3 col-sm-3 col-xs-1 prev-post">
+				<div  class="prev-label" style="position:fixed; "> <p style="color: #7268b7;">
+					<span>Anterior </span><br><?php echo $prevproject["nombre"]; ?></p>
+				</div>
+			</div>
+		</a>
 
 			<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/index.php"><img src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/cohete.svg" id="go-back" alt=""></a>
 
@@ -73,11 +82,20 @@ $pantalla= Pantalla::model()->findAll($Criteria);
 
       </div>
 
-    <a id="next-link"  href="<?php echo Yii::app()->getBaseUrl(true); ?>/proyecto/<?php echo $next; ?>">  <div id="next-port" class="col-lg-3 col-md-3 col-sm-3 col-xs-1 next-post">  <div class="next-label" style="position:fixed;"><p style="color: #7268b7;"><span>Siguiente</span><br><?php echo $nextproject["nombre"]; ?> </p></div>  </div></a>
+    <a id="next-link" class="hidden-xs hidden-sm hidde-md"  href="<?php echo Yii::app()->getBaseUrl(true); ?>/proyecto/<?php echo $next; ?>">
+			<div id="next-port" class="col-lg-3 col-md-3 col-sm-3 col-xs-1 next-post">
+				<div class="next-label" style="position:fixed;">
+					<p style="color: #7268b7;"><span>Siguiente</span><br><?php echo $nextproject["nombre"]; ?>
+					</p>
+				</div>
+			</div>
+		</a>
 
 
         <!-- <div class="border-white">  </div> -->
     </section>
+
+
     <div class="border-white col-lg-12 col-md-12 col-sm-12 col-xs-12">  </div>
 <?php foreach($pantalla as $pt){ ?>
 
@@ -113,7 +131,7 @@ $pantalla= Pantalla::model()->findAll($Criteria);
 		         <img class="center-to-parent" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/<?php echo $data."-".$img["img"]; ?>.png" alt="">
 		       </div>
 
-					 
+
 
       	<?php
       // $count++;

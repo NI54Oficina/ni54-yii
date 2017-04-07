@@ -775,6 +775,7 @@ left:0;
 }
 
  .nombre-proj{
+       z-index: -1;
    font-family: 'open_sansregular';
    line-height: 2em;
    width:300px;
