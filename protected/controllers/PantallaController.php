@@ -16,6 +16,8 @@ class PantallaController extends Controller
 		return array(
 			'accessControl', // perform access control for CRUD operations
 			'postOnly + delete', // we only allow deletion via POST request
+			'postOnly + testAjax', // we only allow deletion via POST requesty
+			'postOnly + upload', // we only allow deletion via POST requesty
 		);
 	}
 
@@ -28,7 +30,7 @@ class PantallaController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','view'),
+				'actions'=>array('index','view','upload',"testAjax"),
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
@@ -170,4 +172,82 @@ class PantallaController extends Controller
 			Yii::app()->end();
 		}
 	}
+
+	public function actionTestajax(){
+		//header("Access-Control-Allow-Origin: *");
+
+		$metas= MetatagPage::model()->findAllByAttributes(array('idPage'=>"1",));
+		$model=null;
+		$data=1;
+
+		if($_POST["url"]=="header"){
+			$this->renderPartial("//static/stylesheet-code2",$model);
+			$this->renderPartial("//static/header",$model);
+		}else{
+			/*if($_POST["url"]!="home"){
+				$this->renderPartial("//static/header",$model);
+			}*/
+			$segments= explode('/',$_POST["url"]);
+			if(count($segments)>2){
+				//echo "<div style='width:100%;height:40px;background-color:red;'>sdasdas</div>";
+				$this->renderPartial("//static/".$segments[1],$segments[2]);
+			}else{
+				//$this->renderPartial("//static/".$segments[1],$segments[2]);
+			//}else{
+				$this->renderPartial("//static/".$_POST["url"],$model);
+			//}
+			}
+		}
+	}
+
+	public function actionUpload(){
+
+
+			$idPantalla=$_POST["idPantalla"];
+
+
+			if($idPantalla==null) exit("Error - No fue selecionada ninguna pantalla ");
+
+
+
+
+
+
+			if (isset($_FILES['file'])) {
+
+				$targetPath = "img/";
+
+				//if(isset($_POST["nombre"])){
+				$nombre=$idPantalla;
+
+					$formato="";
+					if(strpos($_FILES['file']['name'],".png")>0){
+						$formato= ".png";
+					}
+					if(strpos($_FILES['file']['name'],".jpg")>0){
+						$formato= ".jpg";
+					}
+					if(strpos($_FILES['file']['name'],".jpeg")>0){
+						$formato= ".jpeg";
+					}
+					$targetFile =  $targetPath.$nombre.$formato;
+				/*}else{
+					$targetFile =  $targetPath.$_FILES['file']['name'];
+				}*/
+				//echo $targetFile;
+				//exit();
+
+				move_uploaded_file($_FILES['file']['tmp_name'],$targetFile);
+				//echo $targetFile;
+				$Pantalla= new ImgPantalla();
+				$Pantalla->id_pantalla= $idPantalla;
+				$Pantalla->img= $idPantalla;
+				$Pantalla->save();
+				echo $nombre.$formato;
+			}else{
+				echo "0";
+			}
+
+	}
+
 }

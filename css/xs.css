@@ -112,7 +112,7 @@
 
   .port > img{
     position: relative;
-    width: 100%;
+    width: auto;
     bottom: 0;
     padding-top: 5em !important;
   }
@@ -128,9 +128,8 @@
     width: 100px;
   }
 
-  #go-up{
+  #go-up, .effect{
     padding-right: 20px;
-    padding-bottom: 20px;
     width: 3.5em;
   }
 

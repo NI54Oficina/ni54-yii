@@ -4,6 +4,9 @@
 /* @var $form CActiveForm */
 ?>
 
+
+
+
 <div class="form">
 
 <?php $form=$this->beginWidget('CActiveForm', array(
@@ -52,11 +55,11 @@
 		<?php echo $form->error($model,'modalidad'); ?>
 	</div>
 
-	<div class="row">
+	<!-- <div class="row">
 		<?php echo $form->labelEx($model,'img'); ?>
 		<?php echo $form->textField($model,'img',array('size'=>60,'maxlength'=>255)); ?>
 		<?php echo $form->error($model,'img'); ?>
-	</div>
+	</div> -->
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'trabajo'); ?>
@@ -70,9 +73,52 @@
 		<?php echo $form->error($model,'color'); ?>
 	</div>
 
-	<div class="row buttons">
+	<!-- <div class="row buttons">
 		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
-	</div>
+	</div> -->
+
+	<script src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery-1.9.1.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/dropzone.css">
+	<script src="<?php echo Yii::app()->request->baseUrl; ?>/js/dropzone.js"></script>
+
+	<style >
+		.response{
+			text-align: center;
+			color:gray;
+			font-size: 1.5em;
+
+		}
+	</style>
+	<div id="dropzone-example" style="width:80%;height:100px;background-color:#c4c4c4;margin:20px;padding:10px;background-image:url(<?php echo Yii::app()->getBaseUrl(true); ?>/img/cargar_img-oscuro.png);background-repeat:no-repeat;background-position:center;"></div>
+
+	<div id="imagen-finish"></div>
+
+	<script>
+
+
+		$("div#dropzone-example").dropzone({ url: "<?php echo Yii::app()->getBaseUrl(true); ?>/pantalla/upload/",
+				init: function() {
+	                this.on("sending", function(file, xhr, formData){
+							$("#imagen-cargada").hide();
+							$("#imagen-cargando").show();
+
+							formData.append("idPantalla", $('select[name="Pantalla[id_project]"]').val());
+
+
+
+
+	                });
+	            },
+				success: function(data,response){
+					console.log(response);
+					console.log(data);
+
+					//$("#dropzone-example").hide();
+					$("#imagen-finish").append("<h1 class='response'>ImagenCargada: " +response+"</h1>");
+				}
+		});
+	</script>
+	
 
 <?php $this->endWidget(); ?>
 

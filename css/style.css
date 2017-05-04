@@ -278,6 +278,11 @@ ul{
   padding: 10px 40px;
 }
 
+#enviar:hover{
+      opacity: .4;
+      transition: all ease .5s;
+}
+
 .iconos-container{
   padding:1em 30em;
 
@@ -392,6 +397,13 @@ ul{
   background-position: center;
   background-repeat: no-repeat;*/
   z-index: -3;
+
+
+}
+#about{
+  background-image: url('../img/suelo.png');
+  background-position: bottom;
+  background-repeat: repeat-x;
 }
 
 .about-inner h3{
@@ -544,6 +556,13 @@ margin-top: 3em;
   color:white;
 }
 
+.float-word-1{
+  padding-left: 35%;
+}
+
+.float-word-2{
+  padding-right: 35%;
+}
 
 .floating-time-1{
   -webkit-animation-name: Floatingx;
@@ -638,7 +657,8 @@ margin-top: 3em;
 /*PROJECT.PHP*/
 
 #descripcion{
-  /*background:   radial-gradient(circle,  #4c407d 8%,#3c2d63,#3b2b5e,   #312453,    #332554,#02011e 90%);*/
+  /*background: radial-gradient(,white,#67588f,#322554,transparent);*/
+  background:   radial-gradient(at 50% bottom,  #4c407d 8%,#3c2d63,#3b2b5e,   #312453,    #332554,#02011e 90%);
   text-align: center;
 
 }
@@ -905,6 +925,17 @@ cursor:pointer;
   animation: buttonBackHover .4s linear;
 }
 
+.effect{
+  position: fixed;
+  bottom:0;
+  right: 0;
+  padding-right: 60px;
+  padding-bottom: 60px;
+  width: 7em;
+  opacity: .2;
+  display: none;
+}
+
 #go-up{
   position: fixed;
   bottom:0;
@@ -912,7 +943,18 @@ cursor:pointer;
   padding-right: 60px;
   padding-bottom: 60px;
   width: 7em;
-  opacity: .5;
+  opacity: 1;
+  display: none;
+}
+
+.effect-1{
+  padding-bottom: 45px;
+  opacity: 1;
+  animation: effect-1 1s infinite;
+}
+
+.effect-2{
+  animation: effect-2 1s infinite;
 }
 
 #go-up:hover{
@@ -929,7 +971,7 @@ cursor:pointer;
 
 .zona-nubes #nube-1{
   left: 0;
-  padding-left: 3em;
+  padding-left: 1em;
   padding-top: 15%;
 }
 
@@ -944,19 +986,35 @@ cursor:pointer;
 .zona-nubes #nube-3{
   right: 0;
   /*padding-left: 3em;*/
-  padding-right: 15%;
+  padding-right: 0%;
   padding-top: 10%;
-  animation: animate-nubes-right 1s infinite;
+  animation: animate-nubes-right 10s infinite;
 
 }
 
 .animate-nubes{
   animation: animate-nubes 4s infinite;
 }
+/*
+.center-covered:after{
+  content: "";
+
+}*/
 
 
 /*ANIMATION*/
 
+@keyframes effect-2{
+    from {opacity: .2;}
+    50% {opacity: 1;}
+    to {opacity: .2;}
+}
+
+@keyframes effect-1{
+    from {opacity: 1;}
+    50% { opacity: .2;}
+    to {opacity: 1;}
+}
 
 @-webkit-keyframes scalex{
     from {-webkit-transform: scale(0.9);}
@@ -1013,15 +1071,15 @@ cursor:pointer;
 }
 
 @-webkit-keyframes animate-nubes{
-    0% {padding-left: 15%}
-    50% {padding-left: 20%;}
-    100% {padding-left: 15%}
+    0% {padding-left: 5%}
+    50% {padding-left: 10%;}
+    100% {padding-left: 5%}
 }
 
 @-webkit-keyframes animate-nubes-right{
-    0% {padding-right: : 15%}
-    50% {padding-right: : 20%;}
-    100% {padding-right: : 15%}
+    0% {padding-right:  0%}
+    50% {padding-right:  20%;}
+    100% {padding-right:  0%}
 }
 
 
@@ -1134,8 +1192,11 @@ a#next:hover {
   width: 100%;
 }
 
-#testing{
+#section-init{
   background: radial-gradient(at 50% bottom,white,#67588f,#322554,transparent);
+  /*background-image: url('../img/suelo.png');
+  background-position: bottom;
+  background-repeat: repeat-x;*/
 }
 
 #descripcion #prev-port:hover .prev-label, #descripcion #next-port:hover .next-label{
