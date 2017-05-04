@@ -129,6 +129,11 @@ function moveNave(){
           opaLogo=1;
           // timeLogo=
 
+        }else if($elem[0]=="#step-5"){
+          opa=1;posX=$(window).width()/2+300;
+          opaLogo=0;
+          // timeLogo=
+
         }else{
           opa=1;
           opaLogo=0;

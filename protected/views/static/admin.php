@@ -2,6 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <!-- BOOTSTRAP CSS -->
+    <link href="<?php echo Yii::app()->getBaseUrl(true); ?>/css/bootstrap.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>ADMINISTRADOR</title>
   </head>
 
@@ -40,31 +44,31 @@
   <body>
 
       <a href="<?php echo Yii::app()->getBaseUrl(true); ?>/index.php/project/create" target="_blank">
-        <div class="button">
+        <div class="col-xs-12 button">
           <p>INGRESAR PROYECTOS</p>
         </div>
       </a>
 
       <a href="<?php echo Yii::app()->getBaseUrl(true); ?>/index.php/pantalla/create" target="_blank">
-        <div class="button">
+        <div class=" col-xs-12 button">
           <p>INGRESAR SOLAPAS POR PROYECTOS</p>
         </div>
       </a>
 
       <a href="<?php echo Yii::app()->getBaseUrl(true); ?>/1" target="_blank">
-        <div class="button">
+        <div class="col-xs-12 button">
           <p>INGRESAR IMAGENES POR SOLAPAS</p>
         </div>
       </a>
 
       <a href="<?php echo Yii::app()->getBaseUrl(true); ?>/index.php/clientes/create" target="_blank">
-        <div class="button">
+        <div class="col-xs-12 button">
           <p>INGRESAR CLIENTES</p>
         </div>
       </a>
 
       <a href="<?php echo Yii::app()->getBaseUrl(true); ?>/index.php/partners/create" target="_blank">
-        <div class="button">
+        <div class="col-xs-12 button">
           <p>INGRESAR PARTNERS</p>
         </div>
       </a>

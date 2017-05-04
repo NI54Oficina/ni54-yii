@@ -1,14 +1,42 @@
 <?php
 // $data=22;
+
+$Criteria = new CDbCriteria();
+
+$Criteria->condition = "id_project = '".$data."'";
+$project= Project::model()->findByPk($data);
+
+$pantalla= Pantalla::model()->findAll($Criteria);
+//
+// while($project==null){
+//
+// 	$Criteria->condition = "id_project = '".$data."'";
+// 	$project= Project::model()->findByPk($data);
+// 	$data++;
+// }
+
+
+
+
+
 $next=$data+1;
 $prev=$data-1;
 
-$Criteria = new CDbCriteria();
-				$Criteria->condition = "id_project = '".$data."'";
 $nextproject= Project::model()->findByPk($next);
+while($nextproject==NULL){
+	$next++;
+	$nextproject= Project::model()->findByPk($next);
+}
+
 $prevproject= Project::model()->findByPk($prev);
-$project= Project::model()->findByPk($data);
-$pantalla= Pantalla::model()->findAll($Criteria);
+
+while($prevproject==NULL){
+	$prev--;
+	$prevproject= Project::model()->findByPk($next);
+}
+
+
+
 
 
 ?>
@@ -56,8 +84,8 @@ $pantalla= Pantalla::model()->findAll($Criteria);
 
     <section id="descripcion" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 seccion">
 
-			<a class="hidden-lg"  href="<?php echo Yii::app()->getBaseUrl(true); ?>/proyecto/<?php echo $prev; ?>"><span class="glyphicon glyphicon-menu-left"></span></a>
-			<a class="hidden-lg"  href="<?php echo Yii::app()->getBaseUrl(true); ?>/proyecto/<?php echo $next; ?>"><span class="glyphicon glyphicon-menu-right"></span></a>
+			<!-- <a class="hidden-lg"  href="<?php echo Yii::app()->getBaseUrl(true); ?>/proyecto/<?php echo $prev; ?>"><span class="glyphicon glyphicon-menu-left"></span></a>
+			<a class="hidden-lg"  href="<?php echo Yii::app()->getBaseUrl(true); ?>/proyecto/<?php echo $next; ?>"><span class="glyphicon glyphicon-menu-right"></span></a> -->
 
     <a id="prev-link"  class="hidden-xs hidden-sm hidde-md" href="<?php echo Yii::app()->getBaseUrl(true); ?>/proyecto/<?php echo $prev; ?>">
 			<div id="prev-port" class="col-lg-3 col-md-3 col-sm-3 col-xs-1 prev-post">
@@ -67,9 +95,12 @@ $pantalla= Pantalla::model()->findAll($Criteria);
 			</div>
 		</a>
 
-			<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/index.php"><img src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/cohete.svg" id="go-back" alt=""></a>
+		<a class="hidden-xs hidden-sm hidden-md" href="<?php echo Yii::app()->getBaseUrl(true); ?>/index.php"><img src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/cohete.svg" id="go-back" alt=""></a>
 
-      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-10 center-to-parent">
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 center-to-parent">
+
+				<a class="hidden-lg" href="<?php echo Yii::app()->getBaseUrl(true); ?>/index.php"><img src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/cohete.svg" id="go-back" alt=""></a>
+
 
         <h1>¿De que se trata?</h1>
 
@@ -144,8 +175,43 @@ $pantalla= Pantalla::model()->findAll($Criteria);
 <?php
     }?>
 
-		<img id="go-up" name="#descripcion" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/cohete.svg" alt="">
+		<img id="go-up" name="#descripcion" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/flecha_arriba.svg" alt="">
+		<img class="effect-1 effect" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/flecha_abajo.svg" alt="">
+		<img class="effect-2 effect" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/flecha_abajo.svg" alt="">
 
   </body>
+
+	<script>
+	$( document).scroll(function() {
+		if(isElementInViewport($('#port-1')) ) {
+
+				$(".effect").fadeOut("slow");
+		}
+
+		if($(window).scrollTop() + $(window).height() > $(document).height() - 100) {
+
+			$("#go-up").fadeIn("slow");
+		}
+
+		if(isElementInViewport($('section#descripcion')) ) {
+
+				$("#go-up").fadeOut("slow");
+		}
+
+	});
+
+	$(document).on("ready",function(){
+
+		var numItems = $('section').length;
+
+		console.log(numItems);
+
+		if(numItems>1){
+			$(".effect").fadeIn();
+		}
+
+	});
+
+	</script>
 
 </html>

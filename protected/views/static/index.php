@@ -106,7 +106,7 @@ $clientes= Clientes::model()->findAll($Criteria);
 			</div>
 
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-			<img class="iconos" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/tel.svg" alt=""><br class="hidden-lg hidden-sm hidden-md">47823813
+			<img class="iconos" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/tel.svg" alt=""><br class="hidden-lg hidden-sm hidden-md">4523.3506
 			</div>
 		</div>
 
@@ -362,8 +362,8 @@ $('.button-group').on( 'click', '.button', function() {
 			<div class="planetas col-lg-12 col-sm-12 col-md-12 col-xs-12">
 				<div class="col-lg-6 col-sm-6 col-md-6 col-xs-4 floating-planet" hid="2"> <img class="floating floating-time-1" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/planetitas-01.svg" alt=""><p hid="1" style="bottom:0; position:absolute">Contenido <br>Interactivos</p></div>
 				<div class="col-lg-6 col-sm-6 col-md-6 col-xs-4 floating-planet" hid="2"> <img class="floating floating-time-2" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/planetitas-05.svg" alt=""><p hid="1" style="bottom:0;position:absolute">Diseño y <br> comunicación</p></div>
-				<div class="col-lg-6 col-sm-6 col-md-6 col-xs-4 floating-planet  float-left" hid="2"> <img class="floating floating-time-3"  src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/planetitas-02.svg" alt=""><p hid="1"style="bottom:0;position:absolute">Edutainment<br>Gamification</p></div>
-				<div class="col-lg-6 col-sm-6 col-md-6 col-xs-6 floating-planet float-right" hid="2"> <img class="floating floating-time-1" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/planetitas-04.svg" alt=""><p hid="1"style="bottom:0;position:absolute" >Videojuegos y <br>aplicaciones</p></div>
+				<div class="col-lg-6 col-sm-6 col-md-6 col-xs-4 floating-planet  float-left" hid="2"> <img class="floating floating-time-3"  src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/planetitas-02.svg" alt=""><p hid="1"class="float-word-1" style="bottom:0;position:absolute">Edutainment<br>Gamification</p></div>
+				<div class="col-lg-6 col-sm-6 col-md-6 col-xs-6 floating-planet float-right" hid="2"> <img class="floating floating-time-1" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/planetitas-04.svg" alt=""><p hid="1" class="float-word-2" style="bottom:0;position:absolute" >Videojuegos y <br>aplicaciones</p></div>
 				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-6 floating-planet" hid="2"> <img class="floating floating-time-3"  src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/planetitas-03.svg" alt=""><p hid="1" style="bottom:0;position:absolute">Websites y <br>mobile apps.</p> </div>
 
 			</div>
@@ -377,7 +377,7 @@ $('.button-group').on( 'click', '.button', function() {
 
 </section>
 
-<section id="testing" class="col-lg-12 col-sm-12 col-md-12 col-xs-12" style="text-align:center; height:100vh">
+<section id="section-init" class="col-lg-12 col-sm-12 col-md-12 col-xs-12" style="text-align:center; height:100vh">
 
 <div class="hidden-xs hidden-md hidden-sm" id="step-5"></div>
 
@@ -406,7 +406,7 @@ $('.button-group').on( 'click', '.button', function() {
 
 
 
-	<img style="width:100%; position:absolute; bottom:0; left:0" class="piso" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/suelo.png" alt="">
+	<!-- <img style="width:100%; position:absolute; bottom:0; left:0" class="piso" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/suelo.png" alt=""> -->
 
 
 <img id="nave-estatica" style="" class="hidden-lg " src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/cohete.svg" alt="">

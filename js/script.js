@@ -12,10 +12,7 @@ $(window).resize(function(){
 
 });
 
-$( document).scroll(function() {
-	// checkAnimation('fraseFlotante', 'animate-frase-flotante');
-	// checkAnimation('main-logo', 'animate-imagen-principal');
-});
+
 
 $(document).on("ready",function(){
 
