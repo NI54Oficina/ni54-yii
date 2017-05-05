@@ -149,7 +149,7 @@ function moveNave(){
                                   $("#main-logo").animate({opacity:opaLogo},100);
 
                                   if($elem[0]=="#step-5"){
-                                    $nave.animate({top:$(document).height()-200},
+                                    $nave.animate({top:$(document).height()-150},
                                                   700);
 
                                       $nave.animateRotate(0, 400, "linear");

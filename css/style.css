@@ -471,7 +471,7 @@ ul{
 
 
 #nube{
-  position:absolute; bottom:0; left:0; width:150px; padding-bottom:80px; display:none;z-index:10
+  position:absolute; bottom:0; left:0; width:150px; padding-bottom:30px; display:none;z-index:10
 }
 
 .flickity-prev-next-button{
