@@ -356,7 +356,7 @@ ul{
 }
 
 .logo-clientes img{
-  width: 120px ;
+  width: 120px !important;
   padding: 10px;
 }
 

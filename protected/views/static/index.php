@@ -35,15 +35,16 @@ $clientes= Clientes::model()->findAll($Criteria);
 	<link href="<?php echo Yii::app()->getBaseUrl(true); ?>/css/xs.css" rel="stylesheet">
 	<link href="<?php echo Yii::app()->getBaseUrl(true); ?>/css/sp.css" rel="stylesheet">
 	<link href="<?php echo Yii::app()->getBaseUrl(true); ?>/css/flickity.css" rel="stylesheet">
-
+	<link href="<?php echo Yii::app()->getBaseUrl(true); ?>/css/lightslider.css" rel="stylesheet">
 	<!-- BOOTSTRAP JS -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="<?php echo Yii::app()->getBaseUrl(true); ?>/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="<?php echo Yii::app()->getBaseUrl(true); ?>/js/phaser.js"></script>
 	<script type="text/javascript" src="<?php echo Yii::app()->getBaseUrl(true); ?>/js/script.js "></script>
-		<script type="text/javascript" src="<?php echo Yii::app()->getBaseUrl(true); ?>/js/estrellas.js "></script>
-		<script type="text/javascript" src="<?php echo Yii::app()->getBaseUrl(true); ?>/js/tipeo.js "></script>
-		<script type="text/javascript" src="<?php echo Yii::app()->getBaseUrl(true); ?>/js/flickity.pkgd.js "></script>
+	<script type="text/javascript" src="<?php echo Yii::app()->getBaseUrl(true); ?>/js/estrellas.js "></script>
+	<script type="text/javascript" src="<?php echo Yii::app()->getBaseUrl(true); ?>/js/tipeo.js "></script>
+	<script type="text/javascript" src="<?php echo Yii::app()->getBaseUrl(true); ?>/js/flickity.pkgd.js "></script>
+	<script type="text/javascript" src="<?php echo Yii::app()->getBaseUrl(true); ?>/js/lightslider.js "></script>
 
 
 
@@ -232,13 +233,13 @@ $clientes= Clientes::model()->findAll($Criteria);
 	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 partners clientes" >
 		<h3 id="title-section">PARTNERS</h3>
 
-		<div class="logo-clientes clientes-0 carousel-0">
+		<div id="lightSlider-2" class="logo-clientes clientes-0 carousel-0">
 					<?php foreach ($partners as $part) {?>
 
-								<div class="carousel-cell">
+
 
 								<img class="" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/p-<?php echo $part["id"] ?>.png" alt="<?php echo $part["img"] ?>">
-								</div>
+
 
 					<?php } ?>
 			</div>
@@ -273,9 +274,9 @@ $clientes= Clientes::model()->findAll($Criteria);
 		}
 
 
-		.flickity-page-dots{
-			display: none;
-		}
+			.flickity-page-dots{
+				display: none;
+			}
 
 		/* cell number */
 		/*.carousel-cell:before {
@@ -290,17 +291,16 @@ $clientes= Clientes::model()->findAll($Criteria);
 
 </style>
 
-						<div class="logo-clientes clientes-<?php echo $i ?> general-container carousel" >
+						<div id="lightSlider"  class="logo-clientes clientes-<?php echo $i ?> general-container carousel" >
 
 
 
 								<?php foreach ($clientes as $clien) {?>
 
-									<div class="carousel-cell">
 
 											<img class="" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/c-<?php echo $clien["id"] ?>.png" alt="<?php echo $clien["img"] ?>">
 
-									</div>
+
 								<?php } ?>
 
 
@@ -312,9 +312,13 @@ $clientes= Clientes::model()->findAll($Criteria);
 
 <script>
 
-var $carousel = $('.carousel').flickity();
+
+var $carousel = $('.carousel').flickity({
+	// wrapAround: true,
+});
 
 $carousel.flickity( 'select', 4);
+
 
 $('.button-group').on( 'click', '.button', function() {
   var index = $(this).index();
@@ -332,6 +336,81 @@ $('.button-group').on( 'click', '.button', function() {
 
   $carousel.flickity( 'select', index);
 });
+
+
+// $("#lightSlider").lightSlider({
+// 		item: 10,
+//
+// 		//slideMove: 1,  slidemove will be 1 if loop is true
+// 		slideMargin: 0,
+//
+// 		addClass: '',
+// 		mode: "slide",
+// 		useCSS: true,
+// 		cssEasing: 'ease', //'cubic-bezier(0.25, 0, 0.25, 1)',//
+// 		easing: 'linear', //'for jquery animation',////
+//
+// 		auto: false,
+// 		loop: false,
+//
+// 		keyPress: true,
+// 		controls: true,
+//
+// 		enableTouch:true,
+// 		enableDrag:true,
+// 		// freeMove:true,
+// 		// swipeThreshold: 40,
+//
+// 		responsive : [{
+// 		                breakpoint:800,
+// 		                settings: {
+// 		                    autoWidth: true,
+// 												enableTouch:true,
+// 												enableDrag:true,
+// 		                  }
+// 		            }],
+//
+// });
+
+//
+// $("#lightSlider-2").lightSlider({
+// 		item: 3,
+// 		// autoWidth: true,
+// 		//slideMove: 1,  slidemove will be 1 if loop is true
+// 		slideMargin: 20,
+//
+// 		addClass: '',
+// 		mode: "slide",
+// 		useCSS: true,
+// 		cssEasing: 'ease', //'cubic-bezier(0.25, 0, 0.25, 1)',//
+// 		easing: 'linear', //'for jquery animation',////
+//
+// 		auto: false,
+// 		loop: false,
+//
+// 		keyPress: true,
+// 		controls: true,
+//
+// 		enableTouch:true,
+// 		enableDrag:true,
+// 		// freeMove:true,
+// 		swipeThreshold: 40,
+//
+// 		responsive : [
+//             {
+//                 breakpoint:800,
+//                 settings: {
+//                     item:3,
+//                     slideMove:1,
+//                     slideMargin:6,
+// 										enableTouch:true,
+// 										enableDrag:true,
+//                   }
+//             }
+//
+//         ]
+//
+// });
 
 </script>
 
