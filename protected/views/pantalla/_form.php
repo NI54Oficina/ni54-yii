@@ -73,9 +73,6 @@
 		<?php echo $form->error($model,'color'); ?>
 	</div>
 
-	<!-- <div class="row buttons">
-		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
-	</div> -->
 
 	<script src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery-1.9.1.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/dropzone.css">
@@ -118,7 +115,12 @@
 				}
 		});
 	</script>
-	
+
+	<div class="row buttons">
+		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
+	</div>
+
+
 
 <?php $this->endWidget(); ?>
 

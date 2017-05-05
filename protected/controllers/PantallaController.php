@@ -203,12 +203,11 @@ class PantallaController extends Controller
 	public function actionUpload(){
 
 
-			$idPantalla=$_POST["idPantalla"];
+			$id_projecto=$_POST["idPantalla"];
 
 
-			if($idPantalla==null) exit("Error - No fue selecionada ninguna pantalla ");
 
-
+			if($id_projecto==null) exit("Error - No fue selecionada ninguna pantalla ");
 
 
 
@@ -218,7 +217,7 @@ class PantallaController extends Controller
 				$targetPath = "img/";
 
 				//if(isset($_POST["nombre"])){
-				$nombre=$idPantalla;
+				$nombre=$id_projecto."-1";
 
 					$formato="";
 					if(strpos($_FILES['file']['name'],".png")>0){
@@ -239,9 +238,9 @@ class PantallaController extends Controller
 
 				move_uploaded_file($_FILES['file']['tmp_name'],$targetFile);
 				//echo $targetFile;
-				$Pantalla= new ImgPantalla();
-				$Pantalla->id_pantalla= $idPantalla;
-				$Pantalla->img= $idPantalla;
+				$Pantalla= new Pantalla();
+				$Pantalla->id_project= $id_projecto;
+				$Pantalla->img= "1";
 				$Pantalla->save();
 				echo $nombre.$formato;
 			}else{
