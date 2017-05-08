@@ -203,26 +203,33 @@ class ProjectController extends Controller
 	public function actionUpload(){
 
 
-			$idProject=$_POST["idProject"];
+			$nombre_proyecto=$_POST["idProject"];
+			$descr=$_POST["Descripcion"];
 			$tipo=$_POST["Tipo"];
 			$cliente=$_POST["Cliente"];
-			$descr=$_POST["Descripcion"];
 
 
-			if($idProject==null) exit("Error - No fue selecionada ninguna pantalla ");
+			if($nombre_proyecto==null) exit("Error - No fue ingresado un nombre de proyecto ");
 
-				$pj=Project::model()->findAllByAttributes(array("nombre"=>$idProject));
+		$pj=Project::model()->findAllByAttributes(array("nombre"=>$nombre_proyecto));
 
-				if($pj==NULL){
+
+
+
+				if(count($pj)==0){
 
 					$maxprojects= Project::model()->findAll(array('order'=>'id_project DESC'));
-					$id=$maxprojects["id_project"];
+
+
+					$id=$maxprojects[0]["id_project"];
 					$id++;
+
+
 				}else {
-					$id=$pj["id_project"];
+
+					$id=$pj[0]["id_project"];
+
 				}
-
-
 
 			if (isset($_FILES['file'])) {
 
@@ -252,7 +259,7 @@ class ProjectController extends Controller
 				//echo $targetFile;
 				$Pj= new Project();
 				$Pj->id_project= $id;
-				$Pj->nombre= $idProject;
+				$Pj->nombre= $nombre_proyecto;
 				$Pj->tipo= $tipo;
 				$Pj->descripcion= $descr;
 				$Pj->cliente= $cliente;

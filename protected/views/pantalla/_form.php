@@ -99,7 +99,10 @@
 							$("#imagen-cargada").hide();
 							$("#imagen-cargando").show();
 
-							formData.append("idPantalla", $('select[name="Pantalla[id_project]"]').val());
+							formData.append("id_projecto", $('select[name="Pantalla[id_project]"]').val());
+							formData.append("modalidad", $('input[name="Pantalla[modalidad]"]').val());
+							formData.append("trabajo", $('input[name="Pantalla[trabajo]"]').val());
+							formData.append("color", $('input[name="Pantalla[color]"]').val());
 
 
 
@@ -112,6 +115,8 @@
 
 					//$("#dropzone-example").hide();
 					$("#imagen-finish").append("<h1 class='response'>ImagenCargada: " +response+"</h1>");
+
+					$(".row.buttons").fadeOut();
 				}
 		});
 	</script>

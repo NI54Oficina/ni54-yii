@@ -29,9 +29,10 @@ class Pantalla extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('id_project, modalidad, img, trabajo, color', 'required'),
+			array('id_project , color', 'required'),
 			array('id_project', 'numerical', 'integerOnly'=>true),
 			array('modalidad, img, trabajo, color', 'length', 'max'=>255),
+			array('modalidad, img, trabajo', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
 			array('id_pantalla, id_project, modalidad, img, trabajo, color', 'safe', 'on'=>'search'),

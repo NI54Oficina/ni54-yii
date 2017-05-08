@@ -53,7 +53,7 @@
 
         $pantalla= Pantalla::model()->findAllByAttributes(array("id_project"=>$p->id_project));
         foreach($pantalla as $pan){
-
+            if($pan["modalidad"]==null){
 
      ?>
       <form class="" action="<?php echo Yii::app()->getBaseUrl(true); ?>/index.php/imgPantalla/create" method="post">
@@ -63,7 +63,7 @@
 
       </form>
 
-    <?php }} ?>
+    <?php  } }} ?>
 
   </body>
 </html>

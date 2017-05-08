@@ -68,10 +68,10 @@
 							$("#imagen-cargada").hide();
 							$("#imagen-cargando").show();
 
-							formData.append("idProject", $('select[name="Project[nombre]"]').val());
-							formData.append("Descripcion",$('select[name="Project[descripcion]"]').val() );
-							formData.append("Tipo",$('select[name="Project[tipo]"]').val());
-							formData.append("Cliente",$('select[name="Project[cliente]"]').val());
+							formData.append("idProject", $('input[name="Project[nombre]"]').val());
+							formData.append("Tipo",$('input[name="Project[tipo]"]').val());
+							formData.append("Cliente",$('input[name="Project[cliente]"]').val());
+							formData.append("Descripcion",$('textarea[name="Project[descripcion]"]').val() );
 
 
 

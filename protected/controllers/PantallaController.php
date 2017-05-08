@@ -203,12 +203,28 @@ class PantallaController extends Controller
 	public function actionUpload(){
 
 
-			$id_projecto=$_POST["idPantalla"];
+			$id_projecto=$_POST["id_projecto"];
+			$modalidad=$_POST["modalidad"];
+			$trabajo=$_POST["trabajo"];
+			$color=$_POST["color"];
+
+			// echo $id_projecto." ".$modalidad." ".$trabajo." ".$color;
+			//
+			// exit();
+
+				if($color==null)exit("Debe ingresar un color para la pantalla");
+
+				if($modalidad==null)exit("El campo modalidad no puede estar vacio");
+
+				if($trabajo==null)exit("El campo trabajo no puede estar vacio");
+
+				if($color[0]!="#")exit("Debe ingresar un color en hexagesimal empezando con #");
+
+				$maxpantalla= Pantalla::model()->findAll(array('order'=>'id_pantalla DESC'));
 
 
-
-			if($id_projecto==null) exit("Error - No fue selecionada ninguna pantalla ");
-
+				$id=$maxpantalla[0]["id_pantalla"];
+				$id++;
 
 
 
@@ -238,10 +254,14 @@ class PantallaController extends Controller
 
 				move_uploaded_file($_FILES['file']['tmp_name'],$targetFile);
 				//echo $targetFile;
-				$Pantalla= new Pantalla();
-				$Pantalla->id_project= $id_projecto;
-				$Pantalla->img= "1";
-				$Pantalla->save();
+				$Pn= new Pantalla();
+				$Pn->id_pantalla =$id;
+				$Pn->id_project= $id_projecto;
+				$Pn ->img=1;
+				$Pn->modalidad=$modalidad;
+				$Pn->trabajo=$trabajo;
+				$Pn->color=$color;
+				$Pn->save();
 				echo $nombre.$formato;
 			}else{
 				echo "0";
