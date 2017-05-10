@@ -45,6 +45,7 @@ $clientes= Clientes::model()->findAll($Criteria);
 	<script type="text/javascript" src="<?php echo Yii::app()->getBaseUrl(true); ?>/js/tipeo.js "></script>
 	<script type="text/javascript" src="<?php echo Yii::app()->getBaseUrl(true); ?>/js/flickity.pkgd.js "></script>
 	<script type="text/javascript" src="<?php echo Yii::app()->getBaseUrl(true); ?>/js/lightslider.js "></script>
+	<script type="text/javascript" src="<?php echo Yii::app()->getBaseUrl(true); ?>/js/hover_fugaz.js "></script>
 
 
 
@@ -122,7 +123,7 @@ $clientes= Clientes::model()->findAll($Criteria);
 
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 slider-porfolio">
 
-
+			<!-- <div class="circle-animated"></div> -->
 
 
 			<!-- <div class="arrow-bolita" direction=-1><</div> -->
@@ -146,11 +147,15 @@ $clientes= Clientes::model()->findAll($Criteria);
 			</div>
 			<div class="bolita-display center-covered">
 
+
+
 				<div class="b-carousel">
+
+
 
 					<?php foreach($project as $p){ ?>
 
-							<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/proyecto/<?php echo $p["id_project"]; ?>"><img src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/<?php echo $p["id_project"]; ?>.png" /></a>
+							<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/proyecto/<?php echo $p["id_project"]; ?>"><img clas="hover-b" src="<?php echo Yii::app()->getBaseUrl(true); ?>/img/<?php echo $p["id_project"]; ?>.png" /></a>
 
 					<?php	} ?>
 
@@ -159,6 +164,7 @@ $clientes= Clientes::model()->findAll($Criteria);
 
 
 			</div>
+
 
 			<!-- <?php foreach($project as $p){ ?>
 

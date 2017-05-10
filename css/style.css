@@ -1202,3 +1202,16 @@ a#next:hover {
 #descripcion #prev-port:hover .prev-label, #descripcion #next-port:hover .next-label{
   display: block;
 }
+
+.circle-animated{
+  height: 10px;
+  width: 10px;
+  border-radius: 100px;
+  background: red;
+  top: 500;
+  left: 500;
+  margin-top: 100px;
+  margin-left: 50vw;
+  position: absolute;
+  box-shadow:1px 10px 20px 5px rgba(0,0,0,0.50);
+  }
