@@ -1,6 +1,10 @@
 <?php
 // $data=22;
 
+$maxprojects= Project::model()->findAll(array('order'=>'id_project DESC'));
+
+$mxprojects=$maxprojects[0]['id_project'];
+
 $Criteria = new CDbCriteria();
 
 $Criteria->condition = "id_project = '".$data."'";
@@ -15,28 +19,45 @@ $pantalla= Pantalla::model()->findAll($Criteria);
 // 	$data++;
 // }
 
-$maxprojects= Project::model()->findAll(array('order'=>'id_project DESC'));
 
-$mxprojects=$maxprojects[0]['id_project'];
 
 
 
 $next=$data+1;
 $prev=$data-1;
 
-$nextproject= Project::model()->findByPk($next);
-// while($nextproject==NULL && $nextproject< $mxprojects){
-	// $next++;
+
+if($data!=$mxprojects){
+
 	$nextproject= Project::model()->findByPk($next);
-// }
+
+	while($nextproject==NULL && $nextproject< $mxprojects){
+		$next++;
+		$nextproject= Project::model()->findByPk($next);
+
+	}
+
+}else{
+	$next=1;
+	$nextproject= Project::model()->findByPk(1);
+}
 
 
-$prevproject= Project::model()->findByPk($prev);
+if($data!=1){
 
-// while($prevproject==NULL && $prevproject>0){
-// 	$prev--;
-	$prevproject= Project::model()->findByPk($next);
-// }
+	$prevproject= Project::model()->findByPk($prev);
+
+	while($prevproject==NULL && $prevproject>0){
+		$prev--;
+		$prevproject= Project::model()->findByPk($next);
+	}
+
+}else{
+	$prev=$mxprojects;
+	$prevproject= Project::model()->findByPk($mxprojects);
+}
+
+
 
 
 
