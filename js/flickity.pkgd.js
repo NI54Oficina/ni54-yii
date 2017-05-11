@@ -1035,6 +1035,15 @@ proto.positionSlider = function() {
   // reverse if right-to-left and using transform
   x = this.options.rightToLeft && transformProperty ? -x : x;
   var value = this.getPositionValue( x );
+
+  if(parseInt(value)>16){
+    value="16%";
+  }
+  if(parseInt(value) < -30){
+     value="-30%";
+
+  };
+
   // use 3D tranforms for hardware acceleration on iOS
   // but use 2D when settled, for better font-rendering
   this.slider.style[ transformProperty ] = this.isAnimating ?

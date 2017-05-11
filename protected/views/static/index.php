@@ -123,7 +123,7 @@ $clientes= Clientes::model()->findAll($Criteria);
 
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 slider-porfolio">
 
-			<!-- <div class="circle-animated"></div> -->
+			<div class="circle-animated"></div>
 
 
 			<!-- <div class="arrow-bolita" direction=-1><</div> -->
@@ -239,7 +239,7 @@ $clientes= Clientes::model()->findAll($Criteria);
 	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 partners clientes" >
 		<h3 id="title-section">PARTNERS</h3>
 
-		<div id="lightSlider-2" class="logo-clientes clientes-0 carousel-0">
+		<div id="lightSlider-2" class="logo-clientes clientes-0 carousel-0" style="height:50px;">
 					<?php foreach ($partners as $part) {?>
 
 
@@ -283,7 +283,9 @@ $clientes= Clientes::model()->findAll($Criteria);
 			.flickity-page-dots{
 				display: none;
 			}
-
+			.flickity-viewport{
+				height: 100px !important;
+			}
 		/* cell number */
 		/*.carousel-cell:before {
 		display: block;
@@ -297,7 +299,7 @@ $clientes= Clientes::model()->findAll($Criteria);
 
 </style>
 
-						<div id="lightSlider"  class="logo-clientes clientes-<?php echo $i ?> general-container carousel" >
+						<div id="lightSlider"  class="logo-clientes clientes-<?php echo $i ?> general-container carousel" style="height:50px;"  >
 
 
 
