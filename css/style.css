@@ -930,8 +930,8 @@ cursor:pointer;
   bottom:0;
   right: 0;
   padding-right: 60px;
-  padding-bottom: 60px;
-  width: 7em;
+  padding-bottom: 65px;
+  width: 6em;
   opacity: .2;
   display: none;
 }
